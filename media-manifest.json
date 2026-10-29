@@ -1,0 +1,1085 @@
+{
+  "release_tag": "midterm-v1",
+  "videos": [
+    {
+      "file": "leaves-side-by-side.mp4",
+      "bytes": 3845991,
+      "sha256": "11b5408859b000e99656808f89515707bf4426e1aee1332b6f7d023776b8c3b1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/leaves-side-by-side.mp4"
+    },
+    {
+      "file": "s000.7089951.0.mp4",
+      "bytes": 1710231,
+      "sha256": "cce19fbc9850ba0478aae86693b5a36e34513395e8dbf23792bb1667fb1b26f7",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s000.7089951.0.mp4"
+    },
+    {
+      "file": "s001.7090283.0.mp4",
+      "bytes": 453474,
+      "sha256": "32e2869a0998c96343c653e9c64bcd76425eae48abc579d5b7862d40dd93e9fc",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s001.7090283.0.mp4"
+    },
+    {
+      "file": "s002.7090270.0.mp4",
+      "bytes": 1259766,
+      "sha256": "0d399136600fe1c591f445a0c86d50cf252ab85f419dc7486c03da4143484320",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s002.7090270.0.mp4"
+    },
+    {
+      "file": "s003.7090334.0.mp4",
+      "bytes": 1744138,
+      "sha256": "92cf2376d360ca0ad5f668b13413acfcc3fb6be5a2637f14ce5087f766ef5b62",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s003.7090334.0.mp4"
+    },
+    {
+      "file": "s004.7090342.0.mp4",
+      "bytes": 1695256,
+      "sha256": "d138ffb5aa43b6b08549b8343a78253ed95e84c4b47635cfda15cb1a07f0cec1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s004.7090342.0.mp4"
+    },
+    {
+      "file": "s005.7090596.0.mp4",
+      "bytes": 375688,
+      "sha256": "fa15c66298308475bf989bf23134f31dc692190e114244925fcfd2d09bbc3f59",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s005.7090596.0.mp4"
+    },
+    {
+      "file": "s006.7090624.0.mp4",
+      "bytes": 359074,
+      "sha256": "55f72445b7bc3d5885e1a987ae10ee2aea8efe3dc3be1db17d77d9139ae1bc49",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s006.7090624.0.mp4"
+    },
+    {
+      "file": "s007.7090608.0.mp4",
+      "bytes": 2239314,
+      "sha256": "d27e9dcfffa39536d77843fc58b744ce83b8b95763375be539520585b6543e36",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s007.7090608.0.mp4"
+    },
+    {
+      "file": "s008.7090706.0.mp4",
+      "bytes": 3147013,
+      "sha256": "fe239c2e88f812ecdf3a905b9e7370ee1d583aef3b95b115f178dac561365750",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s008.7090706.0.mp4"
+    },
+    {
+      "file": "s009.7090713.0.mp4",
+      "bytes": 1964818,
+      "sha256": "3c8bd086cc27a4602cf961248b4db074a98ccb52283993a3c43b8e3ff020a997",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s009.7090713.0.mp4"
+    },
+    {
+      "file": "s010.7090730.0.mp4",
+      "bytes": 1312609,
+      "sha256": "5e83c6c81145704615bb4435df00ecd1073feb726b6772c76d5dd4a47860197a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s010.7090730.0.mp4"
+    },
+    {
+      "file": "s011.7090736.0.mp4",
+      "bytes": 2392859,
+      "sha256": "88b140101599bc8f4226862e330624c091c15087c7f20b91151cc854c6d13c02",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s011.7090736.0.mp4"
+    },
+    {
+      "file": "s012.7090756.0.mp4",
+      "bytes": 5577718,
+      "sha256": "6c1b3d41a6a5a1cce2426212025027bd602d32da5b3b6a5aa4c234e72ea70ac4",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s012.7090756.0.mp4"
+    },
+    {
+      "file": "s013.7090863.0.mp4",
+      "bytes": 3439951,
+      "sha256": "3a4a62bac8a1f7fc7a26475b63523a9b0a1483b2dcc7ef233c43fdc78ddc6e9d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s013.7090863.0.mp4"
+    },
+    {
+      "file": "s014.7090874.0.mp4",
+      "bytes": 8185487,
+      "sha256": "b36718fba22e815abf6c31f3776157aadd6b7fc3a658146a0b070e2aa172eccb",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s014.7090874.0.mp4"
+    },
+    {
+      "file": "s015.7090881.0.mp4",
+      "bytes": 2570113,
+      "sha256": "dc3cca7a123add620278ac90ec870b25b950517b659c3d6234059432544ceeb6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s015.7090881.0.mp4"
+    },
+    {
+      "file": "s016.7090888.0.mp4",
+      "bytes": 3548747,
+      "sha256": "1678ee14970ec8660f0a37422f42f1ff82ef914ff41b50d5bfbd84463d0d9c3f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s016.7090888.0.mp4"
+    },
+    {
+      "file": "s017.7090897.0.mp4",
+      "bytes": 1459598,
+      "sha256": "a4335a47eb3c339e0e627f341c95ab329191fa85b8374b4b30b8542ba3dd9fc6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s017.7090897.0.mp4"
+    },
+    {
+      "file": "s018.7090937.0.mp4",
+      "bytes": 3386801,
+      "sha256": "29aef394673ffc0be277dc9d35fcbb0be5d3dcfc09afa33582f2d0bcc9830e7a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s018.7090937.0.mp4"
+    },
+    {
+      "file": "s019.7090945.0.mp4",
+      "bytes": 4805155,
+      "sha256": "39c60500d4b2cbac9138860c67366d157a0cf4aa65fa8150b318fccea3d75f2e",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s019.7090945.0.mp4"
+    },
+    {
+      "file": "s020.7090946.0.mp4",
+      "bytes": 3020791,
+      "sha256": "a2ff3469d18662cbe7b483f6a7c7c2c9660de44ebb9331b323de34a74b9292b0",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s020.7090946.0.mp4"
+    },
+    {
+      "file": "s021.7090951.0.mp4",
+      "bytes": 1820923,
+      "sha256": "da68cf4823e335cdf173111bb025452cae59f27c8d349e84b3b92ad2ee656475",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s021.7090951.0.mp4"
+    },
+    {
+      "file": "s022.7090954.0.mp4",
+      "bytes": 4642106,
+      "sha256": "b8044cd8b7bd826de4641548974f1d9fbf5a49966323c8515bdc22a1ff55d3e8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s022.7090954.0.mp4"
+    },
+    {
+      "file": "s023.7090961.0.mp4",
+      "bytes": 1977130,
+      "sha256": "9abdf7efba953cc133bc751c1e2083a926629e5b1aff8ca7caa782db76c14c46",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s023.7090961.0.mp4"
+    },
+    {
+      "file": "s024.7090970.0.mp4",
+      "bytes": 823452,
+      "sha256": "429f018bc4f4f9237e0392b5434c15da3a26b85c6ddf04a849e382604d65905a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s024.7090970.0.mp4"
+    },
+    {
+      "file": "s025.7091050.0.mp4",
+      "bytes": 981376,
+      "sha256": "d7283723353a7343a3135149d088c7f20408e5c1d2198c1a0689cc23cf44e418",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s025.7091050.0.mp4"
+    },
+    {
+      "file": "s026.7091233.0.mp4",
+      "bytes": 716514,
+      "sha256": "4c8b1f70fffdea80c0f0fbdfc088bf21cb392b7416d5efdc84f73bc71a07000c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s026.7091233.0.mp4"
+    },
+    {
+      "file": "s027.7091253.0.mp4",
+      "bytes": 1894338,
+      "sha256": "587c8f3292f8a0f85759baabfa402b2b0a9c6b2b46f49b49cb5088bbb5f47305",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s027.7091253.0.mp4"
+    },
+    {
+      "file": "s028.7091260.0.mp4",
+      "bytes": 3495633,
+      "sha256": "25fda26aba6b00d5aaa8676589698781630111b341d05c20602759654b75af2c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s028.7091260.0.mp4"
+    },
+    {
+      "file": "s029.7091261.0.mp4",
+      "bytes": 4670143,
+      "sha256": "d35ba3fc05fb3cd9fd0af7597884fdbb46fb9eba065af4576459c0a1d65e5008",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s029.7091261.0.mp4"
+    },
+    {
+      "file": "s030.7091326.0.mp4",
+      "bytes": 4198691,
+      "sha256": "f4d5d5443220c97103975b9e8577d59cab1179e38e74903b719000e301424ad4",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s030.7091326.0.mp4"
+    },
+    {
+      "file": "s031.7091356.0.mp4",
+      "bytes": 4081572,
+      "sha256": "87f908c53be2ebfb63ff58a3aeaab0c42273ed9d1749ea6d9d5d53cc056fdbc0",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s031.7091356.0.mp4"
+    },
+    {
+      "file": "s032.7091362.0.mp4",
+      "bytes": 6104985,
+      "sha256": "8a536494f2840221d065a4f77cadbd185a42e1ceea3304f641f90634dbf9116d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s032.7091362.0.mp4"
+    },
+    {
+      "file": "s033.7091369.0.mp4",
+      "bytes": 6913840,
+      "sha256": "12fe5fea8022744a8b10f5267213cd6b68457e52f376cf68628b3749da47386f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s033.7091369.0.mp4"
+    },
+    {
+      "file": "s034.7091422.0.mp4",
+      "bytes": 4020964,
+      "sha256": "50ca2dbb74bede4689505d26c285137399a4accd886aba76a40cb0a499bb4020",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s034.7091422.0.mp4"
+    },
+    {
+      "file": "s035.7091372.0.mp4",
+      "bytes": 4155822,
+      "sha256": "e1cf98b4d9ba8c9c7ea16ad7c076201c2d1ca0f7dd80f51585725ffb6c3b8063",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s035.7091372.0.mp4"
+    },
+    {
+      "file": "s036.7091438.0.mp4",
+      "bytes": 1874805,
+      "sha256": "c9bb89d7eacd39bff3962b39eafffc8d36a44cf5f736d0524756dcc83496bb75",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s036.7091438.0.mp4"
+    },
+    {
+      "file": "s037.7091429.0.mp4",
+      "bytes": 2702403,
+      "sha256": "1b79a3856f8810e5e5bfb14a826522bcf4b7a8c337339916624f5c2f617d79cb",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s037.7091429.0.mp4"
+    },
+    {
+      "file": "s038.7091506.0.mp4",
+      "bytes": 3639804,
+      "sha256": "d365edae7df80175a38e3e8513758b96b9987f3b7ec0c98c3006a026e965a98c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s038.7091506.0.mp4"
+    },
+    {
+      "file": "s039.7091458.0.mp4",
+      "bytes": 3642242,
+      "sha256": "8868515629562a2211b3fe4eeaa03974005dc2d0e2c454347970fad1d25d55ea",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s039.7091458.0.mp4"
+    },
+    {
+      "file": "s040.7091539.0.mp4",
+      "bytes": 4827444,
+      "sha256": "acec5acdc7e225ab1db2c1eadb5a260fb0697d01a162e881350868ede23b3c06",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s040.7091539.0.mp4"
+    },
+    {
+      "file": "s041.7091540.0.mp4",
+      "bytes": 3038953,
+      "sha256": "e0dd87e27cc24da7ad78117ebb70a29c2d8cb085d50017d33470c8be9111f042",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s041.7091540.0.mp4"
+    },
+    {
+      "file": "s042.7091555.0.mp4",
+      "bytes": 1748955,
+      "sha256": "3b8eecf1f6d52cb4deb75f2b1dd6bf528c336d2386867c5416b4ef4aa14fa486",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s042.7091555.0.mp4"
+    },
+    {
+      "file": "s043.7091558.0.mp4",
+      "bytes": 2034820,
+      "sha256": "1fbb0fb8173f0d166e9fda878c3bcd71e01009a9d4c926f720667f9b55d57452",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s043.7091558.0.mp4"
+    },
+    {
+      "file": "s044.7091615.0.mp4",
+      "bytes": 1373050,
+      "sha256": "51b3ba38a4a672f1cb75d60b726f315f28bfd4cd350cf64242ce56d813f3eaa7",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s044.7091615.0.mp4"
+    },
+    {
+      "file": "s045.7091641.0.mp4",
+      "bytes": 2356571,
+      "sha256": "cad248e186a730da10b1948cd96f7637dc1b49a27789fd957074a5c2a1e13ca6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s045.7091641.0.mp4"
+    },
+    {
+      "file": "s046.7091681.0.mp4",
+      "bytes": 5838376,
+      "sha256": "dc6566d2c615d69117990bd145adcc8403c67f70b60b460ce989123299308ecc",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s046.7091681.0.mp4"
+    },
+    {
+      "file": "s047.7091700.0.mp4",
+      "bytes": 4270957,
+      "sha256": "3e021ae67d38eb9b2a6d6fff60f96b147ccf11a8344295022d5817abb1ef72d7",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s047.7091700.0.mp4"
+    },
+    {
+      "file": "s048.7091721.0.mp4",
+      "bytes": 3716077,
+      "sha256": "ef1f4610d616336ca51858f0ec9077beaca47f4ebac639b3f0c527fc4078b4ca",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s048.7091721.0.mp4"
+    },
+    {
+      "file": "s049.7091782.0.mp4",
+      "bytes": 3184236,
+      "sha256": "d46ac7d23e9847c04666f97f485ed8d09564bafc5a32d535390ef937d5063eb8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s049.7091782.0.mp4"
+    },
+    {
+      "file": "s050.7091864.0.mp4",
+      "bytes": 2722299,
+      "sha256": "25d5fb038a8a8eca0a9cfa5bc60705f2be1eeb0cad5e0d8bbc8f14b180b01d59",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s050.7091864.0.mp4"
+    },
+    {
+      "file": "s051.7091836.0.mp4",
+      "bytes": 3236591,
+      "sha256": "b934994fbeaf245f00899ef6f147621d803143577cd73e2bb49051d53d82a686",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s051.7091836.0.mp4"
+    },
+    {
+      "file": "s052.7091866.0.mp4",
+      "bytes": 4295311,
+      "sha256": "dbe56ab747d72065fc1a939cd9366a59fd12bb47dc818ef896db113b37b331b1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s052.7091866.0.mp4"
+    },
+    {
+      "file": "s053.7091877.0.mp4",
+      "bytes": 2201533,
+      "sha256": "1069c5f4c49d76dc5a8f1ade271fe50ffc91ce54b7c18b30594665864371804a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s053.7091877.0.mp4"
+    },
+    {
+      "file": "s054.7091915.0.mp4",
+      "bytes": 1361561,
+      "sha256": "90419697144876696157aef963f4621d4c405c56d92944f7e4d131b365135e1d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s054.7091915.0.mp4"
+    },
+    {
+      "file": "s055.7091917.0.mp4",
+      "bytes": 796476,
+      "sha256": "e067b07a53803e9ccf12ea54be4e634a7f092a141e7c660255364e9dce615164",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s055.7091917.0.mp4"
+    },
+    {
+      "file": "s056.7091922.0.mp4",
+      "bytes": 1195803,
+      "sha256": "bb8f4d46e6c9c9ba0463165eaaf9c7843164aababf57bbc291b02e2d89a95dea",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s056.7091922.0.mp4"
+    },
+    {
+      "file": "s057.7091954.0.mp4",
+      "bytes": 816576,
+      "sha256": "f3809eaa987f383664965e7d04514f2613d11b248877e01aee9671e3f1c5b371",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s057.7091954.0.mp4"
+    },
+    {
+      "file": "s058.7091962.0.mp4",
+      "bytes": 864744,
+      "sha256": "2a2403a6e1da12ff1381748f0ccdabc26a590d4552d6cf62a3b550e484f32189",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s058.7091962.0.mp4"
+    },
+    {
+      "file": "s059.7092047.0.mp4",
+      "bytes": 563479,
+      "sha256": "d10d650f9d9d40b7657ec77578740a01c4b5791a43f5aff60696c75d170b6752",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s059.7092047.0.mp4"
+    },
+    {
+      "file": "s060.7092072.0.mp4",
+      "bytes": 946631,
+      "sha256": "8a09c7b02a36ae72fefdd63296c066ff810e94470e44798663ee2dc88e154e27",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s060.7092072.0.mp4"
+    },
+    {
+      "file": "s061.7092073.0.mp4",
+      "bytes": 6641869,
+      "sha256": "467b3750bf6393cee5c7311fe388be0493ca719879e3e81d8a3f626bdb5419af",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s061.7092073.0.mp4"
+    },
+    {
+      "file": "s062.7092089.0.mp4",
+      "bytes": 1562927,
+      "sha256": "f61c38e2c7446b0303789015d244686ee6b8f1d30a67a8c99ae6142ba1d9def8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s062.7092089.0.mp4"
+    },
+    {
+      "file": "s063.7092270.0.mp4",
+      "bytes": 709335,
+      "sha256": "b48a21af56754011841a2144690a3ec389bd9126fa9b8abea5e81e452747853a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s063.7092270.0.mp4"
+    },
+    {
+      "file": "s064.7092369.0.mp4",
+      "bytes": 4654902,
+      "sha256": "d741bdb25f87e1701a606158cde90722f1660aaa109848e9c03260aceec6d4e8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s064.7092369.0.mp4"
+    },
+    {
+      "file": "s065.7092411.0.mp4",
+      "bytes": 2154597,
+      "sha256": "bfb0a6ed41b099b7657946bb7e59b17b8d51bed66c4c35cdca16544f160996fa",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s065.7092411.0.mp4"
+    },
+    {
+      "file": "s066.7092458.0.mp4",
+      "bytes": 2041074,
+      "sha256": "ad6ac863d6921656c104bae8461db6f4255f2d014b879b88dcc69c461b70a65f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s066.7092458.0.mp4"
+    },
+    {
+      "file": "s067.7092478.0.mp4",
+      "bytes": 3282517,
+      "sha256": "a895cfd9d5c7b53db4486081faeb1d8d9f518027f89f2a0a42143606799c01f2",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s067.7092478.0.mp4"
+    },
+    {
+      "file": "s068.7092493.0.mp4",
+      "bytes": 7603083,
+      "sha256": "0d8a262541d4dfdbbccba6d01e2c86d0e9c86bbdc5f31206661d45043b366920",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s068.7092493.0.mp4"
+    },
+    {
+      "file": "s069.7092523.0.mp4",
+      "bytes": 1093404,
+      "sha256": "5ee3c2ab239f51c7d3989dde2794f37062eb4eb8b5afe3741bf4d1a585fe2302",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s069.7092523.0.mp4"
+    },
+    {
+      "file": "s070.7092553.0.mp4",
+      "bytes": 3543790,
+      "sha256": "9c3bf614a6897d806c991297faefbfd3b88faeeaf247842276a39d61e5613097",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s070.7092553.0.mp4"
+    },
+    {
+      "file": "s071.7092560.0.mp4",
+      "bytes": 1715402,
+      "sha256": "379dd61cfceca3a19e73a06bb23dd6f7d28258a4e7e851694d33b97cc848fb45",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s071.7092560.0.mp4"
+    },
+    {
+      "file": "s073.7092583.0.mp4",
+      "bytes": 1845228,
+      "sha256": "f30a33348c02f59a4051d90fb4d1c8d17185ac3aac085b99add9bbbcca5822aa",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s073.7092583.0.mp4"
+    },
+    {
+      "file": "s074.7092608.0.mp4",
+      "bytes": 988337,
+      "sha256": "0af93998cda18b0e0dc1a2984bf211ef22afb05b1799ccac74e4efc07b44937a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s074.7092608.0.mp4"
+    },
+    {
+      "file": "s075.7092613.0.mp4",
+      "bytes": 1234229,
+      "sha256": "4d104426e2c47f20ade4d9d27bd24a3f0c1be1bf8e004e4e942d615b85960aa0",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s075.7092613.0.mp4"
+    },
+    {
+      "file": "s076.7092659.0.mp4",
+      "bytes": 1042512,
+      "sha256": "66c97118a0af3234d2bb8c01847d6d485b02a77e495ac3fff5e224eaf0d06e90",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s076.7092659.0.mp4"
+    },
+    {
+      "file": "s077.7092701.0.mp4",
+      "bytes": 6904475,
+      "sha256": "837c6461044a259a688cf9c25ffb6e57ea324ddc4f1a9760317487bd622a1949",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s077.7092701.0.mp4"
+    },
+    {
+      "file": "s078.7092677.0.mp4",
+      "bytes": 2047923,
+      "sha256": "b483abe2a8caffc1ca1c455175bce792bc8bc93ad4aa2af3c6016258fe3c1dd5",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s078.7092677.0.mp4"
+    },
+    {
+      "file": "s079.7092657.0.mp4",
+      "bytes": 983582,
+      "sha256": "a5cdcc6e19935a59f2b3ab49a658a96d251141c00c26ce89f3ee96ad1617b0e3",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s079.7092657.0.mp4"
+    },
+    {
+      "file": "s080.7092654.0.mp4",
+      "bytes": 5217948,
+      "sha256": "68940d1c49981c05f61028110c969f3f0cffb2f5fd35fde9480fd0f9f152bb09",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s080.7092654.0.mp4"
+    },
+    {
+      "file": "s081.7092556.0.mp4",
+      "bytes": 9760244,
+      "sha256": "65d1f792f5cabce7b2126e392c413661c1a06f3535dc8080d28817b2da74fbfe",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s081.7092556.0.mp4"
+    },
+    {
+      "file": "s082.7092451.0.mp4",
+      "bytes": 23661300,
+      "sha256": "d2c6e7453cdaeaff2dfcb159c26dca31029bbc26c954de9097beec7ccd413cec",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s082.7092451.0.mp4"
+    },
+    {
+      "file": "s083.7092348.0.mp4",
+      "bytes": 15623004,
+      "sha256": "9ad736e674a5c10daa6609622c0ab447eee1d99f9e0956db54490f7ccbac8008",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s083.7092348.0.mp4"
+    },
+    {
+      "file": "s084.7092339.0.mp4",
+      "bytes": 19895233,
+      "sha256": "f9f988513c80a0316b1157748535fcc91c32730c0a0d6153896113a7bfdbdc1a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s084.7092339.0.mp4"
+    },
+    {
+      "file": "s085.7092314.0.mp4",
+      "bytes": 12114559,
+      "sha256": "3b61d25093da742b6d619087b8a948930dca8014644f502c3eb4a4a2615dad5a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s085.7092314.0.mp4"
+    },
+    {
+      "file": "s086.7092297.0.mp4",
+      "bytes": 13751603,
+      "sha256": "8e487f788dc7d904608f851ee23c5a98426a2fa33cf83fd831ad9cced2d101bd",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s086.7092297.0.mp4"
+    },
+    {
+      "file": "s087.7092291.0.mp4",
+      "bytes": 8948148,
+      "sha256": "18a02951854689af7b5285d0b33c8436c5fb1d381a07a772f6c2b0d7262c3bbc",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s087.7092291.0.mp4"
+    },
+    {
+      "file": "s088.7092289.0.mp4",
+      "bytes": 19686173,
+      "sha256": "11a5a01f68cac8df907ad1b56c18bf5c7ef6313400b4efce2a419120f6c74347",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s088.7092289.0.mp4"
+    },
+    {
+      "file": "s089.7092284.0.mp4",
+      "bytes": 7404789,
+      "sha256": "e58f5159ddbe6b2f583b633ac44f0983d351d1d16c43d1af1806e7ee1b84c904",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s089.7092284.0.mp4"
+    },
+    {
+      "file": "s090.7092229.0.mp4",
+      "bytes": 2085306,
+      "sha256": "a30f22bf0724ea608b5f7e629ee3ad094c2e64f674a275357712920e5be89df1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s090.7092229.0.mp4"
+    },
+    {
+      "file": "s091.7092215.0.mp4",
+      "bytes": 11890799,
+      "sha256": "58d7d9a94204062baf2bc75332992db8069c3b50a726ab6dfa801afc1acb7dc4",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s091.7092215.0.mp4"
+    },
+    {
+      "file": "s092.7092125.0.mp4",
+      "bytes": 5311632,
+      "sha256": "bdeaeb5c172d0e0cd89aebebcc0628d7e817329740d75a8db0802ad13d71636b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s092.7092125.0.mp4"
+    },
+    {
+      "file": "s093.7092115.0.mp4",
+      "bytes": 11206269,
+      "sha256": "f5ee59a59d61023309de2fa8e2c3bdd2a707afadbc19d6cb9a5180848dc47252",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s093.7092115.0.mp4"
+    },
+    {
+      "file": "s094.7092120.0.mp4",
+      "bytes": 8063811,
+      "sha256": "1326f8ca71df7050bb3af64217e012cceb537191204ac050a6f03427baf3c240",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s094.7092120.0.mp4"
+    },
+    {
+      "file": "s095.7092114.0.mp4",
+      "bytes": 25273637,
+      "sha256": "70f4c20e0f9c598887f8fc5451634b9c219092da121aa8ba1585d73535167077",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s095.7092114.0.mp4"
+    },
+    {
+      "file": "s096.7092044.0.mp4",
+      "bytes": 13303707,
+      "sha256": "4f13a66f5ed35772f0b500a0c6fe3dab1cef5d582d3c52b3755bd71c70bb0b1d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s096.7092044.0.mp4"
+    },
+    {
+      "file": "s097.7091948.0.mp4",
+      "bytes": 11098246,
+      "sha256": "ec30c9487ede37e7eb979c721c6cf1b4f2c9d2f6ac8f2f3fe381956f1cec8694",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s097.7091948.0.mp4"
+    },
+    {
+      "file": "s098.7091888.0.mp4",
+      "bytes": 8855586,
+      "sha256": "d37c20df98c3740c23b74531326da3bfcb67cdc457fd2707ec7dcbdf258da338",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s098.7091888.0.mp4"
+    },
+    {
+      "file": "s099.7091789.0.mp4",
+      "bytes": 11670235,
+      "sha256": "c5a6a376c8a786a1bf866229993e2f8fbcf98f94df16c7c54336823575019ac9",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s099.7091789.0.mp4"
+    },
+    {
+      "file": "s100.7091724.0.mp4",
+      "bytes": 15193728,
+      "sha256": "1d6fd60d9147a5b13bc7345f9d1daf448b5ecbea6d65fc0a9bf950eb56ff5bb9",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s100.7091724.0.mp4"
+    },
+    {
+      "file": "s101.7091803.0.mp4",
+      "bytes": 6774922,
+      "sha256": "831d18fa92ae25cc4be10cd306cebb848d211612fbc74d3eb7c8548371d000ae",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s101.7091803.0.mp4"
+    },
+    {
+      "file": "s102.7091825.0.mp4",
+      "bytes": 26060714,
+      "sha256": "ddf31a4ebd316fbf208a61ba58f899084c3b064c24299aa8d0f7b8733d46f689",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s102.7091825.0.mp4"
+    },
+    {
+      "file": "s103.7091837.0.mp4",
+      "bytes": 32583828,
+      "sha256": "ae4e08d9a14bf9da0df344dad55607a7319562dd4f6bdfebe1dae84c6c37596a",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s103.7091837.0.mp4"
+    },
+    {
+      "file": "s104.7091879.0.mp4",
+      "bytes": 8254486,
+      "sha256": "3983f2dccba05e99d82ee9e31f8eb9af879b637e496a0e8cbcdbc09b64d7649b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s104.7091879.0.mp4"
+    },
+    {
+      "file": "s105.7091891.0.mp4",
+      "bytes": 1075040,
+      "sha256": "0404663dad7599e96923f4aea11fc06d59de4a4c869e35a40ef1a726e2a73e31",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s105.7091891.0.mp4"
+    },
+    {
+      "file": "s106.7091934.0.mp4",
+      "bytes": 19351357,
+      "sha256": "71eb4a8f40e3f6c7de9233fec2c646b548e91a80a768f403da8a20aeddb16cd3",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s106.7091934.0.mp4"
+    },
+    {
+      "file": "s107.7091936.0.mp4",
+      "bytes": 24859666,
+      "sha256": "e955dd3e0ec4f6e8aa5609a9f71bc7097b065956563e95e5f351ef6fb9dd594b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s107.7091936.0.mp4"
+    },
+    {
+      "file": "s108.7091943.0.mp4",
+      "bytes": 6548745,
+      "sha256": "7ee8de2b89e5c12605be3d78ece0cbee8f807bd6cf2797508e1f8b39275fdff1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s108.7091943.0.mp4"
+    },
+    {
+      "file": "s109.7092001.0.mp4",
+      "bytes": 12300976,
+      "sha256": "883814e35439626486bef580c671d935f0791f4486cc5d8626329ea9577f7331",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s109.7092001.0.mp4"
+    },
+    {
+      "file": "s110.7092161.0.mp4",
+      "bytes": 6881883,
+      "sha256": "c6f966cfcd9d7fd58bdd840cb0e61310edd7f4972183b813a84a0183733aa9f9",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s110.7092161.0.mp4"
+    },
+    {
+      "file": "s111.7092157.0.mp4",
+      "bytes": 19597543,
+      "sha256": "ee1acf1de27d09aa80ed7ac934177f745e845fb12cf27c5f7ef3123b9247d819",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s111.7092157.0.mp4"
+    },
+    {
+      "file": "s112.7092306.0.mp4",
+      "bytes": 53599209,
+      "sha256": "ef6c8fec764a672eaf55b0f3bee4c69b909ee15e6d77fbd4139e98d7b971c3f2",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s112.7092306.0.mp4"
+    },
+    {
+      "file": "s113.7092441.0.mp4",
+      "bytes": 6459716,
+      "sha256": "ee3daa2ec8e743a631f28035d3e7675fd397285754ac62eb2419a9d4e10f555f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s113.7092441.0.mp4"
+    },
+    {
+      "file": "s114.7092433.0.mp4",
+      "bytes": 29627922,
+      "sha256": "327c8a3b2165997ca5e46575e3309f38e5b5e9c1042d14649b3b7c038f23a2ad",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s114.7092433.0.mp4"
+    },
+    {
+      "file": "s115.7092470.0.mp4",
+      "bytes": 8823598,
+      "sha256": "01f1fb84eb76a68a8397909a008c258a272c7f354d206ad5c6f5330504abe22c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s115.7092470.0.mp4"
+    },
+    {
+      "file": "s116.7092477.0.mp4",
+      "bytes": 9566365,
+      "sha256": "252eb8537e9a730fed4b8fcb5f571eec5b79cb63fa3ca785b9eabd231c9f0957",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s116.7092477.0.mp4"
+    },
+    {
+      "file": "s117.7092485.0.mp4",
+      "bytes": 20830093,
+      "sha256": "f6dfd63c54316352dd4b20cd1fef3da45739e13b80d6a22c2a0b797bfa15cdbe",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s117.7092485.0.mp4"
+    },
+    {
+      "file": "s118.7092554.0.mp4",
+      "bytes": 15680431,
+      "sha256": "8fa47ef2a800d81bbedc13b6bacc8147d3ca379f757ca946a78e836bdb9d661b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s118.7092554.0.mp4"
+    },
+    {
+      "file": "s119.7092601.0.mp4",
+      "bytes": 14729380,
+      "sha256": "e78cd770f4107c43a3cda41e92677832bb50d2a1788d8e493f99003009281b78",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s119.7092601.0.mp4"
+    },
+    {
+      "file": "s120.7092622.0.mp4",
+      "bytes": 7039019,
+      "sha256": "d031c0731d77bdc029eb93c72a123158f1e165ac9eb88b456ae736fc8f07bd03",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s120.7092622.0.mp4"
+    },
+    {
+      "file": "s121.7092651.0.mp4",
+      "bytes": 7521701,
+      "sha256": "ef4cf94c1af0fe61954be4c7b5be064a909e11598368d111a0a672a50a5c40e6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s121.7092651.0.mp4"
+    },
+    {
+      "file": "s122.7092653.0.mp4",
+      "bytes": 20435641,
+      "sha256": "7d5a1bda2701ad11fa438a09d2f2e85084da86afc85b966de134bf6f5e2e005c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s122.7092653.0.mp4"
+    },
+    {
+      "file": "s123.7092646.0.mp4",
+      "bytes": 7513295,
+      "sha256": "3a06a91d922d693ec881e1ef84a7b978b28c170ae3081ea11c125daa260f0166",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s123.7092646.0.mp4"
+    },
+    {
+      "file": "s124.7092616.0.mp4",
+      "bytes": 29104907,
+      "sha256": "09d94f84dbd67b48f57197dfef05ddd41f48613231618d4b0375be5a00bd2dc7",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s124.7092616.0.mp4"
+    },
+    {
+      "file": "s125.7092522.0.mp4",
+      "bytes": 16914845,
+      "sha256": "25a788da1568c6802ad110fce30384760cd092a3bb3e3d68928afc03cf500fe2",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s125.7092522.0.mp4"
+    },
+    {
+      "file": "s126.7092547.0.mp4",
+      "bytes": 27489446,
+      "sha256": "feda27ecf6bf307d97d28a4256d3b4382f69974b81809d8a429e97cd42e2c067",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s126.7092547.0.mp4"
+    },
+    {
+      "file": "s127.7092481.0.mp4",
+      "bytes": 17388448,
+      "sha256": "dc04bb4089ac8058c91f2259d3fabfb08dfe921f302b55fc5ef396673575fc0d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s127.7092481.0.mp4"
+    },
+    {
+      "file": "s128.7092446.0.mp4",
+      "bytes": 7309096,
+      "sha256": "ac0f8541fcd7acd7c4351857072e3adc775d3707e8a58a4c9790b469c98c1ded",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s128.7092446.0.mp4"
+    },
+    {
+      "file": "s129.7092443.0.mp4",
+      "bytes": 7646990,
+      "sha256": "4feb565544f90b586f0e81770d259328a5308f564356d3945439d13323893f36",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s129.7092443.0.mp4"
+    },
+    {
+      "file": "s130.7092412.0.mp4",
+      "bytes": 13108079,
+      "sha256": "3fc08ba04dcdf85926cf7a65539d92bb1cbb2ff42c646f021db89f992c947f3c",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s130.7092412.0.mp4"
+    },
+    {
+      "file": "s131.7092296.0.mp4",
+      "bytes": 9027932,
+      "sha256": "54d9bc05235ca164c9462793774612950bdc9af02ad3032d5cda86a50f0390eb",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s131.7092296.0.mp4"
+    },
+    {
+      "file": "s132.7092257.0.mp4",
+      "bytes": 15724912,
+      "sha256": "67eef312267211313e1493782b0004351bf03c06aee0bdada80622ad69a4e5af",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s132.7092257.0.mp4"
+    },
+    {
+      "file": "s133.7092213.0.mp4",
+      "bytes": 33894682,
+      "sha256": "b92d81f27d2293758bf43682c1859b8a9d1e125e822ace463c140d848799b303",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s133.7092213.0.mp4"
+    },
+    {
+      "file": "s134.7092230.0.mp4",
+      "bytes": 43900966,
+      "sha256": "e810a8fc2ef9ec78b98f66b2d5a177a1041d7fc2eedf8cd2694549f16aaef5b8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s134.7092230.0.mp4"
+    },
+    {
+      "file": "s135.7092020.0.mp4",
+      "bytes": 14207419,
+      "sha256": "594941954bddadcad09c37914ce2a49d180d6eadacb658c061316ee4e71f803d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s135.7092020.0.mp4"
+    },
+    {
+      "file": "s136.7092011.0.mp4",
+      "bytes": 6080312,
+      "sha256": "4f0fbbb154f15ff09dfd8e4ce483f12a866ffa78b175c8f33264b726332817b1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s136.7092011.0.mp4"
+    },
+    {
+      "file": "s137.7092009.0.mp4",
+      "bytes": 8879179,
+      "sha256": "b7cc88ad65583b012839918589a5bbdb5e99fce05883e26e8b4bab7bfee35676",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s137.7092009.0.mp4"
+    },
+    {
+      "file": "s138.7092003.0.mp4",
+      "bytes": 9317131,
+      "sha256": "49eaa935005944e401fa5fa0ca22055e7caf1c66501bf1953d0d04bff8346c9b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s138.7092003.0.mp4"
+    },
+    {
+      "file": "s139.7091979.0.mp4",
+      "bytes": 22958731,
+      "sha256": "e2b9966e9ccf2285bf7f882be5919e1453d20b7ca9143ae57ef48fb5febc082f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s139.7091979.0.mp4"
+    },
+    {
+      "file": "s140.7091923.0.mp4",
+      "bytes": 10902835,
+      "sha256": "f90ebd35c835d9f0a1464e5416d4868c687e46602eff4040b4ef5e6ccb228c3d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s140.7091923.0.mp4"
+    },
+    {
+      "file": "s141.7091815.0.mp4",
+      "bytes": 8424669,
+      "sha256": "e6b549b0c0e23a763620e6ab9256e48b197233daedd972e666e2cede342185b4",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s141.7091815.0.mp4"
+    },
+    {
+      "file": "s142.7091783.0.mp4",
+      "bytes": 14268383,
+      "sha256": "758e9f029059193bb1eb3adfa377ec7314b4c82c0112b114612dc7b198239895",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s142.7091783.0.mp4"
+    },
+    {
+      "file": "s143.7091804.0.mp4",
+      "bytes": 21088301,
+      "sha256": "a9d72198d92222c9b640befcc71355f4992d2d3cf9b0c7807cbd1f3480e294fd",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s143.7091804.0.mp4"
+    },
+    {
+      "file": "s144.7090033.0.mp4",
+      "bytes": 83749589,
+      "sha256": "6a1a4b21df47a7fd1fa6d1d26383f7225d275e257e10c11ac1ff25919ce3dcd1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s144.7090033.0.mp4"
+    },
+    {
+      "file": "s145.7091617.0.mp4",
+      "bytes": 16869841,
+      "sha256": "4c33dbbc97bdaf103b7661747497d1c9b72911a38d04e8682860b9fa21f6fbb6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s145.7091617.0.mp4"
+    },
+    {
+      "file": "s146.7091666.0.mp4",
+      "bytes": 49174121,
+      "sha256": "71370e81b025803f3074ad6f68c89843f6bc6af037eb7709e999ea6c78d0af0f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s146.7091666.0.mp4"
+    },
+    {
+      "file": "s147.7091574.0.mp4",
+      "bytes": 38453059,
+      "sha256": "e05643989c75d0189a7b33d5011b570c825d1df02b8517c6ee10b60056779f07",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s147.7091574.0.mp4"
+    },
+    {
+      "file": "s148.7091569.0.mp4",
+      "bytes": 14359667,
+      "sha256": "b7d71264c37ef3a168223c5e8b58e4225b6552efe882f2b1da89a41fe5c22d30",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s148.7091569.0.mp4"
+    },
+    {
+      "file": "s149.7091526.0.mp4",
+      "bytes": 8083480,
+      "sha256": "007d2449c0fe45744b05ea9b8cc5cc6af3e9400dfed43297f9f9754a3dfccdd6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s149.7091526.0.mp4"
+    },
+    {
+      "file": "s150.7091519.0.mp4",
+      "bytes": 37140384,
+      "sha256": "cce07ea480fe9ae8356c701449b9b1b7bc0c4ab27c21bea162a8fccb1f7652a6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s150.7091519.0.mp4"
+    },
+    {
+      "file": "s151.7091494.0.mp4",
+      "bytes": 23528112,
+      "sha256": "411f46c5bb69b0c1884b5be81f697643653dfcc5dde0f06a9e316c7aed098e7b",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s151.7091494.0.mp4"
+    },
+    {
+      "file": "s152.7091411.0.mp4",
+      "bytes": 11569064,
+      "sha256": "3be9f0ab02e47e5a674e09c0e25c1dff090496b10f66969e4141a741e6a09618",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s152.7091411.0.mp4"
+    },
+    {
+      "file": "s153.7091383.0.mp4",
+      "bytes": 3768278,
+      "sha256": "41a690bd6530b6a746bfe5e1eaac79fe97e3d45f2b8cf3410b62cc0ed52bfe05",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s153.7091383.0.mp4"
+    },
+    {
+      "file": "s154.7091393.0.mp4",
+      "bytes": 11139933,
+      "sha256": "5a13090dfa9571c77d973489ef92fa9fc36487e9d2639c42a7460ca5ad1d4567",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s154.7091393.0.mp4"
+    },
+    {
+      "file": "s155.7091442.0.mp4",
+      "bytes": 40226789,
+      "sha256": "672b1563fe269692b16cae5709ffc03ae55fa285c7242e785dbdb1d97d4e4ca7",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s155.7091442.0.mp4"
+    },
+    {
+      "file": "s156.7091280.0.mp4",
+      "bytes": 7904711,
+      "sha256": "661348b0ee0e6e3b7eecbd7468aa39b9ceac11728bfc9a1c7a7eaeaa15628801",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s156.7091280.0.mp4"
+    },
+    {
+      "file": "s157.7091268.0.mp4",
+      "bytes": 3267027,
+      "sha256": "b4c3ae71f197ce90ebe9a6000a5a63f68f81c4bb01adb28b4a9f85633534140f",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s157.7091268.0.mp4"
+    },
+    {
+      "file": "s158.7091296.0.mp4",
+      "bytes": 12348912,
+      "sha256": "6d0d06be5d7471e11333a15821f58b0594eb3e31c5504b25c5b28b210a04d523",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s158.7091296.0.mp4"
+    },
+    {
+      "file": "s159.7091264.0.mp4",
+      "bytes": 8759481,
+      "sha256": "b5066d87fe65317f2c3d0405b6b1e342e16bea5ed6912a144b1beca8bd6b761d",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s159.7091264.0.mp4"
+    },
+    {
+      "file": "s160.7091074.0.mp4",
+      "bytes": 4065420,
+      "sha256": "cb38b10d392f848ad2cbf4e21707ccbbab1ae68273073903d0b96248b6869416",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s160.7091074.0.mp4"
+    },
+    {
+      "file": "s161.7091246.0.mp4",
+      "bytes": 17787993,
+      "sha256": "901a2a81de960146f427505348d641ce78a2d84d748af8337cd69f22b0b5d8c3",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s161.7091246.0.mp4"
+    },
+    {
+      "file": "s162.7091044.0.mp4",
+      "bytes": 11222184,
+      "sha256": "0992298236c5aaa885efbd5de7bc265cd6d00ee295261eb9669df0114913d813",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s162.7091044.0.mp4"
+    },
+    {
+      "file": "s163.7091020.0.mp4",
+      "bytes": 13094477,
+      "sha256": "28347d67c676c30bd97c61c59cdaadf69af59e7967e642e7bd373c923b21e1a0",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s163.7091020.0.mp4"
+    },
+    {
+      "file": "s164.7090983.0.mp4",
+      "bytes": 23703764,
+      "sha256": "dae98f349e3b6115ea1c400eb2dc47fdbe670f891de9ff771fa78777a8f6b6da",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s164.7090983.0.mp4"
+    },
+    {
+      "file": "s165.7090975.0.mp4",
+      "bytes": 11363347,
+      "sha256": "c303c7b7e2b969521462931565a5dd5c3bd956311dbe5b6da105da87cca66e80",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s165.7090975.0.mp4"
+    },
+    {
+      "file": "s166.7090894.0.mp4",
+      "bytes": 10496851,
+      "sha256": "0e74671f0e6257aa9c792b7e285a733386a64ab13efb06bd972e1df982e04a58",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s166.7090894.0.mp4"
+    },
+    {
+      "file": "s167.7090635.0.mp4",
+      "bytes": 8346323,
+      "sha256": "3eb4c4d2479fffeede85d69b29b6e2bf1f6b60aa9eaa8f59a288085355dc8377",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s167.7090635.0.mp4"
+    },
+    {
+      "file": "s168.7090690.0.mp4",
+      "bytes": 32372539,
+      "sha256": "63fe2b97b6250b95d5a2cbf4269cf3b7bf132f5ff2c9b4134e8b710e0a9d5ae4",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s168.7090690.0.mp4"
+    },
+    {
+      "file": "s169.7090603.0.mp4",
+      "bytes": 16997427,
+      "sha256": "a487a7620c8ec718b8d706bf2ec46f062fd1734a5ed0f2041fd1288dcc36b301",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s169.7090603.0.mp4"
+    },
+    {
+      "file": "s170.7090634.0.mp4",
+      "bytes": 35261334,
+      "sha256": "64c0d6ef2917f279f6ef2c4adc6315127a6832dbb06e276d84d1345f5cf2e3ec",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s170.7090634.0.mp4"
+    },
+    {
+      "file": "s171.7090480.0.mp4",
+      "bytes": 39883933,
+      "sha256": "91c34fb412cc04f91da974bf1de27cfa9b0c50eadfba1742ed64bb2a245becf5",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s171.7090480.0.mp4"
+    },
+    {
+      "file": "s172.7090372.0.mp4",
+      "bytes": 509145,
+      "sha256": "fe951159f5aa1681e951189fc9e2ca4b61608af9a292f42b96db67da85ccc7a1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s172.7090372.0.mp4"
+    },
+    {
+      "file": "s173.7090426.0.mp4",
+      "bytes": 26380354,
+      "sha256": "fa04714674733c174662c1cd17b59239c30fe377ab279bf372ae1516522760f1",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s173.7090426.0.mp4"
+    },
+    {
+      "file": "s174.7090363.0.mp4",
+      "bytes": 9570616,
+      "sha256": "0c006eeb606e8df922fd56d4aa69689b1c590cf5c5c192440ceae611f47aeee6",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s174.7090363.0.mp4"
+    },
+    {
+      "file": "s175.7090423.0.mp4",
+      "bytes": 32383352,
+      "sha256": "8c484f073e11c871d29a09356a0138716b04556ba937de27bb8b010ebbde5a2e",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s175.7090423.0.mp4"
+    },
+    {
+      "file": "s176.7090323.0.mp4",
+      "bytes": 12735011,
+      "sha256": "84a10243c8b36368baa010b925a846fd97de7508d6e3c650df0ce32a7ea110de",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s176.7090323.0.mp4"
+    },
+    {
+      "file": "s177.7090311.0.mp4",
+      "bytes": 10609060,
+      "sha256": "c7db90706b7a2e6b04a062f65997ab9edcbee99a77782bdcaf5a546a5bd57013",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s177.7090311.0.mp4"
+    },
+    {
+      "file": "s178.7090310.0.mp4",
+      "bytes": 4128899,
+      "sha256": "b1b68b4c61f47b952dc4a2d043d157e8f2fc99e6d4b5ff2e2458d0c4d6d5f883",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s178.7090310.0.mp4"
+    },
+    {
+      "file": "s179.7090250.0.mp4",
+      "bytes": 42266141,
+      "sha256": "d708f82168e1c3a72a2fa1a9e31847b1337cab0a3eccfce5af23bb62d10f4ec8",
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s179.7090250.0.mp4"
+    }
+  ]
+}

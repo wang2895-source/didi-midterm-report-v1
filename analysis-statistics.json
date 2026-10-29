@@ -1,0 +1,235 @@
+{
+  "summary": {
+    "DAM4SAM": {
+      "Q": 0.6859657712365725,
+      "A": 0.7173234890859584,
+      "R": 0.9435656323704984,
+      "sequence_count": 180
+    },
+    "SAMURAI": {
+      "Q": 0.6793200196344672,
+      "A": 0.720670028493928,
+      "R": 0.9319462582147781,
+      "sequence_count": 180
+    },
+    "paired_sequence_wins": {
+      "DAM4SAM": 102,
+      "SAMURAI": 78,
+      "tie_within_1e_6": 0
+    }
+  },
+  "mean_delta_Q": -0.0066457516021052885,
+  "paired_sequence_bootstrap_delta_Q_95_interval": [
+    -0.028807685239528102,
+    0.015948278307017855
+  ],
+  "bootstrap_note": "Exploratory resampling of the fixed 180 sequences; not independent dataset replication.",
+  "both_Q_below_0_5": 30,
+  "both_Q_below_0_3": 7,
+  "both_low_at_least_10_contiguous_frames": 48,
+  "both_low_at_least_30_contiguous_frames": 32,
+  "present_frames": 266984,
+  "both_low_present_frames": 21565,
+  "median_delta_Q": -0.0015171697377689974,
+  "sequence_Q_correlation": 0.7550355523660831,
+  "shared_collapse_after_good_prefix_sequences": 2,
+  "shared_collapse_after_good_prefix_events": 2,
+  "shared_collapse_examples": [
+    {
+      "key": "s159",
+      "sequence": "LaSOT_umbrella-9",
+      "start_frame": 1480,
+      "end_frame": 1591,
+      "length": 112,
+      "review_frame": 1536,
+      "DAM_Q": 0.7687090934399331,
+      "SAM_Q": 0.7619450193139178,
+      "before_mean": {
+        "DAM4SAM": 0.8038661337778283,
+        "SAMURAI": 0.8084290174046593
+      },
+      "after_mean": {
+        "DAM4SAM": 0.15588031050181234,
+        "SAMURAI": 0.15626525300111896
+      }
+    },
+    {
+      "key": "s173",
+      "sequence": "VOT2022-LT_dancingshoe",
+      "start_frame": 1858,
+      "end_frame": 1930,
+      "length": 73,
+      "review_frame": 1894,
+      "DAM_Q": 0.20649704900636776,
+      "SAM_Q": 0.34559743545713206,
+      "before_mean": {
+        "DAM4SAM": 0.5679963472105064,
+        "SAMURAI": 0.5632439658603491
+      },
+      "after_mean": {
+        "DAM4SAM": 0.0,
+        "SAMURAI": 0.009224512425737411
+      }
+    }
+  ],
+  "largest_model_differences": [
+    {
+      "sequence": "LaSOT_car-17",
+      "key": "s085",
+      "DAM_Q": 0.7945223127358515,
+      "SAM_Q": 0.11410290804819183,
+      "delta": -0.6804194046876597
+    },
+    {
+      "sequence": "UTB180_Video_0002",
+      "key": "s004",
+      "DAM_Q": 0.22335966347451208,
+      "SAM_Q": 0.8905783920948356,
+      "delta": 0.6672187286203235
+    },
+    {
+      "sequence": "UTB180_Video_0066",
+      "key": "s017",
+      "DAM_Q": 0.19782942197765416,
+      "SAM_Q": 0.8617578605973248,
+      "delta": 0.6639284386196707
+    },
+    {
+      "sequence": "LaSOT_motorcycle-18",
+      "key": "s122",
+      "DAM_Q": 0.08991832106838696,
+      "SAM_Q": 0.7377985177808681,
+      "delta": 0.6478801967124812
+    },
+    {
+      "sequence": "LaSOT_hat-1",
+      "key": "s111",
+      "DAM_Q": 0.6801962995830381,
+      "SAM_Q": 0.09150138689670731,
+      "delta": -0.5886949126863308
+    },
+    {
+      "sequence": "UTB180_Video_0103",
+      "key": "s027",
+      "DAM_Q": 0.8107212200335844,
+      "SAM_Q": 0.23763697331580008,
+      "delta": -0.5730842467177844
+    },
+    {
+      "sequence": "LaSOT_kite-10",
+      "key": "s115",
+      "DAM_Q": 0.6965192328794866,
+      "SAM_Q": 0.20067842813179232,
+      "delta": -0.49584080474769426
+    },
+    {
+      "sequence": "LaSOT_turtle-8",
+      "key": "s156",
+      "DAM_Q": 0.6398611792652614,
+      "SAM_Q": 0.17525374391225007,
+      "delta": -0.46460743535301136
+    },
+    {
+      "sequence": "LaSOT_monkey-4",
+      "key": "s121",
+      "DAM_Q": 0.7772984797693016,
+      "SAM_Q": 0.3378707494748672,
+      "delta": -0.4394277302944343
+    },
+    {
+      "sequence": "UTB180_Video_0140",
+      "key": "s052",
+      "DAM_Q": 0.7782366250966984,
+      "SAM_Q": 0.3634996557643774,
+      "delta": -0.414736969332321
+    }
+  ],
+  "source_groups": [
+    {
+      "source": "GOT-10k",
+      "sequences": 4,
+      "DAM_Q": 0.7770532410904749,
+      "SAM_Q": 0.750026126089827,
+      "both_Q_below_0_5": 0
+    },
+    {
+      "source": "UTB180",
+      "sequences": 56,
+      "DAM_Q": 0.7736439072236474,
+      "SAM_Q": 0.7753783519535985,
+      "both_Q_below_0_5": 2
+    },
+    {
+      "source": "VOT2022-ST",
+      "sequences": 20,
+      "DAM_Q": 0.4138899631957019,
+      "SAM_Q": 0.4111894019801811,
+      "both_Q_below_0_5": 14
+    },
+    {
+      "source": "LaSOT",
+      "sequences": 86,
+      "DAM_Q": 0.7194992192183812,
+      "SAM_Q": 0.6995927188880419,
+      "both_Q_below_0_5": 9
+    },
+    {
+      "source": "VOT2020-LT",
+      "sequences": 6,
+      "DAM_Q": 0.6783628065300563,
+      "SAM_Q": 0.7290201967939801,
+      "both_Q_below_0_5": 0
+    },
+    {
+      "source": "VOT2020-ST",
+      "sequences": 1,
+      "DAM_Q": 0.1705326030634611,
+      "SAM_Q": 0.3285163123593686,
+      "both_Q_below_0_5": 1
+    },
+    {
+      "source": "VOT2022-LT",
+      "sequences": 7,
+      "DAM_Q": 0.37801792782261234,
+      "SAM_Q": 0.39498742333497266,
+      "both_Q_below_0_5": 4
+    }
+  ],
+  "gt_type_totals": {
+    "RECTANGLE": 260975,
+    "SPECIAL": 7696,
+    "MASK": 6211
+  },
+  "shared_hard_ranked": [
+    "s068",
+    "s152",
+    "s063",
+    "s079",
+    "s176",
+    "s125",
+    "s076",
+    "s069",
+    "s060",
+    "s172",
+    "s110",
+    "s173",
+    "s039",
+    "s175",
+    "s179",
+    "s073",
+    "s134",
+    "s066",
+    "s133",
+    "s062",
+    "s149",
+    "s064",
+    "s061",
+    "s165",
+    "s075",
+    "s145",
+    "s030",
+    "s070",
+    "s067",
+    "s119"
+  ]
+}

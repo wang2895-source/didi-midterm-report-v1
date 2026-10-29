@@ -1,0 +1,66 @@
+{
+  "status": "verified",
+  "cases": [
+    {
+      "sequence": "GOT-10k_GOT-10k_Val_000014",
+      "model": "DAM4SAM",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 100,
+      "size": [
+        854,
+        480
+      ]
+    },
+    {
+      "sequence": "GOT-10k_GOT-10k_Val_000014",
+      "model": "SAMURAI",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 100,
+      "size": [
+        854,
+        480
+      ]
+    },
+    {
+      "sequence": "VOT2022-ST_leaves",
+      "model": "DAM4SAM",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 63,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "sequence": "VOT2022-ST_leaves",
+      "model": "SAMURAI",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 63,
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "sequence": "VOT2022-ST_birds2",
+      "model": "DAM4SAM",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 80,
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "sequence": "VOT2022-ST_birds2",
+      "model": "SAMURAI",
+      "Q_A_R_inputs_bitwise_identical": true,
+      "frames": 80,
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "all_180_lengths_dimensions_and_GT_hashes_verified": true
+}

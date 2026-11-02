@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s109",
+  "sequence": "LaSOT_guitar-10",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_guitar-10/groundtruth.txt",
+  "formal_gt_sha256": "b67fc3b7f8a47ce8e36a45da5a909f206c2e75f6060ba4ec7e6b8e1e695549cf",
+  "frames": 1890,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_guitar-10/color/00000001.jpg",
+  "source_last_member": "LaSOT_guitar-10/color/00001890.jpg",
+  "written_frames": 1890,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_guitar-10"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2860637/scratch/s109-SAM2.1.7445560.0.tar.gz",
+      "member": "LaSOT_guitar-10/LaSOT_guitar-10.txt",
+      "sha256": "38d7219c7e5123117151e7602dc00a4dad54032a217208e60c423db2e2596c65",
+      "frames": 1890
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_guitar-10/LaSOT_guitar-10.txt",
+      "sha256": "dd90f05590a58d8c3cf51e8cb602efd82c3a5c5ebd2292560be8f93e043e67fc",
+      "frames": 1890
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_guitar-10/LaSOT_guitar-10.txt",
+      "sha256": "f08081926853f580e6eff8861fb697b5658f95b83e8f95582c771a01f16954ec",
+      "frames": 1890
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2860637/scratch/s109-HiM2SAM.7444471.0.tar.gz",
+      "member": "LaSOT_guitar-10/LaSOT_guitar-10.txt",
+      "sha256": "d746c36ecafb02d54875878537e1e8bf316d33ec8f0b66df2f0251c547f3b9fa",
+      "frames": 1890
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2860637/scratch/s109-SENTRY-D4S.7411441.0.tar.gz",
+      "member": "LaSOT_guitar-10/LaSOT_guitar-10.txt",
+      "sha256": "2d1a4f8043d981d5fbaf08a7bf336a3fd04c6a5b4143f2fd0fe602f4bdbe024a",
+      "frames": 1890
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 71,
+    "DAM4SAM": 20,
+    "SAMURAI": 9,
+    "HiM2SAM": 8,
+    "SENTRY-D4S": 19
+  },
+  "font": "<_io.BytesIO object at 0x146015216890>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2860637/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s109.part.mp4"
+  ],
+  "output_file": "s109.mp4",
+  "output_bytes": 49306757,
+  "output_sha256": "eeec2a60a8e941ef79aa05f1af9794ac6236d0368eae3d4bd34ef5ac55129643",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1890,
+    "expected_frames": 1890,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 160.62504404294305,
+  "finished_utc": "2026-10-30T19:52:27.405901+00:00"
+}

@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s132",
+  "sequence": "LaSOT_racing-16",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_racing-16/groundtruth.txt",
+  "formal_gt_sha256": "e24d5795b8cf46e3087ec7409ab9bb1decd3b806d8b23ef3390a2276e00cbc59",
+  "frames": 2186,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_racing-16/color/00000001.jpg",
+  "source_last_member": "LaSOT_racing-16/color/00002186.jpg",
+  "written_frames": 2186,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_racing-16"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s132-SAM2.1.7445139.0.tar.gz",
+      "member": "LaSOT_racing-16/LaSOT_racing-16.txt",
+      "sha256": "02a170168840e8a6e044507b301ebe047e8abfc6bdb0141eec5a72a81bc60158",
+      "frames": 2186
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_racing-16/LaSOT_racing-16.txt",
+      "sha256": "794da3dcec13a8d03f3c48dc0f443fe19df8b13c8f40a3aaded2bce0220ebc99",
+      "frames": 2186
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_racing-16/LaSOT_racing-16.txt",
+      "sha256": "2870e4714adea5b1d122de90cd55b5618ecaa9397b009c2839192d6a5f3483b2",
+      "frames": 2186
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s132-HiM2SAM.7337892.0.tar.gz",
+      "member": "LaSOT_racing-16/LaSOT_racing-16.txt",
+      "sha256": "720189df657465639ee54a0737deaf3f581e38d974060bdbadba205e26eaa254",
+      "frames": 2186
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s132-SENTRY-D4S.7429399.0.tar.gz",
+      "member": "LaSOT_racing-16/LaSOT_racing-16.txt",
+      "sha256": "88bfae5a7020fa70baf01c7aeabca2357e4e90a83dd9a8392c5c87f88e0b5a27",
+      "frames": 2186
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 7,
+    "DAM4SAM": 9,
+    "SAMURAI": 3,
+    "HiM2SAM": 4,
+    "SENTRY-D4S": 7
+  },
+  "font": "<_io.BytesIO object at 0x14af0f072bb0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2232857/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s132.part.mp4"
+  ],
+  "output_file": "s132.mp4",
+  "output_bytes": 72980987,
+  "output_sha256": "78968631957b5efa34d8019349acb6ff418b3cab05a062ed3830bf7b954ec20e",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 2186,
+    "expected_frames": 2186,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 117.17357150278986,
+  "finished_utc": "2026-10-30T19:48:52.431461+00:00"
+}

@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s172",
+  "sequence": "VOT2020-ST_drone_flip",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2020-ST_drone_flip/groundtruth.txt",
+  "formal_gt_sha256": "26130282260f2c77f37434e3c0cddf664fa222829dd0f8074475e1256adb0964",
+  "frames": 113,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2020-ST_drone_flip/color/00000001.jpg",
+  "source_last_member": "VOT2020-ST_drone_flip/color/00000113.jpg",
+  "written_frames": 113,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "drone_flip",
+    "uid": "93d4911372b488cea032c3736bfafe1ff1b6cd85162b52a74b0b925930d048aa21a9904aa342a1686120f029016eebce2e52cd65ca9b7e56ffb70090ad14439b"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s172-SAM2.1.7444763.0.tar.gz",
+      "member": "VOT2020-ST_drone_flip/VOT2020-ST_drone_flip.txt",
+      "sha256": "25a26441dd855c69ce7ecda54ced843169d5dd4d402349a1c6e9946365623740",
+      "frames": 113
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2020-ST_drone_flip/VOT2020-ST_drone_flip.txt",
+      "sha256": "07b49f55d0592a0a9a9246d26383bba67278ac90fcf9c727f0376fac9896d296",
+      "frames": 113
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2020-ST_drone_flip/VOT2020-ST_drone_flip.txt",
+      "sha256": "aa0fa2c6d2318a1203e89b92135cde6d2dff0c734a818ccfc3b7cc2690d0b2c4",
+      "frames": 113
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s172-HiM2SAM.7337839.0.tar.gz",
+      "member": "VOT2020-ST_drone_flip/VOT2020-ST_drone_flip.txt",
+      "sha256": "f867068d501a656dd1cc99d56ae6303f8d61871189412854d6a275c0cf3d1bc5",
+      "frames": 113
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s172-SENTRY-D4S.7342800.0.tar.gz",
+      "member": "VOT2020-ST_drone_flip/VOT2020-ST_drone_flip.txt",
+      "sha256": "8e555d9535eacae78fd7b1599cc4e3c8bb9a75a822258eab4302bc8c3b95c637",
+      "frames": 113
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 107,
+    "DAM4SAM": 60,
+    "SAMURAI": 3,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 25
+  },
+  "font": "<_io.BytesIO object at 0x1533ff4209f0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2487090/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s172.part.mp4"
+  ],
+  "output_file": "s172.mp4",
+  "output_bytes": 2111670,
+  "output_sha256": "cce3bdcd70a3104b36bfab38de55f69ace6971cd39a15be9abe98372c0be18eb",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 113,
+    "expected_frames": 113,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 6.731321817263961,
+  "finished_utc": "2026-10-30T19:57:07.325847+00:00"
+}

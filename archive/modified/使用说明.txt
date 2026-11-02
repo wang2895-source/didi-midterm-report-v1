@@ -1,0 +1,23 @@
+DiDi 五模型全量评测汇总 | 2026-10-30
+
+先打开 index.html（中文）；analysis-report-en.html 为同内容英文版。
+analysis-report.html 是中文报告的兼容文件名，内容与 index.html 相同。
+analysis-report.pdf / analysis-report-en.pdf：中英文可保存、打印的报告。
+
+CSV：
+summary.csv：五模型、两协议整体 Q/A/R。
+all-sequences.csv：180 条统一框逐序列完整 Q/A/R（默认主口径）。
+all-sequences-original-protocol.csv：180 条原协议完整 Q/A/R。
+scores-long.csv：180 序列 × 5 模型 × 2 协议，共 1,800 行。
+column-dictionary.csv：中英文表头说明。数值为 0-1；百分点差在表头标明。
+
+videos-five-model/：全部180条完整同步五模型原生mask与GT参考视频，默认播放器使用此目录。
+videos/：历史DAM4SAM/SAMURAI双模型视频，保留作可选对照。
+五模型视频全部由已有预测渲染，没有重新推理；原有PDF是评分存档，HTML视频入口已更新。
+旧视频内嵌成绩保持 original 协议，可能与默认主表 symmetric_box 不同。
+assets/：统计图和现有新增模型抽帧预览；data/：评分 JSON、状态与评分代码。
+
+分享给别人时请发送整个文件夹。只发 HTML，文字图表仍可看，但视频缺失。
+本次没有重新推理、修改模型或更新公开 midterm 网站。
+
+新版浏览方式：打开index.html（中文）或analysis-report-en.html（英文），点击“打开全部180条对比与视频”进入videos.html/videos-en.html黑色视频总览。黑页含全部五模型原生mask视频与两套评分口径；序列链接可直接定位播放。图中DAM4SAM为差值参照，其零线不是绝对Q为0。

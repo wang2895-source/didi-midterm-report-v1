@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s159",
+  "sequence": "LaSOT_umbrella-9",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_umbrella-9/groundtruth.txt",
+  "formal_gt_sha256": "5d131750f68c280800febffb8f7ed438009c67a573ad8b81d7348a534eb312ab",
+  "frames": 1615,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    960,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_umbrella-9/color/00000001.jpg",
+  "source_last_member": "LaSOT_umbrella-9/color/00001615.jpg",
+  "written_frames": 1615,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_umbrella-9"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s159-SAM2.1.7445039.0.tar.gz",
+      "member": "LaSOT_umbrella-9/LaSOT_umbrella-9.txt",
+      "sha256": "a49eec95fcb9a6fd87df585b5e74e28ab4a0d0071350dac65ff0421941140986",
+      "frames": 1615
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_umbrella-9/LaSOT_umbrella-9.txt",
+      "sha256": "a0be47ce193ac1838f800dc7f4f9b8d48d0ef1350c024411a0c305909c3b527e",
+      "frames": 1615
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_umbrella-9/LaSOT_umbrella-9.txt",
+      "sha256": "305f897c4b7f9f8a3bf7cf674632de03d3354b0492f60ad9e62cf012a984b2ef",
+      "frames": 1615
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s159-HiM2SAM.7337922.0.tar.gz",
+      "member": "LaSOT_umbrella-9/LaSOT_umbrella-9.txt",
+      "sha256": "4d6cbd490ce6be43a3d93a560a029b35c908a0dfc00779161e9ba4a24e437c92",
+      "frames": 1615
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s159-SENTRY-D4S.7339487.0.tar.gz",
+      "member": "LaSOT_umbrella-9/LaSOT_umbrella-9.txt",
+      "sha256": "86757623cd7b03470d51f40d82d47e5f19bd3425ec2712db4de6aab566ae2224",
+      "frames": 1615
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x14a252922750>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1748973/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s159.part.mp4"
+  ],
+  "output_file": "s159.mp4",
+  "output_bytes": 33229939,
+  "output_sha256": "54dd09e7577421b67fcfe9e450a0251db01c224b37eddd012832c5905e9d70ab",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1615,
+    "expected_frames": 1615,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 100.94719939678907,
+  "finished_utc": "2026-10-30T19:58:37.182157+00:00"
+}

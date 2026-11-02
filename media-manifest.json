@@ -1,1085 +1,3440 @@
 {
-  "release_tag": "midterm-v1",
+  "schema_version": 1,
+  "repository": "wang2895-source/didi-midterm-report-v1",
+  "release_tag": "midterm-five-model-v2-20261101",
+  "video_count": 180,
+  "video_bytes": 7454376092,
+  "total_frames": 274882,
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "all_original_source_frames_preserved": true,
+  "model_inference_rerun": false,
+  "generated_at_UTC": "2026-11-02T02:07:40.340750+00:00",
   "videos": [
     {
-      "file": "leaves-side-by-side.mp4",
-      "bytes": 3845991,
-      "sha256": "11b5408859b000e99656808f89515707bf4426e1aee1332b6f7d023776b8c3b1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/leaves-side-by-side.mp4"
-    },
-    {
-      "file": "s000.7089951.0.mp4",
-      "bytes": 1710231,
-      "sha256": "cce19fbc9850ba0478aae86693b5a36e34513395e8dbf23792bb1667fb1b26f7",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s000.7089951.0.mp4"
-    },
-    {
-      "file": "s001.7090283.0.mp4",
-      "bytes": 453474,
-      "sha256": "32e2869a0998c96343c653e9c64bcd76425eae48abc579d5b7862d40dd93e9fc",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s001.7090283.0.mp4"
-    },
-    {
-      "file": "s002.7090270.0.mp4",
-      "bytes": 1259766,
-      "sha256": "0d399136600fe1c591f445a0c86d50cf252ab85f419dc7486c03da4143484320",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s002.7090270.0.mp4"
-    },
-    {
-      "file": "s003.7090334.0.mp4",
-      "bytes": 1744138,
-      "sha256": "92cf2376d360ca0ad5f668b13413acfcc3fb6be5a2637f14ce5087f766ef5b62",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s003.7090334.0.mp4"
-    },
-    {
-      "file": "s004.7090342.0.mp4",
-      "bytes": 1695256,
-      "sha256": "d138ffb5aa43b6b08549b8343a78253ed95e84c4b47635cfda15cb1a07f0cec1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s004.7090342.0.mp4"
-    },
-    {
-      "file": "s005.7090596.0.mp4",
-      "bytes": 375688,
-      "sha256": "fa15c66298308475bf989bf23134f31dc692190e114244925fcfd2d09bbc3f59",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s005.7090596.0.mp4"
-    },
-    {
-      "file": "s006.7090624.0.mp4",
-      "bytes": 359074,
-      "sha256": "55f72445b7bc3d5885e1a987ae10ee2aea8efe3dc3be1db17d77d9139ae1bc49",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s006.7090624.0.mp4"
-    },
-    {
-      "file": "s007.7090608.0.mp4",
-      "bytes": 2239314,
-      "sha256": "d27e9dcfffa39536d77843fc58b744ce83b8b95763375be539520585b6543e36",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s007.7090608.0.mp4"
-    },
-    {
-      "file": "s008.7090706.0.mp4",
-      "bytes": 3147013,
-      "sha256": "fe239c2e88f812ecdf3a905b9e7370ee1d583aef3b95b115f178dac561365750",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s008.7090706.0.mp4"
-    },
-    {
-      "file": "s009.7090713.0.mp4",
-      "bytes": 1964818,
-      "sha256": "3c8bd086cc27a4602cf961248b4db074a98ccb52283993a3c43b8e3ff020a997",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s009.7090713.0.mp4"
-    },
-    {
-      "file": "s010.7090730.0.mp4",
-      "bytes": 1312609,
-      "sha256": "5e83c6c81145704615bb4435df00ecd1073feb726b6772c76d5dd4a47860197a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s010.7090730.0.mp4"
-    },
-    {
-      "file": "s011.7090736.0.mp4",
-      "bytes": 2392859,
-      "sha256": "88b140101599bc8f4226862e330624c091c15087c7f20b91151cc854c6d13c02",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s011.7090736.0.mp4"
-    },
-    {
-      "file": "s012.7090756.0.mp4",
-      "bytes": 5577718,
-      "sha256": "6c1b3d41a6a5a1cce2426212025027bd602d32da5b3b6a5aa4c234e72ea70ac4",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s012.7090756.0.mp4"
-    },
-    {
-      "file": "s013.7090863.0.mp4",
-      "bytes": 3439951,
-      "sha256": "3a4a62bac8a1f7fc7a26475b63523a9b0a1483b2dcc7ef233c43fdc78ddc6e9d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s013.7090863.0.mp4"
-    },
-    {
-      "file": "s014.7090874.0.mp4",
-      "bytes": 8185487,
-      "sha256": "b36718fba22e815abf6c31f3776157aadd6b7fc3a658146a0b070e2aa172eccb",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s014.7090874.0.mp4"
-    },
-    {
-      "file": "s015.7090881.0.mp4",
-      "bytes": 2570113,
-      "sha256": "dc3cca7a123add620278ac90ec870b25b950517b659c3d6234059432544ceeb6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s015.7090881.0.mp4"
-    },
-    {
-      "file": "s016.7090888.0.mp4",
-      "bytes": 3548747,
-      "sha256": "1678ee14970ec8660f0a37422f42f1ff82ef914ff41b50d5bfbd84463d0d9c3f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s016.7090888.0.mp4"
-    },
-    {
-      "file": "s017.7090897.0.mp4",
-      "bytes": 1459598,
-      "sha256": "a4335a47eb3c339e0e627f341c95ab329191fa85b8374b4b30b8542ba3dd9fc6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s017.7090897.0.mp4"
-    },
-    {
-      "file": "s018.7090937.0.mp4",
-      "bytes": 3386801,
-      "sha256": "29aef394673ffc0be277dc9d35fcbb0be5d3dcfc09afa33582f2d0bcc9830e7a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s018.7090937.0.mp4"
-    },
-    {
-      "file": "s019.7090945.0.mp4",
-      "bytes": 4805155,
-      "sha256": "39c60500d4b2cbac9138860c67366d157a0cf4aa65fa8150b318fccea3d75f2e",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s019.7090945.0.mp4"
-    },
-    {
-      "file": "s020.7090946.0.mp4",
-      "bytes": 3020791,
-      "sha256": "a2ff3469d18662cbe7b483f6a7c7c2c9660de44ebb9331b323de34a74b9292b0",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s020.7090946.0.mp4"
-    },
-    {
-      "file": "s021.7090951.0.mp4",
-      "bytes": 1820923,
-      "sha256": "da68cf4823e335cdf173111bb025452cae59f27c8d349e84b3b92ad2ee656475",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s021.7090951.0.mp4"
-    },
-    {
-      "file": "s022.7090954.0.mp4",
-      "bytes": 4642106,
-      "sha256": "b8044cd8b7bd826de4641548974f1d9fbf5a49966323c8515bdc22a1ff55d3e8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s022.7090954.0.mp4"
-    },
-    {
-      "file": "s023.7090961.0.mp4",
-      "bytes": 1977130,
-      "sha256": "9abdf7efba953cc133bc751c1e2083a926629e5b1aff8ca7caa782db76c14c46",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s023.7090961.0.mp4"
-    },
-    {
-      "file": "s024.7090970.0.mp4",
-      "bytes": 823452,
-      "sha256": "429f018bc4f4f9237e0392b5434c15da3a26b85c6ddf04a849e382604d65905a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s024.7090970.0.mp4"
-    },
-    {
-      "file": "s025.7091050.0.mp4",
-      "bytes": 981376,
-      "sha256": "d7283723353a7343a3135149d088c7f20408e5c1d2198c1a0689cc23cf44e418",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s025.7091050.0.mp4"
-    },
-    {
-      "file": "s026.7091233.0.mp4",
-      "bytes": 716514,
-      "sha256": "4c8b1f70fffdea80c0f0fbdfc088bf21cb392b7416d5efdc84f73bc71a07000c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s026.7091233.0.mp4"
-    },
-    {
-      "file": "s027.7091253.0.mp4",
-      "bytes": 1894338,
-      "sha256": "587c8f3292f8a0f85759baabfa402b2b0a9c6b2b46f49b49cb5088bbb5f47305",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s027.7091253.0.mp4"
-    },
-    {
-      "file": "s028.7091260.0.mp4",
-      "bytes": 3495633,
-      "sha256": "25fda26aba6b00d5aaa8676589698781630111b341d05c20602759654b75af2c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s028.7091260.0.mp4"
-    },
-    {
-      "file": "s029.7091261.0.mp4",
-      "bytes": 4670143,
-      "sha256": "d35ba3fc05fb3cd9fd0af7597884fdbb46fb9eba065af4576459c0a1d65e5008",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s029.7091261.0.mp4"
-    },
-    {
-      "file": "s030.7091326.0.mp4",
-      "bytes": 4198691,
-      "sha256": "f4d5d5443220c97103975b9e8577d59cab1179e38e74903b719000e301424ad4",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s030.7091326.0.mp4"
-    },
-    {
-      "file": "s031.7091356.0.mp4",
-      "bytes": 4081572,
-      "sha256": "87f908c53be2ebfb63ff58a3aeaab0c42273ed9d1749ea6d9d5d53cc056fdbc0",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s031.7091356.0.mp4"
-    },
-    {
-      "file": "s032.7091362.0.mp4",
-      "bytes": 6104985,
-      "sha256": "8a536494f2840221d065a4f77cadbd185a42e1ceea3304f641f90634dbf9116d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s032.7091362.0.mp4"
-    },
-    {
-      "file": "s033.7091369.0.mp4",
-      "bytes": 6913840,
-      "sha256": "12fe5fea8022744a8b10f5267213cd6b68457e52f376cf68628b3749da47386f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s033.7091369.0.mp4"
-    },
-    {
-      "file": "s034.7091422.0.mp4",
-      "bytes": 4020964,
-      "sha256": "50ca2dbb74bede4689505d26c285137399a4accd886aba76a40cb0a499bb4020",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s034.7091422.0.mp4"
-    },
-    {
-      "file": "s035.7091372.0.mp4",
-      "bytes": 4155822,
-      "sha256": "e1cf98b4d9ba8c9c7ea16ad7c076201c2d1ca0f7dd80f51585725ffb6c3b8063",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s035.7091372.0.mp4"
-    },
-    {
-      "file": "s036.7091438.0.mp4",
-      "bytes": 1874805,
-      "sha256": "c9bb89d7eacd39bff3962b39eafffc8d36a44cf5f736d0524756dcc83496bb75",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s036.7091438.0.mp4"
-    },
-    {
-      "file": "s037.7091429.0.mp4",
-      "bytes": 2702403,
-      "sha256": "1b79a3856f8810e5e5bfb14a826522bcf4b7a8c337339916624f5c2f617d79cb",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s037.7091429.0.mp4"
-    },
-    {
-      "file": "s038.7091506.0.mp4",
-      "bytes": 3639804,
-      "sha256": "d365edae7df80175a38e3e8513758b96b9987f3b7ec0c98c3006a026e965a98c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s038.7091506.0.mp4"
-    },
-    {
-      "file": "s039.7091458.0.mp4",
-      "bytes": 3642242,
-      "sha256": "8868515629562a2211b3fe4eeaa03974005dc2d0e2c454347970fad1d25d55ea",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s039.7091458.0.mp4"
-    },
-    {
-      "file": "s040.7091539.0.mp4",
-      "bytes": 4827444,
-      "sha256": "acec5acdc7e225ab1db2c1eadb5a260fb0697d01a162e881350868ede23b3c06",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s040.7091539.0.mp4"
-    },
-    {
-      "file": "s041.7091540.0.mp4",
-      "bytes": 3038953,
-      "sha256": "e0dd87e27cc24da7ad78117ebb70a29c2d8cb085d50017d33470c8be9111f042",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s041.7091540.0.mp4"
-    },
-    {
-      "file": "s042.7091555.0.mp4",
-      "bytes": 1748955,
-      "sha256": "3b8eecf1f6d52cb4deb75f2b1dd6bf528c336d2386867c5416b4ef4aa14fa486",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s042.7091555.0.mp4"
-    },
-    {
-      "file": "s043.7091558.0.mp4",
-      "bytes": 2034820,
-      "sha256": "1fbb0fb8173f0d166e9fda878c3bcd71e01009a9d4c926f720667f9b55d57452",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s043.7091558.0.mp4"
-    },
-    {
-      "file": "s044.7091615.0.mp4",
-      "bytes": 1373050,
-      "sha256": "51b3ba38a4a672f1cb75d60b726f315f28bfd4cd350cf64242ce56d813f3eaa7",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s044.7091615.0.mp4"
-    },
-    {
-      "file": "s045.7091641.0.mp4",
-      "bytes": 2356571,
-      "sha256": "cad248e186a730da10b1948cd96f7637dc1b49a27789fd957074a5c2a1e13ca6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s045.7091641.0.mp4"
-    },
-    {
-      "file": "s046.7091681.0.mp4",
-      "bytes": 5838376,
-      "sha256": "dc6566d2c615d69117990bd145adcc8403c67f70b60b460ce989123299308ecc",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s046.7091681.0.mp4"
-    },
-    {
-      "file": "s047.7091700.0.mp4",
-      "bytes": 4270957,
-      "sha256": "3e021ae67d38eb9b2a6d6fff60f96b147ccf11a8344295022d5817abb1ef72d7",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s047.7091700.0.mp4"
-    },
-    {
-      "file": "s048.7091721.0.mp4",
-      "bytes": 3716077,
-      "sha256": "ef1f4610d616336ca51858f0ec9077beaca47f4ebac639b3f0c527fc4078b4ca",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s048.7091721.0.mp4"
-    },
-    {
-      "file": "s049.7091782.0.mp4",
-      "bytes": 3184236,
-      "sha256": "d46ac7d23e9847c04666f97f485ed8d09564bafc5a32d535390ef937d5063eb8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s049.7091782.0.mp4"
-    },
-    {
-      "file": "s050.7091864.0.mp4",
-      "bytes": 2722299,
-      "sha256": "25d5fb038a8a8eca0a9cfa5bc60705f2be1eeb0cad5e0d8bbc8f14b180b01d59",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s050.7091864.0.mp4"
-    },
-    {
-      "file": "s051.7091836.0.mp4",
-      "bytes": 3236591,
-      "sha256": "b934994fbeaf245f00899ef6f147621d803143577cd73e2bb49051d53d82a686",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s051.7091836.0.mp4"
-    },
-    {
-      "file": "s052.7091866.0.mp4",
-      "bytes": 4295311,
-      "sha256": "dbe56ab747d72065fc1a939cd9366a59fd12bb47dc818ef896db113b37b331b1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s052.7091866.0.mp4"
-    },
-    {
-      "file": "s053.7091877.0.mp4",
-      "bytes": 2201533,
-      "sha256": "1069c5f4c49d76dc5a8f1ade271fe50ffc91ce54b7c18b30594665864371804a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s053.7091877.0.mp4"
-    },
-    {
-      "file": "s054.7091915.0.mp4",
-      "bytes": 1361561,
-      "sha256": "90419697144876696157aef963f4621d4c405c56d92944f7e4d131b365135e1d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s054.7091915.0.mp4"
-    },
-    {
-      "file": "s055.7091917.0.mp4",
-      "bytes": 796476,
-      "sha256": "e067b07a53803e9ccf12ea54be4e634a7f092a141e7c660255364e9dce615164",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s055.7091917.0.mp4"
-    },
-    {
-      "file": "s056.7091922.0.mp4",
-      "bytes": 1195803,
-      "sha256": "bb8f4d46e6c9c9ba0463165eaaf9c7843164aababf57bbc291b02e2d89a95dea",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s056.7091922.0.mp4"
-    },
-    {
-      "file": "s057.7091954.0.mp4",
-      "bytes": 816576,
-      "sha256": "f3809eaa987f383664965e7d04514f2613d11b248877e01aee9671e3f1c5b371",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s057.7091954.0.mp4"
-    },
-    {
-      "file": "s058.7091962.0.mp4",
-      "bytes": 864744,
-      "sha256": "2a2403a6e1da12ff1381748f0ccdabc26a590d4552d6cf62a3b550e484f32189",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s058.7091962.0.mp4"
-    },
-    {
-      "file": "s059.7092047.0.mp4",
-      "bytes": 563479,
-      "sha256": "d10d650f9d9d40b7657ec77578740a01c4b5791a43f5aff60696c75d170b6752",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s059.7092047.0.mp4"
-    },
-    {
-      "file": "s060.7092072.0.mp4",
-      "bytes": 946631,
-      "sha256": "8a09c7b02a36ae72fefdd63296c066ff810e94470e44798663ee2dc88e154e27",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s060.7092072.0.mp4"
-    },
-    {
-      "file": "s061.7092073.0.mp4",
-      "bytes": 6641869,
-      "sha256": "467b3750bf6393cee5c7311fe388be0493ca719879e3e81d8a3f626bdb5419af",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s061.7092073.0.mp4"
-    },
-    {
-      "file": "s062.7092089.0.mp4",
-      "bytes": 1562927,
-      "sha256": "f61c38e2c7446b0303789015d244686ee6b8f1d30a67a8c99ae6142ba1d9def8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s062.7092089.0.mp4"
-    },
-    {
-      "file": "s063.7092270.0.mp4",
-      "bytes": 709335,
-      "sha256": "b48a21af56754011841a2144690a3ec389bd9126fa9b8abea5e81e452747853a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s063.7092270.0.mp4"
-    },
-    {
-      "file": "s064.7092369.0.mp4",
-      "bytes": 4654902,
-      "sha256": "d741bdb25f87e1701a606158cde90722f1660aaa109848e9c03260aceec6d4e8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s064.7092369.0.mp4"
-    },
-    {
-      "file": "s065.7092411.0.mp4",
-      "bytes": 2154597,
-      "sha256": "bfb0a6ed41b099b7657946bb7e59b17b8d51bed66c4c35cdca16544f160996fa",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s065.7092411.0.mp4"
-    },
-    {
-      "file": "s066.7092458.0.mp4",
-      "bytes": 2041074,
-      "sha256": "ad6ac863d6921656c104bae8461db6f4255f2d014b879b88dcc69c461b70a65f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s066.7092458.0.mp4"
-    },
-    {
-      "file": "s067.7092478.0.mp4",
-      "bytes": 3282517,
-      "sha256": "a895cfd9d5c7b53db4486081faeb1d8d9f518027f89f2a0a42143606799c01f2",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s067.7092478.0.mp4"
-    },
-    {
-      "file": "s068.7092493.0.mp4",
-      "bytes": 7603083,
-      "sha256": "0d8a262541d4dfdbbccba6d01e2c86d0e9c86bbdc5f31206661d45043b366920",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s068.7092493.0.mp4"
-    },
-    {
-      "file": "s069.7092523.0.mp4",
-      "bytes": 1093404,
-      "sha256": "5ee3c2ab239f51c7d3989dde2794f37062eb4eb8b5afe3741bf4d1a585fe2302",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s069.7092523.0.mp4"
-    },
-    {
-      "file": "s070.7092553.0.mp4",
-      "bytes": 3543790,
-      "sha256": "9c3bf614a6897d806c991297faefbfd3b88faeeaf247842276a39d61e5613097",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s070.7092553.0.mp4"
-    },
-    {
-      "file": "s071.7092560.0.mp4",
-      "bytes": 1715402,
-      "sha256": "379dd61cfceca3a19e73a06bb23dd6f7d28258a4e7e851694d33b97cc848fb45",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s071.7092560.0.mp4"
-    },
-    {
-      "file": "s073.7092583.0.mp4",
-      "bytes": 1845228,
-      "sha256": "f30a33348c02f59a4051d90fb4d1c8d17185ac3aac085b99add9bbbcca5822aa",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s073.7092583.0.mp4"
-    },
-    {
-      "file": "s074.7092608.0.mp4",
-      "bytes": 988337,
-      "sha256": "0af93998cda18b0e0dc1a2984bf211ef22afb05b1799ccac74e4efc07b44937a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s074.7092608.0.mp4"
-    },
-    {
-      "file": "s075.7092613.0.mp4",
-      "bytes": 1234229,
-      "sha256": "4d104426e2c47f20ade4d9d27bd24a3f0c1be1bf8e004e4e942d615b85960aa0",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s075.7092613.0.mp4"
-    },
-    {
-      "file": "s076.7092659.0.mp4",
-      "bytes": 1042512,
-      "sha256": "66c97118a0af3234d2bb8c01847d6d485b02a77e495ac3fff5e224eaf0d06e90",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s076.7092659.0.mp4"
-    },
-    {
-      "file": "s077.7092701.0.mp4",
-      "bytes": 6904475,
-      "sha256": "837c6461044a259a688cf9c25ffb6e57ea324ddc4f1a9760317487bd622a1949",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s077.7092701.0.mp4"
-    },
-    {
-      "file": "s078.7092677.0.mp4",
-      "bytes": 2047923,
-      "sha256": "b483abe2a8caffc1ca1c455175bce792bc8bc93ad4aa2af3c6016258fe3c1dd5",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s078.7092677.0.mp4"
-    },
-    {
-      "file": "s079.7092657.0.mp4",
-      "bytes": 983582,
-      "sha256": "a5cdcc6e19935a59f2b3ab49a658a96d251141c00c26ce89f3ee96ad1617b0e3",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s079.7092657.0.mp4"
-    },
-    {
-      "file": "s080.7092654.0.mp4",
-      "bytes": 5217948,
-      "sha256": "68940d1c49981c05f61028110c969f3f0cffb2f5fd35fde9480fd0f9f152bb09",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s080.7092654.0.mp4"
-    },
-    {
-      "file": "s081.7092556.0.mp4",
-      "bytes": 9760244,
-      "sha256": "65d1f792f5cabce7b2126e392c413661c1a06f3535dc8080d28817b2da74fbfe",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s081.7092556.0.mp4"
-    },
-    {
-      "file": "s082.7092451.0.mp4",
-      "bytes": 23661300,
-      "sha256": "d2c6e7453cdaeaff2dfcb159c26dca31029bbc26c954de9097beec7ccd413cec",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s082.7092451.0.mp4"
-    },
-    {
-      "file": "s083.7092348.0.mp4",
-      "bytes": 15623004,
-      "sha256": "9ad736e674a5c10daa6609622c0ab447eee1d99f9e0956db54490f7ccbac8008",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s083.7092348.0.mp4"
-    },
-    {
-      "file": "s084.7092339.0.mp4",
-      "bytes": 19895233,
-      "sha256": "f9f988513c80a0316b1157748535fcc91c32730c0a0d6153896113a7bfdbdc1a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s084.7092339.0.mp4"
-    },
-    {
-      "file": "s085.7092314.0.mp4",
-      "bytes": 12114559,
-      "sha256": "3b61d25093da742b6d619087b8a948930dca8014644f502c3eb4a4a2615dad5a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s085.7092314.0.mp4"
-    },
-    {
-      "file": "s086.7092297.0.mp4",
-      "bytes": 13751603,
-      "sha256": "8e487f788dc7d904608f851ee23c5a98426a2fa33cf83fd831ad9cced2d101bd",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s086.7092297.0.mp4"
-    },
-    {
-      "file": "s087.7092291.0.mp4",
-      "bytes": 8948148,
-      "sha256": "18a02951854689af7b5285d0b33c8436c5fb1d381a07a772f6c2b0d7262c3bbc",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s087.7092291.0.mp4"
-    },
-    {
-      "file": "s088.7092289.0.mp4",
-      "bytes": 19686173,
-      "sha256": "11a5a01f68cac8df907ad1b56c18bf5c7ef6313400b4efce2a419120f6c74347",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s088.7092289.0.mp4"
-    },
-    {
-      "file": "s089.7092284.0.mp4",
-      "bytes": 7404789,
-      "sha256": "e58f5159ddbe6b2f583b633ac44f0983d351d1d16c43d1af1806e7ee1b84c904",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s089.7092284.0.mp4"
-    },
-    {
-      "file": "s090.7092229.0.mp4",
-      "bytes": 2085306,
-      "sha256": "a30f22bf0724ea608b5f7e629ee3ad094c2e64f674a275357712920e5be89df1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s090.7092229.0.mp4"
-    },
-    {
-      "file": "s091.7092215.0.mp4",
-      "bytes": 11890799,
-      "sha256": "58d7d9a94204062baf2bc75332992db8069c3b50a726ab6dfa801afc1acb7dc4",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s091.7092215.0.mp4"
-    },
-    {
-      "file": "s092.7092125.0.mp4",
-      "bytes": 5311632,
-      "sha256": "bdeaeb5c172d0e0cd89aebebcc0628d7e817329740d75a8db0802ad13d71636b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s092.7092125.0.mp4"
-    },
-    {
-      "file": "s093.7092115.0.mp4",
-      "bytes": 11206269,
-      "sha256": "f5ee59a59d61023309de2fa8e2c3bdd2a707afadbc19d6cb9a5180848dc47252",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s093.7092115.0.mp4"
-    },
-    {
-      "file": "s094.7092120.0.mp4",
-      "bytes": 8063811,
-      "sha256": "1326f8ca71df7050bb3af64217e012cceb537191204ac050a6f03427baf3c240",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s094.7092120.0.mp4"
-    },
-    {
-      "file": "s095.7092114.0.mp4",
-      "bytes": 25273637,
-      "sha256": "70f4c20e0f9c598887f8fc5451634b9c219092da121aa8ba1585d73535167077",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s095.7092114.0.mp4"
-    },
-    {
-      "file": "s096.7092044.0.mp4",
-      "bytes": 13303707,
-      "sha256": "4f13a66f5ed35772f0b500a0c6fe3dab1cef5d582d3c52b3755bd71c70bb0b1d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s096.7092044.0.mp4"
-    },
-    {
-      "file": "s097.7091948.0.mp4",
-      "bytes": 11098246,
-      "sha256": "ec30c9487ede37e7eb979c721c6cf1b4f2c9d2f6ac8f2f3fe381956f1cec8694",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s097.7091948.0.mp4"
-    },
-    {
-      "file": "s098.7091888.0.mp4",
-      "bytes": 8855586,
-      "sha256": "d37c20df98c3740c23b74531326da3bfcb67cdc457fd2707ec7dcbdf258da338",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s098.7091888.0.mp4"
-    },
-    {
-      "file": "s099.7091789.0.mp4",
-      "bytes": 11670235,
-      "sha256": "c5a6a376c8a786a1bf866229993e2f8fbcf98f94df16c7c54336823575019ac9",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s099.7091789.0.mp4"
-    },
-    {
-      "file": "s100.7091724.0.mp4",
-      "bytes": 15193728,
-      "sha256": "1d6fd60d9147a5b13bc7345f9d1daf448b5ecbea6d65fc0a9bf950eb56ff5bb9",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s100.7091724.0.mp4"
-    },
-    {
-      "file": "s101.7091803.0.mp4",
-      "bytes": 6774922,
-      "sha256": "831d18fa92ae25cc4be10cd306cebb848d211612fbc74d3eb7c8548371d000ae",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s101.7091803.0.mp4"
-    },
-    {
-      "file": "s102.7091825.0.mp4",
-      "bytes": 26060714,
-      "sha256": "ddf31a4ebd316fbf208a61ba58f899084c3b064c24299aa8d0f7b8733d46f689",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s102.7091825.0.mp4"
-    },
-    {
-      "file": "s103.7091837.0.mp4",
-      "bytes": 32583828,
-      "sha256": "ae4e08d9a14bf9da0df344dad55607a7319562dd4f6bdfebe1dae84c6c37596a",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s103.7091837.0.mp4"
-    },
-    {
-      "file": "s104.7091879.0.mp4",
-      "bytes": 8254486,
-      "sha256": "3983f2dccba05e99d82ee9e31f8eb9af879b637e496a0e8cbcdbc09b64d7649b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s104.7091879.0.mp4"
-    },
-    {
-      "file": "s105.7091891.0.mp4",
-      "bytes": 1075040,
-      "sha256": "0404663dad7599e96923f4aea11fc06d59de4a4c869e35a40ef1a726e2a73e31",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s105.7091891.0.mp4"
-    },
-    {
-      "file": "s106.7091934.0.mp4",
-      "bytes": 19351357,
-      "sha256": "71eb4a8f40e3f6c7de9233fec2c646b548e91a80a768f403da8a20aeddb16cd3",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s106.7091934.0.mp4"
-    },
-    {
-      "file": "s107.7091936.0.mp4",
-      "bytes": 24859666,
-      "sha256": "e955dd3e0ec4f6e8aa5609a9f71bc7097b065956563e95e5f351ef6fb9dd594b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s107.7091936.0.mp4"
-    },
-    {
-      "file": "s108.7091943.0.mp4",
-      "bytes": 6548745,
-      "sha256": "7ee8de2b89e5c12605be3d78ece0cbee8f807bd6cf2797508e1f8b39275fdff1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s108.7091943.0.mp4"
-    },
-    {
-      "file": "s109.7092001.0.mp4",
-      "bytes": 12300976,
-      "sha256": "883814e35439626486bef580c671d935f0791f4486cc5d8626329ea9577f7331",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s109.7092001.0.mp4"
-    },
-    {
-      "file": "s110.7092161.0.mp4",
-      "bytes": 6881883,
-      "sha256": "c6f966cfcd9d7fd58bdd840cb0e61310edd7f4972183b813a84a0183733aa9f9",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s110.7092161.0.mp4"
-    },
-    {
-      "file": "s111.7092157.0.mp4",
-      "bytes": 19597543,
-      "sha256": "ee1acf1de27d09aa80ed7ac934177f745e845fb12cf27c5f7ef3123b9247d819",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s111.7092157.0.mp4"
-    },
-    {
-      "file": "s112.7092306.0.mp4",
-      "bytes": 53599209,
-      "sha256": "ef6c8fec764a672eaf55b0f3bee4c69b909ee15e6d77fbd4139e98d7b971c3f2",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s112.7092306.0.mp4"
-    },
-    {
-      "file": "s113.7092441.0.mp4",
-      "bytes": 6459716,
-      "sha256": "ee3daa2ec8e743a631f28035d3e7675fd397285754ac62eb2419a9d4e10f555f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s113.7092441.0.mp4"
-    },
-    {
-      "file": "s114.7092433.0.mp4",
-      "bytes": 29627922,
-      "sha256": "327c8a3b2165997ca5e46575e3309f38e5b5e9c1042d14649b3b7c038f23a2ad",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s114.7092433.0.mp4"
-    },
-    {
-      "file": "s115.7092470.0.mp4",
-      "bytes": 8823598,
-      "sha256": "01f1fb84eb76a68a8397909a008c258a272c7f354d206ad5c6f5330504abe22c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s115.7092470.0.mp4"
-    },
-    {
-      "file": "s116.7092477.0.mp4",
-      "bytes": 9566365,
-      "sha256": "252eb8537e9a730fed4b8fcb5f571eec5b79cb63fa3ca785b9eabd231c9f0957",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s116.7092477.0.mp4"
-    },
-    {
-      "file": "s117.7092485.0.mp4",
-      "bytes": 20830093,
-      "sha256": "f6dfd63c54316352dd4b20cd1fef3da45739e13b80d6a22c2a0b797bfa15cdbe",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s117.7092485.0.mp4"
-    },
-    {
-      "file": "s118.7092554.0.mp4",
-      "bytes": 15680431,
-      "sha256": "8fa47ef2a800d81bbedc13b6bacc8147d3ca379f757ca946a78e836bdb9d661b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s118.7092554.0.mp4"
-    },
-    {
-      "file": "s119.7092601.0.mp4",
-      "bytes": 14729380,
-      "sha256": "e78cd770f4107c43a3cda41e92677832bb50d2a1788d8e493f99003009281b78",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s119.7092601.0.mp4"
-    },
-    {
-      "file": "s120.7092622.0.mp4",
-      "bytes": 7039019,
-      "sha256": "d031c0731d77bdc029eb93c72a123158f1e165ac9eb88b456ae736fc8f07bd03",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s120.7092622.0.mp4"
-    },
-    {
-      "file": "s121.7092651.0.mp4",
-      "bytes": 7521701,
-      "sha256": "ef4cf94c1af0fe61954be4c7b5be064a909e11598368d111a0a672a50a5c40e6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s121.7092651.0.mp4"
-    },
-    {
-      "file": "s122.7092653.0.mp4",
-      "bytes": 20435641,
-      "sha256": "7d5a1bda2701ad11fa438a09d2f2e85084da86afc85b966de134bf6f5e2e005c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s122.7092653.0.mp4"
-    },
-    {
-      "file": "s123.7092646.0.mp4",
-      "bytes": 7513295,
-      "sha256": "3a06a91d922d693ec881e1ef84a7b978b28c170ae3081ea11c125daa260f0166",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s123.7092646.0.mp4"
-    },
-    {
-      "file": "s124.7092616.0.mp4",
-      "bytes": 29104907,
-      "sha256": "09d94f84dbd67b48f57197dfef05ddd41f48613231618d4b0375be5a00bd2dc7",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s124.7092616.0.mp4"
-    },
-    {
-      "file": "s125.7092522.0.mp4",
-      "bytes": 16914845,
-      "sha256": "25a788da1568c6802ad110fce30384760cd092a3bb3e3d68928afc03cf500fe2",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s125.7092522.0.mp4"
-    },
-    {
-      "file": "s126.7092547.0.mp4",
-      "bytes": 27489446,
-      "sha256": "feda27ecf6bf307d97d28a4256d3b4382f69974b81809d8a429e97cd42e2c067",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s126.7092547.0.mp4"
-    },
-    {
-      "file": "s127.7092481.0.mp4",
-      "bytes": 17388448,
-      "sha256": "dc04bb4089ac8058c91f2259d3fabfb08dfe921f302b55fc5ef396673575fc0d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s127.7092481.0.mp4"
-    },
-    {
-      "file": "s128.7092446.0.mp4",
-      "bytes": 7309096,
-      "sha256": "ac0f8541fcd7acd7c4351857072e3adc775d3707e8a58a4c9790b469c98c1ded",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s128.7092446.0.mp4"
-    },
-    {
-      "file": "s129.7092443.0.mp4",
-      "bytes": 7646990,
-      "sha256": "4feb565544f90b586f0e81770d259328a5308f564356d3945439d13323893f36",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s129.7092443.0.mp4"
-    },
-    {
-      "file": "s130.7092412.0.mp4",
-      "bytes": 13108079,
-      "sha256": "3fc08ba04dcdf85926cf7a65539d92bb1cbb2ff42c646f021db89f992c947f3c",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s130.7092412.0.mp4"
-    },
-    {
-      "file": "s131.7092296.0.mp4",
-      "bytes": 9027932,
-      "sha256": "54d9bc05235ca164c9462793774612950bdc9af02ad3032d5cda86a50f0390eb",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s131.7092296.0.mp4"
-    },
-    {
-      "file": "s132.7092257.0.mp4",
-      "bytes": 15724912,
-      "sha256": "67eef312267211313e1493782b0004351bf03c06aee0bdada80622ad69a4e5af",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s132.7092257.0.mp4"
-    },
-    {
-      "file": "s133.7092213.0.mp4",
-      "bytes": 33894682,
-      "sha256": "b92d81f27d2293758bf43682c1859b8a9d1e125e822ace463c140d848799b303",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s133.7092213.0.mp4"
-    },
-    {
-      "file": "s134.7092230.0.mp4",
-      "bytes": 43900966,
-      "sha256": "e810a8fc2ef9ec78b98f66b2d5a177a1041d7fc2eedf8cd2694549f16aaef5b8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s134.7092230.0.mp4"
-    },
-    {
-      "file": "s135.7092020.0.mp4",
-      "bytes": 14207419,
-      "sha256": "594941954bddadcad09c37914ce2a49d180d6eadacb658c061316ee4e71f803d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s135.7092020.0.mp4"
-    },
-    {
-      "file": "s136.7092011.0.mp4",
-      "bytes": 6080312,
-      "sha256": "4f0fbbb154f15ff09dfd8e4ce483f12a866ffa78b175c8f33264b726332817b1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s136.7092011.0.mp4"
-    },
-    {
-      "file": "s137.7092009.0.mp4",
-      "bytes": 8879179,
-      "sha256": "b7cc88ad65583b012839918589a5bbdb5e99fce05883e26e8b4bab7bfee35676",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s137.7092009.0.mp4"
-    },
-    {
-      "file": "s138.7092003.0.mp4",
-      "bytes": 9317131,
-      "sha256": "49eaa935005944e401fa5fa0ca22055e7caf1c66501bf1953d0d04bff8346c9b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s138.7092003.0.mp4"
-    },
-    {
-      "file": "s139.7091979.0.mp4",
-      "bytes": 22958731,
-      "sha256": "e2b9966e9ccf2285bf7f882be5919e1453d20b7ca9143ae57ef48fb5febc082f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s139.7091979.0.mp4"
-    },
-    {
-      "file": "s140.7091923.0.mp4",
-      "bytes": 10902835,
-      "sha256": "f90ebd35c835d9f0a1464e5416d4868c687e46602eff4040b4ef5e6ccb228c3d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s140.7091923.0.mp4"
-    },
-    {
-      "file": "s141.7091815.0.mp4",
-      "bytes": 8424669,
-      "sha256": "e6b549b0c0e23a763620e6ab9256e48b197233daedd972e666e2cede342185b4",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s141.7091815.0.mp4"
-    },
-    {
-      "file": "s142.7091783.0.mp4",
-      "bytes": 14268383,
-      "sha256": "758e9f029059193bb1eb3adfa377ec7314b4c82c0112b114612dc7b198239895",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s142.7091783.0.mp4"
-    },
-    {
-      "file": "s143.7091804.0.mp4",
-      "bytes": 21088301,
-      "sha256": "a9d72198d92222c9b640befcc71355f4992d2d3cf9b0c7807cbd1f3480e294fd",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s143.7091804.0.mp4"
-    },
-    {
-      "file": "s144.7090033.0.mp4",
-      "bytes": 83749589,
-      "sha256": "6a1a4b21df47a7fd1fa6d1d26383f7225d275e257e10c11ac1ff25919ce3dcd1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s144.7090033.0.mp4"
-    },
-    {
-      "file": "s145.7091617.0.mp4",
-      "bytes": 16869841,
-      "sha256": "4c33dbbc97bdaf103b7661747497d1c9b72911a38d04e8682860b9fa21f6fbb6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s145.7091617.0.mp4"
-    },
-    {
-      "file": "s146.7091666.0.mp4",
-      "bytes": 49174121,
-      "sha256": "71370e81b025803f3074ad6f68c89843f6bc6af037eb7709e999ea6c78d0af0f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s146.7091666.0.mp4"
-    },
-    {
-      "file": "s147.7091574.0.mp4",
-      "bytes": 38453059,
-      "sha256": "e05643989c75d0189a7b33d5011b570c825d1df02b8517c6ee10b60056779f07",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s147.7091574.0.mp4"
-    },
-    {
-      "file": "s148.7091569.0.mp4",
-      "bytes": 14359667,
-      "sha256": "b7d71264c37ef3a168223c5e8b58e4225b6552efe882f2b1da89a41fe5c22d30",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s148.7091569.0.mp4"
-    },
-    {
-      "file": "s149.7091526.0.mp4",
-      "bytes": 8083480,
-      "sha256": "007d2449c0fe45744b05ea9b8cc5cc6af3e9400dfed43297f9f9754a3dfccdd6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s149.7091526.0.mp4"
-    },
-    {
-      "file": "s150.7091519.0.mp4",
-      "bytes": 37140384,
-      "sha256": "cce07ea480fe9ae8356c701449b9b1b7bc0c4ab27c21bea162a8fccb1f7652a6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s150.7091519.0.mp4"
-    },
-    {
-      "file": "s151.7091494.0.mp4",
-      "bytes": 23528112,
-      "sha256": "411f46c5bb69b0c1884b5be81f697643653dfcc5dde0f06a9e316c7aed098e7b",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s151.7091494.0.mp4"
-    },
-    {
-      "file": "s152.7091411.0.mp4",
-      "bytes": 11569064,
-      "sha256": "3be9f0ab02e47e5a674e09c0e25c1dff090496b10f66969e4141a741e6a09618",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s152.7091411.0.mp4"
-    },
-    {
-      "file": "s153.7091383.0.mp4",
-      "bytes": 3768278,
-      "sha256": "41a690bd6530b6a746bfe5e1eaac79fe97e3d45f2b8cf3410b62cc0ed52bfe05",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s153.7091383.0.mp4"
-    },
-    {
-      "file": "s154.7091393.0.mp4",
-      "bytes": 11139933,
-      "sha256": "5a13090dfa9571c77d973489ef92fa9fc36487e9d2639c42a7460ca5ad1d4567",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s154.7091393.0.mp4"
-    },
-    {
-      "file": "s155.7091442.0.mp4",
-      "bytes": 40226789,
-      "sha256": "672b1563fe269692b16cae5709ffc03ae55fa285c7242e785dbdb1d97d4e4ca7",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s155.7091442.0.mp4"
-    },
-    {
-      "file": "s156.7091280.0.mp4",
-      "bytes": 7904711,
-      "sha256": "661348b0ee0e6e3b7eecbd7468aa39b9ceac11728bfc9a1c7a7eaeaa15628801",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s156.7091280.0.mp4"
-    },
-    {
-      "file": "s157.7091268.0.mp4",
-      "bytes": 3267027,
-      "sha256": "b4c3ae71f197ce90ebe9a6000a5a63f68f81c4bb01adb28b4a9f85633534140f",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s157.7091268.0.mp4"
-    },
-    {
-      "file": "s158.7091296.0.mp4",
-      "bytes": 12348912,
-      "sha256": "6d0d06be5d7471e11333a15821f58b0594eb3e31c5504b25c5b28b210a04d523",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s158.7091296.0.mp4"
-    },
-    {
-      "file": "s159.7091264.0.mp4",
-      "bytes": 8759481,
-      "sha256": "b5066d87fe65317f2c3d0405b6b1e342e16bea5ed6912a144b1beca8bd6b761d",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s159.7091264.0.mp4"
-    },
-    {
-      "file": "s160.7091074.0.mp4",
-      "bytes": 4065420,
-      "sha256": "cb38b10d392f848ad2cbf4e21707ccbbab1ae68273073903d0b96248b6869416",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s160.7091074.0.mp4"
-    },
-    {
-      "file": "s161.7091246.0.mp4",
-      "bytes": 17787993,
-      "sha256": "901a2a81de960146f427505348d641ce78a2d84d748af8337cd69f22b0b5d8c3",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s161.7091246.0.mp4"
-    },
-    {
-      "file": "s162.7091044.0.mp4",
-      "bytes": 11222184,
-      "sha256": "0992298236c5aaa885efbd5de7bc265cd6d00ee295261eb9669df0114913d813",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s162.7091044.0.mp4"
-    },
-    {
-      "file": "s163.7091020.0.mp4",
-      "bytes": 13094477,
-      "sha256": "28347d67c676c30bd97c61c59cdaadf69af59e7967e642e7bd373c923b21e1a0",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s163.7091020.0.mp4"
-    },
-    {
-      "file": "s164.7090983.0.mp4",
-      "bytes": 23703764,
-      "sha256": "dae98f349e3b6115ea1c400eb2dc47fdbe670f891de9ff771fa78777a8f6b6da",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s164.7090983.0.mp4"
-    },
-    {
-      "file": "s165.7090975.0.mp4",
-      "bytes": 11363347,
-      "sha256": "c303c7b7e2b969521462931565a5dd5c3bd956311dbe5b6da105da87cca66e80",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s165.7090975.0.mp4"
-    },
-    {
-      "file": "s166.7090894.0.mp4",
-      "bytes": 10496851,
-      "sha256": "0e74671f0e6257aa9c792b7e285a733386a64ab13efb06bd972e1df982e04a58",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s166.7090894.0.mp4"
-    },
-    {
-      "file": "s167.7090635.0.mp4",
-      "bytes": 8346323,
-      "sha256": "3eb4c4d2479fffeede85d69b29b6e2bf1f6b60aa9eaa8f59a288085355dc8377",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s167.7090635.0.mp4"
-    },
-    {
-      "file": "s168.7090690.0.mp4",
-      "bytes": 32372539,
-      "sha256": "63fe2b97b6250b95d5a2cbf4269cf3b7bf132f5ff2c9b4134e8b710e0a9d5ae4",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s168.7090690.0.mp4"
-    },
-    {
-      "file": "s169.7090603.0.mp4",
-      "bytes": 16997427,
-      "sha256": "a487a7620c8ec718b8d706bf2ec46f062fd1734a5ed0f2041fd1288dcc36b301",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s169.7090603.0.mp4"
-    },
-    {
-      "file": "s170.7090634.0.mp4",
-      "bytes": 35261334,
-      "sha256": "64c0d6ef2917f279f6ef2c4adc6315127a6832dbb06e276d84d1345f5cf2e3ec",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s170.7090634.0.mp4"
-    },
-    {
-      "file": "s171.7090480.0.mp4",
-      "bytes": 39883933,
-      "sha256": "91c34fb412cc04f91da974bf1de27cfa9b0c50eadfba1742ed64bb2a245becf5",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s171.7090480.0.mp4"
-    },
-    {
-      "file": "s172.7090372.0.mp4",
-      "bytes": 509145,
-      "sha256": "fe951159f5aa1681e951189fc9e2ca4b61608af9a292f42b96db67da85ccc7a1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s172.7090372.0.mp4"
-    },
-    {
-      "file": "s173.7090426.0.mp4",
-      "bytes": 26380354,
-      "sha256": "fa04714674733c174662c1cd17b59239c30fe377ab279bf372ae1516522760f1",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s173.7090426.0.mp4"
-    },
-    {
-      "file": "s174.7090363.0.mp4",
-      "bytes": 9570616,
-      "sha256": "0c006eeb606e8df922fd56d4aa69689b1c590cf5c5c192440ceae611f47aeee6",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s174.7090363.0.mp4"
-    },
-    {
-      "file": "s175.7090423.0.mp4",
-      "bytes": 32383352,
-      "sha256": "8c484f073e11c871d29a09356a0138716b04556ba937de27bb8b010ebbde5a2e",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s175.7090423.0.mp4"
-    },
-    {
-      "file": "s176.7090323.0.mp4",
-      "bytes": 12735011,
-      "sha256": "84a10243c8b36368baa010b925a846fd97de7508d6e3c650df0ce32a7ea110de",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s176.7090323.0.mp4"
-    },
-    {
-      "file": "s177.7090311.0.mp4",
-      "bytes": 10609060,
-      "sha256": "c7db90706b7a2e6b04a062f65997ab9edcbee99a77782bdcaf5a546a5bd57013",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s177.7090311.0.mp4"
-    },
-    {
-      "file": "s178.7090310.0.mp4",
-      "bytes": 4128899,
-      "sha256": "b1b68b4c61f47b952dc4a2d043d157e8f2fc99e6d4b5ff2e2458d0c4d6d5f883",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s178.7090310.0.mp4"
-    },
-    {
-      "file": "s179.7090250.0.mp4",
-      "bytes": 42266141,
-      "sha256": "d708f82168e1c3a72a2fa1a9e31847b1337cab0a3eccfce5af23bb62d10f4ec8",
-      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/s179.7090250.0.mp4"
+      "key": "s000",
+      "sequence": "GOT-10k_GOT-10k_Val_000014",
+      "file": "s000.mp4",
+      "bytes": 3660182,
+      "sha256": "e430ed954a20d8509d29337a0b4903486098f1e9bc2ee2315dec74bc8f00270d",
+      "frames": 100,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s000.mp4",
+      "public_path": "/videos-five-model/s000.mp4",
+      "sidecar_sha256": "5cb46116d8f88261be1e5dd0fecc32605a36de509c24f69f44a137eeaa21fd55"
+    },
+    {
+      "key": "s001",
+      "sequence": "GOT-10k_GOT-10k_Val_000082",
+      "file": "s001.mp4",
+      "bytes": 3334033,
+      "sha256": "6e6a2e26940fcb39f849392014f1a24228a38efb8626d68fe7e9e117d894575f",
+      "frames": 90,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s001.mp4",
+      "public_path": "/videos-five-model/s001.mp4",
+      "sidecar_sha256": "b3c1ed73b0ae3303eaa379d7d0b04dacb3208b4b55b8b4d95165ce0c88891f61"
+    },
+    {
+      "key": "s002",
+      "sequence": "GOT-10k_GOT-10k_Val_000126",
+      "file": "s002.mp4",
+      "bytes": 3653130,
+      "sha256": "d97f881debf0a2ac6c7e3529fafcb571b85258da0f7e531b20c00737dbdb1030",
+      "frames": 101,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s002.mp4",
+      "public_path": "/videos-five-model/s002.mp4",
+      "sidecar_sha256": "4c485c6f121ddb543ef4881820d69d7945fb61173418ae6915df315e1ff0b594"
+    },
+    {
+      "key": "s003",
+      "sequence": "GOT-10k_GOT-10k_Val_000175",
+      "file": "s003.mp4",
+      "bytes": 9375992,
+      "sha256": "f48236573e62b1119def7276a3b8a2d30678742f17dd7741cd7515d4bf6100bc",
+      "frames": 271,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s003.mp4",
+      "public_path": "/videos-five-model/s003.mp4",
+      "sidecar_sha256": "0ae75a1435b3528774017637d7bae4937f558e1bb452ae2150441c7a21ece871"
+    },
+    {
+      "key": "s004",
+      "sequence": "UTB180_Video_0002",
+      "file": "s004.mp4",
+      "bytes": 8157136,
+      "sha256": "b5291fb47903a914ba5eb34a3d03dc70ef94ebe00fd94857dd2ef36855e40ae8",
+      "frames": 484,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s004.mp4",
+      "public_path": "/videos-five-model/s004.mp4",
+      "sidecar_sha256": "dcbee9cb6474c0b48bfc4a217528baff34c1bd506fe9a26f4684dadd24f34ad2"
+    },
+    {
+      "key": "s005",
+      "sequence": "UTB180_Video_0015",
+      "file": "s005.mp4",
+      "bytes": 2023777,
+      "sha256": "374df1f31396c190c5283a9920f1fb3f9c346a06943f5c79cbcb568afd92cbd1",
+      "frames": 105,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s005.mp4",
+      "public_path": "/videos-five-model/s005.mp4",
+      "sidecar_sha256": "d9bf89013b5072bc0a3d9ccde638e5c18da3783ca150a25b6ed6e4cc10297ae3"
+    },
+    {
+      "key": "s006",
+      "sequence": "UTB180_Video_0016",
+      "file": "s006.mp4",
+      "bytes": 2024848,
+      "sha256": "321cd5563426500c7d8da7d83ae3f88817cd4e970122a8716d3440267f23a1fb",
+      "frames": 105,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s006.mp4",
+      "public_path": "/videos-five-model/s006.mp4",
+      "sidecar_sha256": "87117fc0865a08f1b415de58743664d74bb223095a4672f95359a33b22e0e970"
+    },
+    {
+      "key": "s007",
+      "sequence": "UTB180_Video_0024",
+      "file": "s007.mp4",
+      "bytes": 7682999,
+      "sha256": "0e87c8e9e398976e2c2dabac25a854433ff6c8f76af3e971b845426e8199831e",
+      "frames": 220,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s007.mp4",
+      "public_path": "/videos-five-model/s007.mp4",
+      "sidecar_sha256": "c5f1cf6315902b39a34dff33a2f62308aa4cb27ab3fe48d45ead5bc072bbdf78"
+    },
+    {
+      "key": "s008",
+      "sequence": "UTB180_Video_0030",
+      "file": "s008.mp4",
+      "bytes": 10649460,
+      "sha256": "2d676f4b822da324d1dfa9f2716f4f46bacb8dd8fdaae0be5b0a4826840ac47f",
+      "frames": 308,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s008.mp4",
+      "public_path": "/videos-five-model/s008.mp4",
+      "sidecar_sha256": "12c34e1779fd365bde75545ead4f1726801d4cf32789ef5311111beaa81e7cef"
+    },
+    {
+      "key": "s009",
+      "sequence": "UTB180_Video_0034",
+      "file": "s009.mp4",
+      "bytes": 6211550,
+      "sha256": "65775e3add70799be5295267abfe8ca7852b744784af66926f8478705d092796",
+      "frames": 176,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s009.mp4",
+      "public_path": "/videos-five-model/s009.mp4",
+      "sidecar_sha256": "6dd86e06a2c3e9717adacd7a475fab613e19b2362cd9ba879295cb0354004fae"
+    },
+    {
+      "key": "s010",
+      "sequence": "UTB180_Video_0042",
+      "file": "s010.mp4",
+      "bytes": 3870037,
+      "sha256": "388f07fe9893a73e9023d3860b3009ef4a90946bb1c6081b7131388466412ece",
+      "frames": 105,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s010.mp4",
+      "public_path": "/videos-five-model/s010.mp4",
+      "sidecar_sha256": "136a213e239c19aea93a1eda2004aaf1f4762c72d173f54859e66bf31744fa74"
+    },
+    {
+      "key": "s011",
+      "sequence": "UTB180_Video_0046",
+      "file": "s011.mp4",
+      "bytes": 11377767,
+      "sha256": "beacfcdc3b4c5fc74cec0d343efc058815fd9e34079ef61957e632d66b1112a6",
+      "frames": 350,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s011.mp4",
+      "public_path": "/videos-five-model/s011.mp4",
+      "sidecar_sha256": "b449c58503ff40e5b8f4c32cbcfea6104062c181503b5899ea09846604ab2e91"
+    },
+    {
+      "key": "s012",
+      "sequence": "UTB180_Video_0047",
+      "file": "s012.mp4",
+      "bytes": 15363512,
+      "sha256": "b70b5d10a1f07e848d63bcf9c903c2ee64e67836b0cbafa88c1817b4686c15aa",
+      "frames": 451,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s012.mp4",
+      "public_path": "/videos-five-model/s012.mp4",
+      "sidecar_sha256": "39e9867b2ccc066055ac5b71f81461803a9aab3f90c351bd79d9f7fb64ce44e3"
+    },
+    {
+      "key": "s013",
+      "sequence": "UTB180_Video_0051",
+      "file": "s013.mp4",
+      "bytes": 17965744,
+      "sha256": "9043d3709f19c6f35deed864b036061e94806cedc1693436d4eaad1201b5bbe4",
+      "frames": 588,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s013.mp4",
+      "public_path": "/videos-five-model/s013.mp4",
+      "sidecar_sha256": "b2da152211fbcd633b737a417ae0d8b72d873bfce227412012a5f1561bf1b6d4"
+    },
+    {
+      "key": "s014",
+      "sequence": "UTB180_Video_0056",
+      "file": "s014.mp4",
+      "bytes": 27208665,
+      "sha256": "62d38d2181c08f808fb3b99c3fe18791e98cc7359b834db2a796086aa02cf7a1",
+      "frames": 804,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s014.mp4",
+      "public_path": "/videos-five-model/s014.mp4",
+      "sidecar_sha256": "971c95ef1498279900732b82744a58cb9dfc0afe2425e9717aa0b517c51f6fe3"
+    },
+    {
+      "key": "s015",
+      "sequence": "UTB180_Video_0063",
+      "file": "s015.mp4",
+      "bytes": 11022849,
+      "sha256": "ad2fe69de6204d2f2fa89e1ce5ef8bfac36798bb3ee2e427a382e42c2c4c2fd2",
+      "frames": 324,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s015.mp4",
+      "public_path": "/videos-five-model/s015.mp4",
+      "sidecar_sha256": "f4e222198c7d5b7edeb3384f36b7f6a51988d9c4a638f60d1bf5c4bc256a5771"
+    },
+    {
+      "key": "s016",
+      "sequence": "UTB180_Video_0065",
+      "file": "s016.mp4",
+      "bytes": 10613090,
+      "sha256": "1a56e8afc136350db9bb3ef2b9f992cf951ff4585875237b5c408041dc09b290",
+      "frames": 309,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s016.mp4",
+      "public_path": "/videos-five-model/s016.mp4",
+      "sidecar_sha256": "bf3ecc976cb34a1860b9d51b816b915da62063124be1017983b54ea1e0fbb2ac"
+    },
+    {
+      "key": "s017",
+      "sequence": "UTB180_Video_0066",
+      "file": "s017.mp4",
+      "bytes": 7609445,
+      "sha256": "8468ac43b8ef46c0a44fd3ccbd47dbaf2162b8beb7ce858fa1a81b78a505dc33",
+      "frames": 405,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s017.mp4",
+      "public_path": "/videos-five-model/s017.mp4",
+      "sidecar_sha256": "ecf5dd9eac7c47bc102a8d6849da749540d067294c9b5dba709e2b12bcbc9b53"
+    },
+    {
+      "key": "s018",
+      "sequence": "UTB180_Video_0067",
+      "file": "s018.mp4",
+      "bytes": 13109817,
+      "sha256": "da68cdc8377354b5bdc06fb3e1aed21068ea4f34861bc399b83b899ca4e96fde",
+      "frames": 391,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s018.mp4",
+      "public_path": "/videos-five-model/s018.mp4",
+      "sidecar_sha256": "2c31e71b4d288a6580b5b53278cb19ab5323aa0ed3eb34b7ee8f6dd900740ab9"
+    },
+    {
+      "key": "s019",
+      "sequence": "UTB180_Video_0070",
+      "file": "s019.mp4",
+      "bytes": 15002878,
+      "sha256": "1b1196a9d918ba127b6d2e795a5cff6e084849fede8a2bed39d33c3a94fe19b9",
+      "frames": 441,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s019.mp4",
+      "public_path": "/videos-five-model/s019.mp4",
+      "sidecar_sha256": "a002aab1bdf3325ed99a37c400b09e0b74a61378facc53ff9ddf635f3edcde4c"
+    },
+    {
+      "key": "s020",
+      "sequence": "UTB180_Video_0082",
+      "file": "s020.mp4",
+      "bytes": 8729282,
+      "sha256": "354499deaf968fb2fb2c305931e8576e4a6f23d6b4caf887b19d046a15a8259b",
+      "frames": 250,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s020.mp4",
+      "public_path": "/videos-five-model/s020.mp4",
+      "sidecar_sha256": "18b039c7fe09fffdf3ea2970f574676d1d832703b00fcbb6339e1fb30cbdac2e"
+    },
+    {
+      "key": "s021",
+      "sequence": "UTB180_Video_0087",
+      "file": "s021.mp4",
+      "bytes": 6285875,
+      "sha256": "309a42164854f111b54018bf4914fa421e993966c06bb5a67023b3a52b489852",
+      "frames": 178,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s021.mp4",
+      "public_path": "/videos-five-model/s021.mp4",
+      "sidecar_sha256": "85c9b484465632c2fec8e4e4cfd2221367bcffb483e99080784dcf968af3d26e"
+    },
+    {
+      "key": "s022",
+      "sequence": "UTB180_Video_0088",
+      "file": "s022.mp4",
+      "bytes": 15772427,
+      "sha256": "5a25f304c4ed27865f3948d07128494116d487ef588269605f07f2dbcc8c1cbe",
+      "frames": 462,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s022.mp4",
+      "public_path": "/videos-five-model/s022.mp4",
+      "sidecar_sha256": "06847471414015d364db157021267695cd2b81bb372a70524e985ac74b6771c0"
+    },
+    {
+      "key": "s023",
+      "sequence": "UTB180_Video_0093",
+      "file": "s023.mp4",
+      "bytes": 9209467,
+      "sha256": "1f7e2b30f2f589deb025d92c910fd9565db18f1cbbc62ddd36366ee795d0dc64",
+      "frames": 318,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s023.mp4",
+      "public_path": "/videos-five-model/s023.mp4",
+      "sidecar_sha256": "f7269632b6d87ad073076b229a2293c6a49db92fbb2be3132563537e6641dd77"
+    },
+    {
+      "key": "s024",
+      "sequence": "UTB180_Video_0099",
+      "file": "s024.mp4",
+      "bytes": 3532730,
+      "sha256": "38d65a0f4811d94bc3f3b2d9f877bc1fb439ac7f68edd6192f59eb76f8fbea39",
+      "frames": 130,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s024.mp4",
+      "public_path": "/videos-five-model/s024.mp4",
+      "sidecar_sha256": "9a4518cd9db274babd859495c2de74d32a7b7d13af7cd8aef76d6c603636ab8c"
+    },
+    {
+      "key": "s025",
+      "sequence": "UTB180_Video_0100",
+      "file": "s025.mp4",
+      "bytes": 3642032,
+      "sha256": "7d53bd7c1714c112c3dca19b22d47fb31642a25d0e60ae05cb11102c8a9d22f5",
+      "frames": 125,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s025.mp4",
+      "public_path": "/videos-five-model/s025.mp4",
+      "sidecar_sha256": "a4553090932bb4fd2b0d4861570b4f4bdf42f07c67d000f243ba866063a97db4"
+    },
+    {
+      "key": "s026",
+      "sequence": "UTB180_Video_0101",
+      "file": "s026.mp4",
+      "bytes": 3509324,
+      "sha256": "5771eacbb5588a369c5915b4344ace15997e59fa8f9360f215e4cd051758adf6",
+      "frames": 120,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s026.mp4",
+      "public_path": "/videos-five-model/s026.mp4",
+      "sidecar_sha256": "1e06a509ff3083bab34451a978bfe0b4c537288cddb9f8ecf80952ea06502366"
+    },
+    {
+      "key": "s027",
+      "sequence": "UTB180_Video_0103",
+      "file": "s027.mp4",
+      "bytes": 7278156,
+      "sha256": "31f061c1de737f064b2968292dca4e1951f8d0c77a1213c6debd95fe18b819cc",
+      "frames": 213,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s027.mp4",
+      "public_path": "/videos-five-model/s027.mp4",
+      "sidecar_sha256": "4bb4ebb0467b686d4d9d8c9bae0b639d097ee7380e071b42bca194e3e6ceab8e"
+    },
+    {
+      "key": "s028",
+      "sequence": "UTB180_Video_0105",
+      "file": "s028.mp4",
+      "bytes": 8073562,
+      "sha256": "31d9f8abd990bdde1ace1d8d932abaf8ec4993cdce35e39c5c7e55e6293cefc0",
+      "frames": 232,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s028.mp4",
+      "public_path": "/videos-five-model/s028.mp4",
+      "sidecar_sha256": "5da5ab733d566138ae95e005bbe6e8f2b0d13e5735266158e6bcab98079e140b"
+    },
+    {
+      "key": "s029",
+      "sequence": "UTB180_Video_0106",
+      "file": "s029.mp4",
+      "bytes": 12346631,
+      "sha256": "bdddf26a5ffbeecb0f76167eb9c42c676e845634427cbdaa3569e2554f915dfa",
+      "frames": 361,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s029.mp4",
+      "public_path": "/videos-five-model/s029.mp4",
+      "sidecar_sha256": "57559bd0bf189236384d45f65464c1bd75957b6a9a4d2328e4d49bb5056a3f8d"
+    },
+    {
+      "key": "s030",
+      "sequence": "UTB180_Video_0107",
+      "file": "s030.mp4",
+      "bytes": 9341706,
+      "sha256": "28853b22cc19e87974357c6025f8ca91e269330ce360e91854fdca298d7524d8",
+      "frames": 269,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s030.mp4",
+      "public_path": "/videos-five-model/s030.mp4",
+      "sidecar_sha256": "95562d2e75033a24712e5d2a0ac08480d9eede221c89f2ead2273534964e4d79"
+    },
+    {
+      "key": "s031",
+      "sequence": "UTB180_Video_0110",
+      "file": "s031.mp4",
+      "bytes": 8290074,
+      "sha256": "132b6ad2d67c6add80fa4ddf1326e2a9eaa74988a92608a0e3da3c39877510c4",
+      "frames": 237,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s031.mp4",
+      "public_path": "/videos-five-model/s031.mp4",
+      "sidecar_sha256": "757a67d93faf535ece02d844845d55eda44eb97bdcd50bb1f7f0d0fd0c0db935"
+    },
+    {
+      "key": "s032",
+      "sequence": "UTB180_Video_0111",
+      "file": "s032.mp4",
+      "bytes": 14127300,
+      "sha256": "7e0482110f4e9261a22856b3b4f65f2db8598771cf3228bd79af757f84ef02ce",
+      "frames": 415,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s032.mp4",
+      "public_path": "/videos-five-model/s032.mp4",
+      "sidecar_sha256": "ceda61afaa1d32e5913d97b443d9443a49981e80f8a09d63d8461a986d06e596"
+    },
+    {
+      "key": "s033",
+      "sequence": "UTB180_Video_0112",
+      "file": "s033.mp4",
+      "bytes": 13308012,
+      "sha256": "0032388889d9b31cc84bfb60537df7d89d924231e154540b62da7aef7ee418f1",
+      "frames": 390,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s033.mp4",
+      "public_path": "/videos-five-model/s033.mp4",
+      "sidecar_sha256": "a04716f2ab96398c70e9d20326f882e134c2e3695bbfc5fca2007448b8c2faff"
+    },
+    {
+      "key": "s034",
+      "sequence": "UTB180_Video_0113",
+      "file": "s034.mp4",
+      "bytes": 13228723,
+      "sha256": "6dbba1cda7028d55e8e8f259a1985a540714ece2c2943f69cc619b24357ac6ff",
+      "frames": 386,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s034.mp4",
+      "public_path": "/videos-five-model/s034.mp4",
+      "sidecar_sha256": "95c50aca1d7034886307708d63ba93c9e4d60dc231324e5aa0e0aa5880e6ae0c"
+    },
+    {
+      "key": "s035",
+      "sequence": "UTB180_Video_0114",
+      "file": "s035.mp4",
+      "bytes": 9825739,
+      "sha256": "c2f85dd79bd76d8bcb6ad93b794201e8dd51e9d5ba3cbd4fbb016409943883a1",
+      "frames": 284,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s035.mp4",
+      "public_path": "/videos-five-model/s035.mp4",
+      "sidecar_sha256": "3ea204554d7e3855dc120b015635756a7cb17f0e1638215bb094c284c5818e01"
+    },
+    {
+      "key": "s036",
+      "sequence": "UTB180_Video_0117",
+      "file": "s036.mp4",
+      "bytes": 7205055,
+      "sha256": "e582537e22fd19f1490a0bcea504b81a9b3d7e7cf794509df845c91421bc2e47",
+      "frames": 213,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s036.mp4",
+      "public_path": "/videos-five-model/s036.mp4",
+      "sidecar_sha256": "f0100dd3ecdaa45d73b0f73cd59bd1773e18b6ab1bf3ae4f53e318f446556421"
+    },
+    {
+      "key": "s037",
+      "sequence": "UTB180_Video_0118",
+      "file": "s037.mp4",
+      "bytes": 8070046,
+      "sha256": "2e0f0ad8fd4d802c655765b289a6f17773312820d44e24687ee61404e53675b2",
+      "frames": 232,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s037.mp4",
+      "public_path": "/videos-five-model/s037.mp4",
+      "sidecar_sha256": "61644392ed9ea9f6eaa4d3be14ce6f2df43b52c856b026363b188832e1ad0d8c"
+    },
+    {
+      "key": "s038",
+      "sequence": "UTB180_Video_0119",
+      "file": "s038.mp4",
+      "bytes": 8080461,
+      "sha256": "9b790c5ed1aac2c50f5e730bd659ca69bdb266054720480ba6979127cae368fa",
+      "frames": 232,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s038.mp4",
+      "public_path": "/videos-five-model/s038.mp4",
+      "sidecar_sha256": "5a557d7ee130e1740f9cdba77ca81ef9dbc94338ebd8f670cc0f41e8ec1e985e"
+    },
+    {
+      "key": "s039",
+      "sequence": "UTB180_Video_0120",
+      "file": "s039.mp4",
+      "bytes": 8057200,
+      "sha256": "3e06463db0f4b6e3f0d42edb6684c74d02caf957713e4c91b1aecd103e12d6a1",
+      "frames": 232,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s039.mp4",
+      "public_path": "/videos-five-model/s039.mp4",
+      "sidecar_sha256": "5ae81987ad21aa867f4ea39cb7677e0eeff7d55cbd8144bdb20da575716618b2"
+    },
+    {
+      "key": "s040",
+      "sequence": "UTB180_Video_0122",
+      "file": "s040.mp4",
+      "bytes": 14612713,
+      "sha256": "4d666f796926156fa46bdc9f397f7b6ce348cad0c12e419e17e1d62f93889b02",
+      "frames": 429,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s040.mp4",
+      "public_path": "/videos-five-model/s040.mp4",
+      "sidecar_sha256": "4d1506c7d18f13ce3dc2b4ca4e11d6f49bc2aa4d111f0deecfa070cdbf2c77ea"
+    },
+    {
+      "key": "s041",
+      "sequence": "UTB180_Video_0123",
+      "file": "s041.mp4",
+      "bytes": 7621562,
+      "sha256": "5b69f8307916daac18d65f8e707c64334738ae02ff7674c26f583bfc77379643",
+      "frames": 220,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s041.mp4",
+      "public_path": "/videos-five-model/s041.mp4",
+      "sidecar_sha256": "39bf4d595feeb5569d8d3aacc3296f867bedfef69521ab194993af638457ed2c"
+    },
+    {
+      "key": "s042",
+      "sequence": "UTB180_Video_0125",
+      "file": "s042.mp4",
+      "bytes": 9233727,
+      "sha256": "3cf8efd92bf3b92e1a9076752ec62cebcee1bff48c0119872612e207edfab2c9",
+      "frames": 451,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s042.mp4",
+      "public_path": "/videos-five-model/s042.mp4",
+      "sidecar_sha256": "d786db6ee7fd49b4e4b101947f45b4e1d7305f6b5bdc2635d3f0451800c2c473"
+    },
+    {
+      "key": "s043",
+      "sequence": "UTB180_Video_0126",
+      "file": "s043.mp4",
+      "bytes": 6976460,
+      "sha256": "93d036596382076af5cd1bea3b4587dd74af13837af05f76b88cf2ad6bf1a8d5",
+      "frames": 316,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s043.mp4",
+      "public_path": "/videos-five-model/s043.mp4",
+      "sidecar_sha256": "4b4d8bb85853f5c6676d075fb5ac9b580fd28099f6759aa437455c1f9060aaaf"
+    },
+    {
+      "key": "s044",
+      "sequence": "UTB180_Video_0127",
+      "file": "s044.mp4",
+      "bytes": 6730729,
+      "sha256": "8028857549c6cf77053eccbfcc8f38ccfc562f116a3f268981c4ea7a1e3d48bb",
+      "frames": 316,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s044.mp4",
+      "public_path": "/videos-five-model/s044.mp4",
+      "sidecar_sha256": "7284fae409484499a41a30d5ac3ce077fbdc53ae7db3c6d133cf4dcbba3eee55"
+    },
+    {
+      "key": "s045",
+      "sequence": "UTB180_Video_0130",
+      "file": "s045.mp4",
+      "bytes": 11279433,
+      "sha256": "42c7a41a19dee4c7d7b56e0f2ade6e51155c47e745beb6f8d9628889a05fed14",
+      "frames": 334,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s045.mp4",
+      "public_path": "/videos-five-model/s045.mp4",
+      "sidecar_sha256": "af86cc07fd6175ac6e569cc2b737903634d47425cefe0f61b6f5627910b545a7"
+    },
+    {
+      "key": "s046",
+      "sequence": "UTB180_Video_0132",
+      "file": "s046.mp4",
+      "bytes": 17128889,
+      "sha256": "c44ba278677f583f0b3ea998ba0260e779662d79b7e3d8b3a52ab970ff48dcee",
+      "frames": 503,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s046.mp4",
+      "public_path": "/videos-five-model/s046.mp4",
+      "sidecar_sha256": "2702cac2ca395b0d2367c09eec56fa8f444c19c0e1d6ff81fd1278004b6b90ee"
+    },
+    {
+      "key": "s047",
+      "sequence": "UTB180_Video_0133",
+      "file": "s047.mp4",
+      "bytes": 12429027,
+      "sha256": "e3925512a55f24f4bc2093fa26ad5e5caeb8518100d1953f2df6121615fd5ee5",
+      "frames": 363,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s047.mp4",
+      "public_path": "/videos-five-model/s047.mp4",
+      "sidecar_sha256": "6e42493e5df06f8ee6dedd3ec7e105b1d10939822a4f30a781cb41ab2a69951f"
+    },
+    {
+      "key": "s048",
+      "sequence": "UTB180_Video_0134",
+      "file": "s048.mp4",
+      "bytes": 11564630,
+      "sha256": "ffec164e39d0d5b15a42bd5da276df4aa0c6ac17126bc72f2408260808aeb0d7",
+      "frames": 338,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s048.mp4",
+      "public_path": "/videos-five-model/s048.mp4",
+      "sidecar_sha256": "e5aea112591abc1fac1756c985c7fb6eb6ed4097c44f3536ac2754e71a0ad652"
+    },
+    {
+      "key": "s049",
+      "sequence": "UTB180_Video_0137",
+      "file": "s049.mp4",
+      "bytes": 13105601,
+      "sha256": "05bf226dcf81054d2cd6a54fb3c4d0fe5d3a58e03e30977ff0b84a4cbd249144",
+      "frames": 391,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s049.mp4",
+      "public_path": "/videos-five-model/s049.mp4",
+      "sidecar_sha256": "5993d1d7e45560fabe61dbb1ae9102db796b49edb66cdc0fc6d444c1efe9eddd"
+    },
+    {
+      "key": "s050",
+      "sequence": "UTB180_Video_0138",
+      "file": "s050.mp4",
+      "bytes": 13036316,
+      "sha256": "9f47b0d85ec0eb361685164b224066a36065e3a6881d6e271e64cbd8f69d65bb",
+      "frames": 391,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s050.mp4",
+      "public_path": "/videos-five-model/s050.mp4",
+      "sidecar_sha256": "a0f19429b57210a66306830e3452cb4024fdd1da31937ffced0ca470bc4920f2"
+    },
+    {
+      "key": "s051",
+      "sequence": "UTB180_Video_0139",
+      "file": "s051.mp4",
+      "bytes": 13188540,
+      "sha256": "01f7fe2071339d1c86aa07ccf3591646a53fd5050afd4f1ae935798c42d3e346",
+      "frames": 386,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s051.mp4",
+      "public_path": "/videos-five-model/s051.mp4",
+      "sidecar_sha256": "d49538d0d2a6dccf1d12cff8f53579fc7ec881c20f08b5b07cc3e33d9217290d"
+    },
+    {
+      "key": "s052",
+      "sequence": "UTB180_Video_0140",
+      "file": "s052.mp4",
+      "bytes": 13182756,
+      "sha256": "d41018c773769c8b4bedd5ac744052c69a17c9110ed10785024fc3b8b11bee03",
+      "frames": 386,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s052.mp4",
+      "public_path": "/videos-five-model/s052.mp4",
+      "sidecar_sha256": "1f3ef6e055f6b305c13943e166046a45497ee5c33253de1b3129928550e51081"
+    },
+    {
+      "key": "s053",
+      "sequence": "UTB180_Video_0142",
+      "file": "s053.mp4",
+      "bytes": 10481829,
+      "sha256": "3f05fc6eee541860b2ce2b8f3513c02f874f95cbb2e9ab705a77126488e10fe1",
+      "frames": 363,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s053.mp4",
+      "public_path": "/videos-five-model/s053.mp4",
+      "sidecar_sha256": "6092cdc3630fa5c3f5aeaa7e9efa7fbc7424ef6f19f35a01b96f8cb33ededd54"
+    },
+    {
+      "key": "s054",
+      "sequence": "UTB180_Video_0143",
+      "file": "s054.mp4",
+      "bytes": 4338193,
+      "sha256": "3db16a025f4df27c63105c1cd8f1630b1fe790f26549a8d8930d61015d0fb347",
+      "frames": 471,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s054.mp4",
+      "public_path": "/videos-five-model/s054.mp4",
+      "sidecar_sha256": "c7d7408da56ed65e1bc5312f4bd0221de2c5f6d69f88843cbc25d2b8461c34f7"
+    },
+    {
+      "key": "s055",
+      "sequence": "UTB180_Video_0151",
+      "file": "s055.mp4",
+      "bytes": 3315860,
+      "sha256": "0411c5f7c61c541e41a05552d75e6e3dcdcf148956f05064dd5b0b5490c7ca22",
+      "frames": 266,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s055.mp4",
+      "public_path": "/videos-five-model/s055.mp4",
+      "sidecar_sha256": "eedbc496a1d906adecc57cd6827bc174558a586ca84fb67e82225187bd415f96"
+    },
+    {
+      "key": "s056",
+      "sequence": "UTB180_Video_0152",
+      "file": "s056.mp4",
+      "bytes": 5051035,
+      "sha256": "e45802eaec8c854c5e5307189e5c5ad8fe2273643b9163af1f3371be63cd5d38",
+      "frames": 292,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s056.mp4",
+      "public_path": "/videos-five-model/s056.mp4",
+      "sidecar_sha256": "84f280c287ff7bdc7d95b49b598f6e09a2fce2059adb89961845f3d49e973ea3"
+    },
+    {
+      "key": "s057",
+      "sequence": "UTB180_Video_0153",
+      "file": "s057.mp4",
+      "bytes": 4661244,
+      "sha256": "f0a786c89f569372485603dcfc9bd2d9a46bb65e3d2d94f436a98ff2467f3dfb",
+      "frames": 387,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s057.mp4",
+      "public_path": "/videos-five-model/s057.mp4",
+      "sidecar_sha256": "131e43ee777db1d53be18586d40123a964ab76ecdfc195247a96ad2ef427f988"
+    },
+    {
+      "key": "s058",
+      "sequence": "UTB180_Video_0156",
+      "file": "s058.mp4",
+      "bytes": 3651739,
+      "sha256": "764f51ad527b41f9ac080f6f38df7e2641ba999696f7c2e8b83d812ba8317b10",
+      "frames": 213,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s058.mp4",
+      "public_path": "/videos-five-model/s058.mp4",
+      "sidecar_sha256": "623be1c0a1d7de02217d6e083e7c8f1e22dcfddcd876a00ad2a27bdb1c793914"
+    },
+    {
+      "key": "s059",
+      "sequence": "UTB180_Video_0160",
+      "file": "s059.mp4",
+      "bytes": 2826220,
+      "sha256": "8f9dcec70ebe2a7c6a08b18295759eddee4aa4339c2af69ef21fbe6f25d94a0c",
+      "frames": 370,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s059.mp4",
+      "public_path": "/videos-five-model/s059.mp4",
+      "sidecar_sha256": "ea1b955224e410ee07516d8849d3a99056214bc548393c35b3537e66fc9c6fe6"
+    },
+    {
+      "key": "s060",
+      "sequence": "VOT2022-ST_ants1",
+      "file": "s060.mp4",
+      "bytes": 1685858,
+      "sha256": "47de3500391b0970dab2860ce7402c701c94491da6880dc3ee01305936ba54e0",
+      "frames": 325,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s060.mp4",
+      "public_path": "/videos-five-model/s060.mp4",
+      "sidecar_sha256": "09b3189eba0aa4eebd918226a4e7013d0ac31bfd9b3f962a99d6e708e56bc4ef"
+    },
+    {
+      "key": "s061",
+      "sequence": "VOT2022-ST_basketball",
+      "file": "s061.mp4",
+      "bytes": 24552331,
+      "sha256": "eb3cb0600ebb67314df97e4d7d1b750c6f90ec64c3142e30c22a1ad13a13d85e",
+      "frames": 725,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s061.mp4",
+      "public_path": "/videos-five-model/s061.mp4",
+      "sidecar_sha256": "c7b24257797fb446bbe4149a2449966ab70e88d9293e2c60a130d3d71d9813d0"
+    },
+    {
+      "key": "s062",
+      "sequence": "VOT2022-ST_birds1",
+      "file": "s062.mp4",
+      "bytes": 6755452,
+      "sha256": "d08f70b6d5bc3cd27fe16dd3439324262b82d260c5d0d7685a854f6c8edffcb6",
+      "frames": 339,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s062.mp4",
+      "public_path": "/videos-five-model/s062.mp4",
+      "sidecar_sha256": "572ef88fc2060f4d5a3ffee7539f72d353fbbdf7406ae54ab776f04c47b112d4"
+    },
+    {
+      "key": "s063",
+      "sequence": "VOT2022-ST_birds2",
+      "file": "s063.mp4",
+      "bytes": 2765193,
+      "sha256": "e0170d2c7e15cb86bd98017469d8661123298febec29dfd6e3c1c7cb83c577c0",
+      "frames": 80,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s063.mp4",
+      "public_path": "/videos-five-model/s063.mp4",
+      "sidecar_sha256": "71f618cc3e51fe334e846acf6d981d18d13a71a90db65c893b1e6ec993b17681"
+    },
+    {
+      "key": "s064",
+      "sequence": "VOT2022-ST_bolt1",
+      "file": "s064.mp4",
+      "bytes": 11967391,
+      "sha256": "105e5217a552afc148e9e7e82ae3bd41f0a2d306a4a6a463318894b1064c570e",
+      "frames": 350,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s064.mp4",
+      "public_path": "/videos-five-model/s064.mp4",
+      "sidecar_sha256": "2b9e3ab5d5d95482210bd805c9f637c48418c2e5379755baf473adedf03d2860"
+    },
+    {
+      "key": "s065",
+      "sequence": "VOT2022-ST_crabs1",
+      "file": "s065.mp4",
+      "bytes": 5615708,
+      "sha256": "0ae892fdfc5f2c9744485f25391cd046e604e509bdf7fe8d75bed85ef4da3d15",
+      "frames": 160,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s065.mp4",
+      "public_path": "/videos-five-model/s065.mp4",
+      "sidecar_sha256": "d4c70011492b96b23c46aa5e8d6e8a81355fef29b3437ca8ddf95e249f903ae4"
+    },
+    {
+      "key": "s066",
+      "sequence": "VOT2022-ST_drone1",
+      "file": "s066.mp4",
+      "bytes": 9273402,
+      "sha256": "59b85b4ed042c3b39fc3d73020f8e569fc3921d010b8cf710214406e47319cba",
+      "frames": 355,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s066.mp4",
+      "public_path": "/videos-five-model/s066.mp4",
+      "sidecar_sha256": "934e37e5763d3c26c6b7960c95b5f4ad53f8d8cd02d44862d550fea4f9261d5e"
+    },
+    {
+      "key": "s067",
+      "sequence": "VOT2022-ST_fish2",
+      "file": "s067.mp4",
+      "bytes": 10663022,
+      "sha256": "c26058d7a49958ba2600d39dc3586d3d13c26318b4e27b4aa74cae730153c232",
+      "frames": 310,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s067.mp4",
+      "public_path": "/videos-five-model/s067.mp4",
+      "sidecar_sha256": "6cdbbce069a5abff97c6b5a3717b6403f64a7b66654aaad77afd47a741f353d1"
+    },
+    {
+      "key": "s068",
+      "sequence": "VOT2022-ST_flamingo1",
+      "file": "s068.mp4",
+      "bytes": 36147677,
+      "sha256": "67cfe30e9d7db0e30ca2eb8e140dcd3e148047a4ca888268f5c7adf87ac8e646",
+      "frames": 1377,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s068.mp4",
+      "public_path": "/videos-five-model/s068.mp4",
+      "sidecar_sha256": "052ba87efa77d97d8f1da868a2371ef007a3285d1925f7dbea7fd5645bf0f8d7"
+    },
+    {
+      "key": "s069",
+      "sequence": "VOT2022-ST_hand2",
+      "file": "s069.mp4",
+      "bytes": 3687841,
+      "sha256": "e467dcb58793ee5f0f0985eae55aaebe7ef1fe30b6c6245906189b9eb46b390b",
+      "frames": 145,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s069.mp4",
+      "public_path": "/videos-five-model/s069.mp4",
+      "sidecar_sha256": "0ea8f6a99e6e48b89877b2aaa9dfbaefc6eb9fd36533cca7e1efa5457013e5c6"
+    },
+    {
+      "key": "s070",
+      "sequence": "VOT2022-ST_handball1",
+      "file": "s070.mp4",
+      "bytes": 12968170,
+      "sha256": "5795308cfd4b33f83a091c6e71612cee30c447fce7aa3834423064250a5aa9d9",
+      "frames": 377,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s070.mp4",
+      "public_path": "/videos-five-model/s070.mp4",
+      "sidecar_sha256": "14d0fb49c30e6de6aae29a4c37154328fb13844a6aabe2b01b3c4ccf02093f4b"
+    },
+    {
+      "key": "s071",
+      "sequence": "VOT2022-ST_lamb",
+      "file": "s071.mp4",
+      "bytes": 3724541,
+      "sha256": "45ea71ae1ca33e541d0defaddadc84474a6b9c7edaa5d14fb85f5d876de4d994",
+      "frames": 100,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s071.mp4",
+      "public_path": "/videos-five-model/s071.mp4",
+      "sidecar_sha256": "bb10a0c7e96000d2530c67fae5f0f04e0c2e1967e339b2feea1530fc295c8e07"
+    },
+    {
+      "key": "s072",
+      "sequence": "VOT2022-ST_leaves",
+      "file": "s072.mp4",
+      "bytes": 5228779,
+      "sha256": "7a017511ce3ca484dcbb80506e8361defe48400ab08dcc2ef482e76eb505b83b",
+      "frames": 63,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s072.mp4",
+      "public_path": "/videos-five-model/s072.mp4",
+      "sidecar_sha256": "616a385834fa0847014d3bc097641bffc9b054a4b7d551d4dea4460eaa9d676e"
+    },
+    {
+      "key": "s073",
+      "sequence": "VOT2022-ST_marathon",
+      "file": "s073.mp4",
+      "bytes": 3749950,
+      "sha256": "3beca8c7caf5219da5cce3f0f21543cfd21636d457a0fada6782e4e0c91b7583",
+      "frames": 101,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s073.mp4",
+      "public_path": "/videos-five-model/s073.mp4",
+      "sidecar_sha256": "af23c58ea8ad9d36c808a4bdc2d8a45c9cab789fdb6c6286a658035ce3fefd3b"
+    },
+    {
+      "key": "s074",
+      "sequence": "VOT2022-ST_monkey",
+      "file": "s074.mp4",
+      "bytes": 3680807,
+      "sha256": "d76376afa5b7f536d364f681f4008dc5711e6b845c75ac23ae6379cc40d8108e",
+      "frames": 101,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s074.mp4",
+      "public_path": "/videos-five-model/s074.mp4",
+      "sidecar_sha256": "8aad6d02cd68a9da4043c1726e046c0f1ce9a95748584f259cd535e1169cfe45"
+    },
+    {
+      "key": "s075",
+      "sequence": "VOT2022-ST_polo",
+      "file": "s075.mp4",
+      "bytes": 4075656,
+      "sha256": "658c8ac6989fbb22f2eb85b3705913f18a21f856a268546e504306b2cd6c92d6",
+      "frames": 111,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s075.mp4",
+      "public_path": "/videos-five-model/s075.mp4",
+      "sidecar_sha256": "863594c3e67b7e3dc4f5cc0e87eda6c7e3f68693a8c360229a31ad7a93b790b1"
+    },
+    {
+      "key": "s076",
+      "sequence": "VOT2022-ST_rabbit",
+      "file": "s076.mp4",
+      "bytes": 4693079,
+      "sha256": "c86fd46797aad996284ee0d6d3f1b7c246680b8980de87401beaefda54f6e397",
+      "frames": 158,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s076.mp4",
+      "public_path": "/videos-five-model/s076.mp4",
+      "sidecar_sha256": "7acfb8ce8caaecc904863f5ed0f0eb1e5233d075f4b52091531b47c20078ac06"
+    },
+    {
+      "key": "s077",
+      "sequence": "VOT2022-ST_soccer1",
+      "file": "s077.mp4",
+      "bytes": 13449600,
+      "sha256": "611fb2b1df3a26adbf166939d187cf0ee26026ef733841ea4ca24bc39072f668",
+      "frames": 392,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s077.mp4",
+      "public_path": "/videos-five-model/s077.mp4",
+      "sidecar_sha256": "46339045fbcead746efff119068def9d08253d59d3bf6eb36686224019889e16"
+    },
+    {
+      "key": "s078",
+      "sequence": "VOT2022-ST_soccer2",
+      "file": "s078.mp4",
+      "bytes": 4689810,
+      "sha256": "5695b91fd9b97644d3c9edbac3edc327e78d412728d45a04b0dc06e593d92cac",
+      "frames": 129,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s078.mp4",
+      "public_path": "/videos-five-model/s078.mp4",
+      "sidecar_sha256": "aadecfd9ef1a415148a7f0cdb0d9f784d78b897a1f18f37f97d5f6f26e8d9f67"
+    },
+    {
+      "key": "s079",
+      "sequence": "VOT2022-ST_zebrafish1",
+      "file": "s079.mp4",
+      "bytes": 3437426,
+      "sha256": "90b0ab0ecf3c86017b89865db918b73e61ca41f4fba64dab2996a5b87d327d37",
+      "frames": 400,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s079.mp4",
+      "public_path": "/videos-five-model/s079.mp4",
+      "sidecar_sha256": "26d0d41c98963be98c543ffa81899f92f1800900398bb563ef3fd77342068554"
+    },
+    {
+      "key": "s080",
+      "sequence": "LaSOT_basketball-1",
+      "file": "s080.mp4",
+      "bytes": 28553791,
+      "sha256": "410e50e368e40db26997c00b3689b0877786859580936d872a8874bbd5d4b9ed",
+      "frames": 1088,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s080.mp4",
+      "public_path": "/videos-five-model/s080.mp4",
+      "sidecar_sha256": "44dd35cc14c0bb7641b296553f358d8b1aa9e4f3777ff388949bf7f8864ba867"
+    },
+    {
+      "key": "s081",
+      "sequence": "LaSOT_bird-15",
+      "file": "s081.mp4",
+      "bytes": 49684074,
+      "sha256": "ef5e56b4779f8c605ee723016603a828a7d3cb717494b04da8d71580ca572903",
+      "frames": 1575,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s081.mp4",
+      "public_path": "/videos-five-model/s081.mp4",
+      "sidecar_sha256": "ab454c4f43717ea29cf003964b0d6caeecd0e2f59a786a08bb52acccee90f217"
+    },
+    {
+      "key": "s082",
+      "sequence": "LaSOT_bird-2",
+      "file": "s082.mp4",
+      "bytes": 132273604,
+      "sha256": "d9da6e91f072242505a9cd6a545492287ffa40de29388e78a9b8ee6805c5a70a",
+      "frames": 4101,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s082.mp4",
+      "public_path": "/videos-five-model/s082.mp4",
+      "sidecar_sha256": "ddba8151f340734f821f880497311911cd63a752e80f0d76c8f76f9c6ccc81dd"
+    },
+    {
+      "key": "s083",
+      "sequence": "LaSOT_bottle-12",
+      "file": "s083.mp4",
+      "bytes": 67063503,
+      "sha256": "ca0d0c73dc38f6bdbd0716f30c80df99274b86f5933fda3bf225bd5e63b01324",
+      "frames": 2400,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s083.mp4",
+      "public_path": "/videos-five-model/s083.mp4",
+      "sidecar_sha256": "e601f5be8f005f2a92809f19a16655b30358bd9647615a90226fe045163b8cb0"
+    },
+    {
+      "key": "s084",
+      "sequence": "LaSOT_bus-19",
+      "file": "s084.mp4",
+      "bytes": 63193929,
+      "sha256": "4be3bea4076568ace66a5c9bf4dff47706034d16845b2cd3651aae9bafc5e8b6",
+      "frames": 1930,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s084.mp4",
+      "public_path": "/videos-five-model/s084.mp4",
+      "sidecar_sha256": "bb29daae95fffdddac466eb41ef3454adc32631fb9fbd726c2733553b518666a"
+    },
+    {
+      "key": "s085",
+      "sequence": "LaSOT_car-17",
+      "file": "s085.mp4",
+      "bytes": 59105282,
+      "sha256": "405be04cba82d9d322162578a0149c80a2deb1daa453e79d11ea20d410b7f389",
+      "frames": 2251,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s085.mp4",
+      "public_path": "/videos-five-model/s085.mp4",
+      "sidecar_sha256": "558564e09dc739a3bcd333f506fe67c8445832758b9bfe05f70d59503c4d7b2b"
+    },
+    {
+      "key": "s086",
+      "sequence": "LaSOT_cattle-13",
+      "file": "s086.mp4",
+      "bytes": 77003921,
+      "sha256": "d71c9aa867621bdaf245317421ad6c3407410363759163f6090e13366fac6865",
+      "frames": 2321,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s086.mp4",
+      "public_path": "/videos-five-model/s086.mp4",
+      "sidecar_sha256": "c0bc5acd47b3328e2311fd4450f0344c17b437dff2ed6254b278ff336c77a8dd"
+    },
+    {
+      "key": "s087",
+      "sequence": "LaSOT_cattle-2",
+      "file": "s087.mp4",
+      "bytes": 39651945,
+      "sha256": "77edf959cc9fcdf8a4302f6ecc85f57ad7ea5929364301c1885d7aa2330f1a0b",
+      "frames": 2461,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s087.mp4",
+      "public_path": "/videos-five-model/s087.mp4",
+      "sidecar_sha256": "57f8876b7123906aeac226238184f0b03cce514ac539b4b5766a34798aa07130"
+    },
+    {
+      "key": "s088",
+      "sequence": "LaSOT_chameleon-20",
+      "file": "s088.mp4",
+      "bytes": 55340307,
+      "sha256": "1d113187c13f7ff74df7221e50245a7ab60727b81a1dcdf77fce183ebebb696c",
+      "frames": 1650,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s088.mp4",
+      "public_path": "/videos-five-model/s088.mp4",
+      "sidecar_sha256": "4f2a98ec15d565b7f8216e772b87992d938de65bb2ee662f1cacca473313bc6c"
+    },
+    {
+      "key": "s089",
+      "sequence": "LaSOT_coin-18",
+      "file": "s089.mp4",
+      "bytes": 34090637,
+      "sha256": "e967221e2edd15eff8175ebb96a08e7be5ee200a613ab455629a4ce33d35f244",
+      "frames": 1100,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s089.mp4",
+      "public_path": "/videos-five-model/s089.mp4",
+      "sidecar_sha256": "3b9e31323dc6ac777e30a1cad58fab8d66814aaf78b55bd6b73ae06631a1dd3e"
+    },
+    {
+      "key": "s090",
+      "sequence": "LaSOT_coin-3",
+      "file": "s090.mp4",
+      "bytes": 11976197,
+      "sha256": "8e4a29ddd6828873109435f0c690d687abeaf698e719f8cf2b15b9e3b4a54093",
+      "frames": 1020,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s090.mp4",
+      "public_path": "/videos-five-model/s090.mp4",
+      "sidecar_sha256": "95a0fd784d2ba6ba6bcfa7286c915bf7a7dd699e89263f2eb673ec2f745444d1"
+    },
+    {
+      "key": "s091",
+      "sequence": "LaSOT_cup-1",
+      "file": "s091.mp4",
+      "bytes": 45731391,
+      "sha256": "47cec9e81a048abd5ce8a06c78bfc91658eba62250f63c946ada86801013a4e8",
+      "frames": 1433,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s091.mp4",
+      "public_path": "/videos-five-model/s091.mp4",
+      "sidecar_sha256": "10da028bf0cdf8fbb160b8cae963a26cfdeea007980e353d2a11f122ec014b7b"
+    },
+    {
+      "key": "s092",
+      "sequence": "LaSOT_deer-10",
+      "file": "s092.mp4",
+      "bytes": 18451999,
+      "sha256": "976ce15381c4682570324771277f9f99f2ae7a067c19af1f042432a9762b853b",
+      "frames": 1411,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s092.mp4",
+      "public_path": "/videos-five-model/s092.mp4",
+      "sidecar_sha256": "090e51a476d0a9dba4686f6c7bf63cfe3f7dadcbb6db16aed8fb4c55f320568f"
+    },
+    {
+      "key": "s093",
+      "sequence": "LaSOT_deer-8",
+      "file": "s093.mp4",
+      "bytes": 97198517,
+      "sha256": "8e854b696b43512308031c4de6dc5c56bc70541b9197a3eeec806378916e7048",
+      "frames": 2911,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s093.mp4",
+      "public_path": "/videos-five-model/s093.mp4",
+      "sidecar_sha256": "584bc6f03d055fd4bb0f4464f9cacc24076aa3dc21ac016ecbbbfffff74b9444"
+    },
+    {
+      "key": "s094",
+      "sequence": "LaSOT_dog-1",
+      "file": "s094.mp4",
+      "bytes": 37117802,
+      "sha256": "cf65c78863505bc38bd195e72ea68031a12b551d2bc31931bd40fc49fa38ffba",
+      "frames": 1168,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s094.mp4",
+      "public_path": "/videos-five-model/s094.mp4",
+      "sidecar_sha256": "db02d421a1991676218c51b663e04285dd19f68b35eda9c466547568f4c22404"
+    },
+    {
+      "key": "s095",
+      "sequence": "LaSOT_dog-19",
+      "file": "s095.mp4",
+      "bytes": 50844371,
+      "sha256": "f05546009844d065dfcd0b37274f6631e7f8f62993aca298e9336f1750482674",
+      "frames": 1514,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s095.mp4",
+      "public_path": "/videos-five-model/s095.mp4",
+      "sidecar_sha256": "004e9e0a60c0f845c9138d1737e7c8ce170e9c67e5fa500bd6ae458b2e229b9a"
+    },
+    {
+      "key": "s096",
+      "sequence": "LaSOT_drone-15",
+      "file": "s096.mp4",
+      "bytes": 44770718,
+      "sha256": "cca882c97ce0b8d816c4b21517dffc58da4741d82fe6a4bc7a0ef45ff42398f7",
+      "frames": 1362,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s096.mp4",
+      "public_path": "/videos-five-model/s096.mp4",
+      "sidecar_sha256": "ebbd5720df7d496a31109d9a880f64b5b15a60c105a959d706a7fd2ef977598b"
+    },
+    {
+      "key": "s097",
+      "sequence": "LaSOT_drone-7",
+      "file": "s097.mp4",
+      "bytes": 57901795,
+      "sha256": "6f51268d982a2f53b2de1735e2ec9f79c012c21c4ab1192e437f4412bef55035",
+      "frames": 2817,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s097.mp4",
+      "public_path": "/videos-five-model/s097.mp4",
+      "sidecar_sha256": "8bbe63b2131fa139148c662cb1e5d4ab5ce8fe2da843c8bb5d7bd377546140c9"
+    },
+    {
+      "key": "s098",
+      "sequence": "LaSOT_electricfan-10",
+      "file": "s098.mp4",
+      "bytes": 32620054,
+      "sha256": "a11411effcbb9fe5a76a8b99554fa468886c36a056a53b3ec4b1be542f2e8f18",
+      "frames": 1601,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s098.mp4",
+      "public_path": "/videos-five-model/s098.mp4",
+      "sidecar_sha256": "80ec1e743419c85d39a458b5997b927eac870fa090f03983e0157e0a9d406d81"
+    },
+    {
+      "key": "s099",
+      "sequence": "LaSOT_electricfan-18",
+      "file": "s099.mp4",
+      "bytes": 44667716,
+      "sha256": "ee8df29e2259a48ceea1f084d66acf3365507f24423284f95f62087747784ec0",
+      "frames": 1863,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s099.mp4",
+      "public_path": "/videos-five-model/s099.mp4",
+      "sidecar_sha256": "5a6072fa92a8423943fb917fbe9fc4cbcb1df24ba974aa64b52f64066f9450b6"
+    },
+    {
+      "key": "s100",
+      "sequence": "LaSOT_elephant-1",
+      "file": "s100.mp4",
+      "bytes": 60888765,
+      "sha256": "e357e9a08c57b501cf78d80a0316924a8d725f8e86919713b50750ddca64f860",
+      "frames": 1889,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s100.mp4",
+      "public_path": "/videos-five-model/s100.mp4",
+      "sidecar_sha256": "d976ba554b6747c2e494b1cac46730fa36a694021701836b8c92b40238fc7486"
+    },
+    {
+      "key": "s101",
+      "sequence": "LaSOT_elephant-12",
+      "file": "s101.mp4",
+      "bytes": 25776522,
+      "sha256": "7e9bee2a858cd5e5e8d2369679f331c7d495fb58e7eb9d6043b357e35326075d",
+      "frames": 1053,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s101.mp4",
+      "public_path": "/videos-five-model/s101.mp4",
+      "sidecar_sha256": "6bfa4e3fffc85d1d5e328b5296fde0791b6d311e1f02278733a002d2c87bf673"
+    },
+    {
+      "key": "s102",
+      "sequence": "LaSOT_flag-3",
+      "file": "s102.mp4",
+      "bytes": 63858913,
+      "sha256": "6dadf8387297c476bff7f52997533918c3c586eb53616094b141a73cf154c431",
+      "frames": 1904,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s102.mp4",
+      "public_path": "/videos-five-model/s102.mp4",
+      "sidecar_sha256": "fc339fd6e4e47b162554c0ad8dcf344275c457fdd2657c5650ea9359d45481f6"
+    },
+    {
+      "key": "s103",
+      "sequence": "LaSOT_gametarget-1",
+      "file": "s103.mp4",
+      "bytes": 75307234,
+      "sha256": "ef479309bff1f6bd8a771b57d5e25aea57874774f5d62fc41106992d05b979e1",
+      "frames": 2251,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s103.mp4",
+      "public_path": "/videos-five-model/s103.mp4",
+      "sidecar_sha256": "a813452f7dd573fbf02f9557829d961ecc5cd2831099ea9278b4cf03e7871d15"
+    },
+    {
+      "key": "s104",
+      "sequence": "LaSOT_gametarget-2",
+      "file": "s104.mp4",
+      "bytes": 35656211,
+      "sha256": "4f6c1ce3147d0dcc0f2592f4720f4cb3e987386d58509545cb00cde87c7a4107",
+      "frames": 1834,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s104.mp4",
+      "public_path": "/videos-five-model/s104.mp4",
+      "sidecar_sha256": "55c81d5e905ef1f043b5268123d7f9b1bfe5c1e583dedb5d9f79947ad39cc540"
+    },
+    {
+      "key": "s105",
+      "sequence": "LaSOT_gecko-5",
+      "file": "s105.mp4",
+      "bytes": 4371702,
+      "sha256": "556d60c0ab882309d66b1cda45ce7828b6dae5d3e25897025d62db410482e525",
+      "frames": 1251,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s105.mp4",
+      "public_path": "/videos-five-model/s105.mp4",
+      "sidecar_sha256": "8d77c42e39f8a8efd9d9920ac756caef99a84e350730fdc0630d95ed4ef85a64"
+    },
+    {
+      "key": "s106",
+      "sequence": "LaSOT_goldfish-3",
+      "file": "s106.mp4",
+      "bytes": 77335919,
+      "sha256": "0b7ec5a99bc870ebc0e70425aa0f4a4aa28c46e7992c47df137586dfb96a4648",
+      "frames": 2375,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s106.mp4",
+      "public_path": "/videos-five-model/s106.mp4",
+      "sidecar_sha256": "690587e23b6cf45c715c5e460e1dcddae2bfbd9832c77922a03f68d123ec03c2"
+    },
+    {
+      "key": "s107",
+      "sequence": "LaSOT_goldfish-8",
+      "file": "s107.mp4",
+      "bytes": 75331020,
+      "sha256": "69e6e067d5b686de7545a0c0fca21637c71c9eef6b9db8d61c7f325dd67bc12e",
+      "frames": 2250,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s107.mp4",
+      "public_path": "/videos-five-model/s107.mp4",
+      "sidecar_sha256": "54b7f6c49203781e44eb79015d79792a4cd7e32786b2899ddf8dda7fef563787"
+    },
+    {
+      "key": "s108",
+      "sequence": "LaSOT_gorilla-9",
+      "file": "s108.mp4",
+      "bytes": 23628103,
+      "sha256": "f2d6843569b2d5eab264eb1fa52305a8be8f3423f4549cc7a04eafd19b1df64b",
+      "frames": 1839,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s108.mp4",
+      "public_path": "/videos-five-model/s108.mp4",
+      "sidecar_sha256": "64638794651949ec05b457aa6d2b9e219be4ed95a857d55dc3210c50a41c7e4d"
+    },
+    {
+      "key": "s109",
+      "sequence": "LaSOT_guitar-10",
+      "file": "s109.mp4",
+      "bytes": 49306757,
+      "sha256": "eeec2a60a8e941ef79aa05f1af9794ac6236d0368eae3d4bd34ef5ac55129643",
+      "frames": 1890,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s109.mp4",
+      "public_path": "/videos-five-model/s109.mp4",
+      "sidecar_sha256": "9092d811ad74920ecf3916dec3d75441a26ff7e016db9309d78e75203fad6730"
+    },
+    {
+      "key": "s110",
+      "sequence": "LaSOT_hand-9",
+      "file": "s110.mp4",
+      "bytes": 28516786,
+      "sha256": "28a5283c6d6036d86526f47b04b24ed328de6a9be1c6a3582c9ccece723c75a8",
+      "frames": 1733,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s110.mp4",
+      "public_path": "/videos-five-model/s110.mp4",
+      "sidecar_sha256": "faf5fd86229203bc0c239af35cd7ab9af67a9fb5fb2e05532bcb4fc3422305dc"
+    },
+    {
+      "key": "s111",
+      "sequence": "LaSOT_hat-1",
+      "file": "s111.mp4",
+      "bytes": 70124324,
+      "sha256": "f6c645987f5bd20bf696bdc123bc71177ca313f7ff1cdcdd6a216407061aa02e",
+      "frames": 3486,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s111.mp4",
+      "public_path": "/videos-five-model/s111.mp4",
+      "sidecar_sha256": "684c202d29ffca5277af37e9adc6fc58e98051a4da8e58687601afa35edd1219"
+    },
+    {
+      "key": "s112",
+      "sequence": "LaSOT_hat-5",
+      "file": "s112.mp4",
+      "bytes": 241669819,
+      "sha256": "7d65fce9916fd1bd46402eea62b60e89ff578dac2d8b1d9588bf2d24b48ae488",
+      "frames": 8000,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s112.mp4",
+      "public_path": "/videos-five-model/s112.mp4",
+      "sidecar_sha256": "ff63777e8f6c5f4c9bac00bd267354c9aada8c9abca945808e9042444760f1bc"
+    },
+    {
+      "key": "s113",
+      "sequence": "LaSOT_helmet-19",
+      "file": "s113.mp4",
+      "bytes": 40452086,
+      "sha256": "62f7a520cd7a222e107c0a2cfbb45c8731d9f4c3c1f0e59911f52a0b48ef42c2",
+      "frames": 1408,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s113.mp4",
+      "public_path": "/videos-five-model/s113.mp4",
+      "sidecar_sha256": "f6e126f12b233f9712da55bc9b20feab555ad0c20e9239898d1051dd7b6d7d2e"
+    },
+    {
+      "key": "s114",
+      "sequence": "LaSOT_kangaroo-5",
+      "file": "s114.mp4",
+      "bytes": 104322992,
+      "sha256": "3b83e0117e243d24ea4b6b08338828588f05e5ab34da21a26e25ba1b518bec22",
+      "frames": 3119,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s114.mp4",
+      "public_path": "/videos-five-model/s114.mp4",
+      "sidecar_sha256": "bd893fd57efb9f5ff2f61be7b47c3a3758d8effee204fbbb3bf86f8bf9a47150"
+    },
+    {
+      "key": "s115",
+      "sequence": "LaSOT_kite-10",
+      "file": "s115.mp4",
+      "bytes": 53508028,
+      "sha256": "5b5a00a59f36164228005da3bb23d7ec56703c46c8e0e49565be26314fd623e2",
+      "frames": 3309,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s115.mp4",
+      "public_path": "/videos-five-model/s115.mp4",
+      "sidecar_sha256": "b94669e1e0c400681466ecd36ffc8831d37868e2cb2c72719d61ce151f635196"
+    },
+    {
+      "key": "s116",
+      "sequence": "LaSOT_kite-4",
+      "file": "s116.mp4",
+      "bytes": 51234364,
+      "sha256": "55a07ed45d971fb2eba24d62ab0f3b7c54ef1b9b10eb705b35cf8559f0259868",
+      "frames": 3223,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s116.mp4",
+      "public_path": "/videos-five-model/s116.mp4",
+      "sidecar_sha256": "f1e1411b8931677f66dd20b7520d4426e0579209bfdcc260d8526fb410239817"
+    },
+    {
+      "key": "s117",
+      "sequence": "LaSOT_kite-6",
+      "file": "s117.mp4",
+      "bytes": 76867759,
+      "sha256": "c849f80f392440674428c48fb98c4b41157d8a3e8193ef9b03046d18b66b49d7",
+      "frames": 3774,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s117.mp4",
+      "public_path": "/videos-five-model/s117.mp4",
+      "sidecar_sha256": "e44063ac0fcc843eacd15e0dc3fca21842f1060672cdc2dfde13dd75fbb9d7a4"
+    },
+    {
+      "key": "s118",
+      "sequence": "LaSOT_licenseplate-12",
+      "file": "s118.mp4",
+      "bytes": 82936627,
+      "sha256": "2f6dfd602b79ecc7baa9f83e25b2ae6a5b79aa8fd0e6ca0dd02520fa459971fe",
+      "frames": 2685,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s118.mp4",
+      "public_path": "/videos-five-model/s118.mp4",
+      "sidecar_sha256": "1385d0841d9b668ca6eb990808ab94a28dbd5d0aab78ae26d31421215c361c85"
+    },
+    {
+      "key": "s119",
+      "sequence": "LaSOT_microphone-2",
+      "file": "s119.mp4",
+      "bytes": 72557840,
+      "sha256": "82f1c15356f9dd59af0119c5ed7766d457a9f8f954c7942e7d03f5483154d91b",
+      "frames": 4017,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s119.mp4",
+      "public_path": "/videos-five-model/s119.mp4",
+      "sidecar_sha256": "6d8dddd9d2a080a5b0ff311fa292fa292d78952cbf9448167e3225045968bfde"
+    },
+    {
+      "key": "s120",
+      "sequence": "LaSOT_monkey-3",
+      "file": "s120.mp4",
+      "bytes": 42027360,
+      "sha256": "c0eca4f9ab07a758741c30d4825f00dd1945b6b422c19ff268fae2c2e3bd33f4",
+      "frames": 1261,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s120.mp4",
+      "public_path": "/videos-five-model/s120.mp4",
+      "sidecar_sha256": "e7aff5feb920a8e5fa908f8b05a652fb1beb533dadd9215559a2e73452c82bf8"
+    },
+    {
+      "key": "s121",
+      "sequence": "LaSOT_monkey-4",
+      "file": "s121.mp4",
+      "bytes": 29035388,
+      "sha256": "10974aaff7faa8b9585ce4f437876feb5a8a4dbf5bcbc24e467ec253e6acd2d0",
+      "frames": 1435,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s121.mp4",
+      "public_path": "/videos-five-model/s121.mp4",
+      "sidecar_sha256": "ba61ae86dc82ca0bf127d09aa74d75d4958be59a57802ac99f76f46263b99c89"
+    },
+    {
+      "key": "s122",
+      "sequence": "LaSOT_motorcycle-18",
+      "file": "s122.mp4",
+      "bytes": 75841394,
+      "sha256": "14f53f1e0e3e4dec2a4b096c601d4d2a82414da22f39201f9b7050d9f60361da",
+      "frames": 2557,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s122.mp4",
+      "public_path": "/videos-five-model/s122.mp4",
+      "sidecar_sha256": "c7a15bfc3c537732fbf80adfcf821e820b8e8c4cb9bd478a4ad23562e2260974"
+    },
+    {
+      "key": "s123",
+      "sequence": "LaSOT_person-12",
+      "file": "s123.mp4",
+      "bytes": 44270647,
+      "sha256": "a96e3a9902f919390f5cc5667718a00e3b3f4add6ab5bb4f3a1a36de44f1925c",
+      "frames": 1990,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s123.mp4",
+      "public_path": "/videos-five-model/s123.mp4",
+      "sidecar_sha256": "7086294d4bc1d662798dbabd7d29f6e922250b81237c1e5bf3ca22006cd14231"
+    },
+    {
+      "key": "s124",
+      "sequence": "LaSOT_person-5",
+      "file": "s124.mp4",
+      "bytes": 93184882,
+      "sha256": "e4bbc3c8a6f9056b8f4cb4620ba168e39de5e014f39994bf4534237829a9c041",
+      "frames": 2967,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s124.mp4",
+      "public_path": "/videos-five-model/s124.mp4",
+      "sidecar_sha256": "aebf3d25ad16f451466415877f40bee167aa3d0e18b815e99bb26bcde1bddfdd"
+    },
+    {
+      "key": "s125",
+      "sequence": "LaSOT_pig-18",
+      "file": "s125.mp4",
+      "bytes": 79152671,
+      "sha256": "ee55f6d6d7a5a72665acb1f4668dbc32ed734d0ae60dd1051f1230dea40a5e1c",
+      "frames": 2401,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s125.mp4",
+      "public_path": "/videos-five-model/s125.mp4",
+      "sidecar_sha256": "39f5f7e545142969d17b903003e9a68c0f010f8cd382884e07c564505bad8127"
+    },
+    {
+      "key": "s126",
+      "sequence": "LaSOT_pig-2",
+      "file": "s126.mp4",
+      "bytes": 89328245,
+      "sha256": "faf3441f426e5554280e572fc3b3c1198b29a8bd2a481458a1f68a538e3e0832",
+      "frames": 2671,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s126.mp4",
+      "public_path": "/videos-five-model/s126.mp4",
+      "sidecar_sha256": "cbaf4074df2793e171437688bc5a25d0a46a835db145fdbbe309a936c6cf9c7c"
+    },
+    {
+      "key": "s127",
+      "sequence": "LaSOT_pool-12",
+      "file": "s127.mp4",
+      "bytes": 60444729,
+      "sha256": "9d0a55b965ca1a07f0de4754700978e48d4970514618cec927bfe632561ee015",
+      "frames": 1801,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s127.mp4",
+      "public_path": "/videos-five-model/s127.mp4",
+      "sidecar_sha256": "fb987db812c5dde4c20f12f780a39619829cd60f7a01b842e77c5b9cd6edd218"
+    },
+    {
+      "key": "s128",
+      "sequence": "LaSOT_pool-15",
+      "file": "s128.mp4",
+      "bytes": 38166703,
+      "sha256": "fe6dab881bfea75c52dca68096340ffbc3833480c012f04d4fc574a9d8fa8d7c",
+      "frames": 1338,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s128.mp4",
+      "public_path": "/videos-five-model/s128.mp4",
+      "sidecar_sha256": "31bb46e52c8ec0af26c22d9f15ab6aebfaa4b0f1cd9ea8ceb06d95eb51592d34"
+    },
+    {
+      "key": "s129",
+      "sequence": "LaSOT_pool-3",
+      "file": "s129.mp4",
+      "bytes": 45826054,
+      "sha256": "87ea39a0901f974876021f021c3bb2fc4576923eccc5e3db71319721bcf0a6e6",
+      "frames": 2256,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s129.mp4",
+      "public_path": "/videos-five-model/s129.mp4",
+      "sidecar_sha256": "f271d50f9e57922e6b1d3e01160d836645948514f600c0a37fdc575dcf385f9d"
+    },
+    {
+      "key": "s130",
+      "sequence": "LaSOT_rabbit-10",
+      "file": "s130.mp4",
+      "bytes": 46539895,
+      "sha256": "0c47bb1868eb2cf3b5c5f124737ad87a8d21935330cf25c7858b5c4d7968c5bb",
+      "frames": 2098,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s130.mp4",
+      "public_path": "/videos-five-model/s130.mp4",
+      "sidecar_sha256": "d3edf46f03c95364f94f8922431182677380ef6b078ddb194c3699da0c69051b"
+    },
+    {
+      "key": "s131",
+      "sequence": "LaSOT_racing-10",
+      "file": "s131.mp4",
+      "bytes": 39861226,
+      "sha256": "bee1d7f4cde28fb27fee6b9de9746431900fe0e0a64224853deee083c8f4f6d4",
+      "frames": 1508,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s131.mp4",
+      "public_path": "/videos-five-model/s131.mp4",
+      "sidecar_sha256": "0ffcc1a03e7415e91944677a302840ff06872bcc08f911eacf7be3e3e0b0e7ee"
+    },
+    {
+      "key": "s132",
+      "sequence": "LaSOT_racing-16",
+      "file": "s132.mp4",
+      "bytes": 72980987,
+      "sha256": "78968631957b5efa34d8019349acb6ff418b3cab05a062ed3830bf7b954ec20e",
+      "frames": 2186,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s132.mp4",
+      "public_path": "/videos-five-model/s132.mp4",
+      "sidecar_sha256": "df6c1276d17bc088a8bbfe02303fb1e902ba278ad3b04d13022807d9fdb18d13"
+    },
+    {
+      "key": "s133",
+      "sequence": "LaSOT_robot-1",
+      "file": "s133.mp4",
+      "bytes": 169128236,
+      "sha256": "0091b7181347588b42bdb28ce9baed2ef89188474992cfd4323eb723f05cd1bd",
+      "frames": 5609,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s133.mp4",
+      "public_path": "/videos-five-model/s133.mp4",
+      "sidecar_sha256": "e691e8023f62221e07188f2f2e578b9a113cbf1f80aef4f1dde0fe233f77beaf"
+    },
+    {
+      "key": "s134",
+      "sequence": "LaSOT_robot-19",
+      "file": "s134.mp4",
+      "bytes": 158978690,
+      "sha256": "d7cdbe6eeed2aa43fb40b703a64acb4adb5efd2e6290c89577a69ee0fba41213",
+      "frames": 5797,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s134.mp4",
+      "public_path": "/videos-five-model/s134.mp4",
+      "sidecar_sha256": "c1cba2d3d673b17258ebea1ee0f935dcdd3249a91a610a33f1cc5b1b5afd063e"
+    },
+    {
+      "key": "s135",
+      "sequence": "LaSOT_robot-5",
+      "file": "s135.mp4",
+      "bytes": 62669212,
+      "sha256": "4a100d3f7b3b545b3b8206ef6c894b03c427974580c71627f9ee25acdfde1a16",
+      "frames": 2325,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s135.mp4",
+      "public_path": "/videos-five-model/s135.mp4",
+      "sidecar_sha256": "90f653bf754c95796990198a34c31ea1532a876d465f75511fd42d0eb4b00b0c"
+    },
+    {
+      "key": "s136",
+      "sequence": "LaSOT_rubicCube-1",
+      "file": "s136.mp4",
+      "bytes": 21528273,
+      "sha256": "3c1f8391fe44b64ed758d842614bdcbdefcce322d71740e809154c1d693fd451",
+      "frames": 1800,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s136.mp4",
+      "public_path": "/videos-five-model/s136.mp4",
+      "sidecar_sha256": "6c746700f95b254f098d08b276fdee62c868ea314ca9b4063acb113bd09ec372"
+    },
+    {
+      "key": "s137",
+      "sequence": "LaSOT_rubicCube-19",
+      "file": "s137.mp4",
+      "bytes": 31833549,
+      "sha256": "e451a5e25e4430366fb990f4da616293f8f80c569f75ed7df62cb253bc73850c",
+      "frames": 2101,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s137.mp4",
+      "public_path": "/videos-five-model/s137.mp4",
+      "sidecar_sha256": "56d2e06e440f62718e55f2ab204fa084bf79710edb04491cbf533ba1a224b395"
+    },
+    {
+      "key": "s138",
+      "sequence": "LaSOT_sepia-13",
+      "file": "s138.mp4",
+      "bytes": 41747389,
+      "sha256": "02c1392796ea1503c3383b35be75823aa3fb3ced163c4a08b7478f0f3becb18b",
+      "frames": 2756,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s138.mp4",
+      "public_path": "/videos-five-model/s138.mp4",
+      "sidecar_sha256": "6572864fa4b871d9dda15bb72dac5f97019a077fa749603a259c2a693988867b"
+    },
+    {
+      "key": "s139",
+      "sequence": "LaSOT_shark-2",
+      "file": "s139.mp4",
+      "bytes": 84314650,
+      "sha256": "49d72f1fc295098048af1efaab656b39001579965ba962d0ea5654a4fdf46e4a",
+      "frames": 3455,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s139.mp4",
+      "public_path": "/videos-five-model/s139.mp4",
+      "sidecar_sha256": "b7ba130ae9aabcd794a3477304c70aff00c7518aa62f18b6e45ddb4beeb891d9"
+    },
+    {
+      "key": "s140",
+      "sequence": "LaSOT_sheep-5",
+      "file": "s140.mp4",
+      "bytes": 33702073,
+      "sha256": "91d6eb534904adde5741f4e053210dd902556a03c1d92d89a4d86c3ab90f938e",
+      "frames": 1000,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s140.mp4",
+      "public_path": "/videos-five-model/s140.mp4",
+      "sidecar_sha256": "8cd1860807c14267be794f851ac0efc31ec1dd8151bce1d85d665195a490a7ed"
+    },
+    {
+      "key": "s141",
+      "sequence": "LaSOT_sheep-7",
+      "file": "s141.mp4",
+      "bytes": 41170590,
+      "sha256": "554a5d23e6ec12f7d6d4ee74866d898d322468a0800e30ef2f69e2cd1782bb22",
+      "frames": 1256,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s141.mp4",
+      "public_path": "/videos-five-model/s141.mp4",
+      "sidecar_sha256": "f89b796ad41391cc592e0969d6edd21803475834a167484969743394cacedbbe"
+    },
+    {
+      "key": "s142",
+      "sequence": "LaSOT_sheep-9",
+      "file": "s142.mp4",
+      "bytes": 61698008,
+      "sha256": "563e072301213c29efd4f601162b2268b9bf98a5224747bda57626d94b239e07",
+      "frames": 1840,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s142.mp4",
+      "public_path": "/videos-five-model/s142.mp4",
+      "sidecar_sha256": "8dbe452dd1362f5c6e7f34850322e91626d017deadd6a2e11000723234c4e276"
+    },
+    {
+      "key": "s143",
+      "sequence": "LaSOT_skateboard-8",
+      "file": "s143.mp4",
+      "bytes": 123700854,
+      "sha256": "c254dde926396c719245b92e4e3578eb8f95112c53b3b5df67c60df24ce2ee85",
+      "frames": 4112,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s143.mp4",
+      "public_path": "/videos-five-model/s143.mp4",
+      "sidecar_sha256": "c3ff3a44e19de1a16a73e5a8500bb60317c78312751aff0960b588b03c3c0b69"
+    },
+    {
+      "key": "s144",
+      "sequence": "LaSOT_spider-20",
+      "file": "s144.mp4",
+      "bytes": 331751582,
+      "sha256": "861715fccb7661affc2285bfb320692f8a399e2eacaadd4dad43217ecfd744fa",
+      "frames": 9999,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s144.mp4",
+      "public_path": "/videos-five-model/s144.mp4",
+      "sidecar_sha256": "32426d210c4186e98727a9ec52ebcd95c88ea7cfcb5951ef2558a03091ddc00f"
+    },
+    {
+      "key": "s145",
+      "sequence": "LaSOT_surfboard-12",
+      "file": "s145.mp4",
+      "bytes": 93820866,
+      "sha256": "241998fd33c6a408e1c1e45b53b180539c3ac53c3b30787f69b73212a7d91a37",
+      "frames": 3259,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s145.mp4",
+      "public_path": "/videos-five-model/s145.mp4",
+      "sidecar_sha256": "6fe02790930786216dc73474864fc526e2cd89e9ce4169ca9c7d85f3735b7593"
+    },
+    {
+      "key": "s146",
+      "sequence": "LaSOT_surfboard-5",
+      "file": "s146.mp4",
+      "bytes": 146359530,
+      "sha256": "4b1f7211365feb691cd6652cc04580ba249ee11b596b74c8f352a3230cb33207",
+      "frames": 4383,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s146.mp4",
+      "public_path": "/videos-five-model/s146.mp4",
+      "sidecar_sha256": "1142a2249612597a4d61b600c2dcf65f7a5a7fa5a0ab1599c67b14047b956732"
+    },
+    {
+      "key": "s147",
+      "sequence": "LaSOT_swing-10",
+      "file": "s147.mp4",
+      "bytes": 73345462,
+      "sha256": "c4af51fa515dc8228f2e6282d91a2931c3eeff48e3f75da7221a3c05a187a434",
+      "frames": 2189,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s147.mp4",
+      "public_path": "/videos-five-model/s147.mp4",
+      "sidecar_sha256": "d07598db8836d4ede9f5bd5946ee4969825903c41d81885c96fd43de05b62caa"
+    },
+    {
+      "key": "s148",
+      "sequence": "LaSOT_tank-16",
+      "file": "s148.mp4",
+      "bytes": 82007438,
+      "sha256": "5d484b640daa504e4bed24005178513b4ffa439ba5580c6fb59fe25af3521a17",
+      "frames": 3635,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s148.mp4",
+      "public_path": "/videos-five-model/s148.mp4",
+      "sidecar_sha256": "e525bc5e429b752c478e64a57411ae475f94cbc9cc6f411547c4ffbd02731fae"
+    },
+    {
+      "key": "s149",
+      "sequence": "LaSOT_tank-9",
+      "file": "s149.mp4",
+      "bytes": 41110438,
+      "sha256": "f51ed1b7cd3d81b4c8a6d17df700710247fba706a24626e2d587c98dfc5dd98c",
+      "frames": 1312,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s149.mp4",
+      "public_path": "/videos-five-model/s149.mp4",
+      "sidecar_sha256": "530a9b59f15f0c2b60454f11c459314ace37c3aaebb2f5ecd57bfd099eb3366c"
+    },
+    {
+      "key": "s150",
+      "sequence": "LaSOT_tiger-18",
+      "file": "s150.mp4",
+      "bytes": 103935371,
+      "sha256": "c23ad2f487b5f33738a95d4a34839aecc959d1192592ee4d22694cdc865075a0",
+      "frames": 3107,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s150.mp4",
+      "public_path": "/videos-five-model/s150.mp4",
+      "sidecar_sha256": "66fc875bd69ecc682732278e355a26ab68abeba277828bdd00a56c9266ff9adc"
+    },
+    {
+      "key": "s151",
+      "sequence": "LaSOT_tiger-6",
+      "file": "s151.mp4",
+      "bytes": 76364080,
+      "sha256": "e05f44681d5c149c405e4fe47337b5622205dbce1dd8dda632535ab509771f68",
+      "frames": 2295,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s151.mp4",
+      "public_path": "/videos-five-model/s151.mp4",
+      "sidecar_sha256": "734b52e4c690661d151a198340b178ae373944453516f4f8e750e952c7978d3d"
+    },
+    {
+      "key": "s152",
+      "sequence": "LaSOT_train-1",
+      "file": "s152.mp4",
+      "bytes": 37885987,
+      "sha256": "76eee3dc87b3e7b8bf880f8088a934eb0569d587f90645fd901da795d1ef9fed",
+      "frames": 1150,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s152.mp4",
+      "public_path": "/videos-five-model/s152.mp4",
+      "sidecar_sha256": "af04e59aa556f6af4535c904b3a52dc79b05b860bdca7c06ef77b8835b9687fb"
+    },
+    {
+      "key": "s153",
+      "sequence": "LaSOT_train-11",
+      "file": "s153.mp4",
+      "bytes": 14806873,
+      "sha256": "b17f80f4d8314e398fcbbc4d6de9fa4a97bf6b2d522be577492642c7dc243186",
+      "frames": 1080,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s153.mp4",
+      "public_path": "/videos-five-model/s153.mp4",
+      "sidecar_sha256": "67b7ddea70c02165abcec7c7f56885bb3ea56dd0380d8b5db334aa19a2d7d336"
+    },
+    {
+      "key": "s154",
+      "sequence": "LaSOT_train-7",
+      "file": "s154.mp4",
+      "bytes": 45204825,
+      "sha256": "ea4c4571e5873b4adcc11c88d17881a80314cd6775ce0f51ea59de16bc47f07b",
+      "frames": 1425,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s154.mp4",
+      "public_path": "/videos-five-model/s154.mp4",
+      "sidecar_sha256": "25ee43c078776029d077fd9936fff9d6daafc78bd9f96b85c8a1cf8d5a437c20"
+    },
+    {
+      "key": "s155",
+      "sequence": "LaSOT_truck-16",
+      "file": "s155.mp4",
+      "bytes": 163865596,
+      "sha256": "7506e72ce36348ffe99f8f728d3e6ab421a3587c6f58694f03b40e7df0df7f09",
+      "frames": 7225,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s155.mp4",
+      "public_path": "/videos-five-model/s155.mp4",
+      "sidecar_sha256": "2e803971e1f2b22b94c7a6508f93fdd0e6b7e42465e3e34ef8bcc6bee327d479"
+    },
+    {
+      "key": "s156",
+      "sequence": "LaSOT_turtle-8",
+      "file": "s156.mp4",
+      "bytes": 34525596,
+      "sha256": "cb4bf323750563b507b7e51e226205edd016e5b2db57fc65efb51865109fe788",
+      "frames": 1497,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s156.mp4",
+      "public_path": "/videos-five-model/s156.mp4",
+      "sidecar_sha256": "a4548a4e769c944901907f71f9f711be5261d8ec5a305acb9d6b08db65d461b6"
+    },
+    {
+      "key": "s157",
+      "sequence": "LaSOT_umbrella-17",
+      "file": "s157.mp4",
+      "bytes": 14508485,
+      "sha256": "5713c797e6bed4d34130368b8126cef7c190219fc0ea488dda21d8a6f46f1d5d",
+      "frames": 1001,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s157.mp4",
+      "public_path": "/videos-five-model/s157.mp4",
+      "sidecar_sha256": "a1d1987925a722fa77650622c64ffa2746d5b942929c014c685cf3b7a753fc5a"
+    },
+    {
+      "key": "s158",
+      "sequence": "LaSOT_umbrella-19",
+      "file": "s158.mp4",
+      "bytes": 58486675,
+      "sha256": "413e5f1a9c9e6ea64d12854be9d570952dc20f48f5a8226ee37d720c18b71b1e",
+      "frames": 2868,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s158.mp4",
+      "public_path": "/videos-five-model/s158.mp4",
+      "sidecar_sha256": "0a07a7ca775fab8992f03f5d0aa3682c046c84daa69588f99fa8c3ff8db5ea5f"
+    },
+    {
+      "key": "s159",
+      "sequence": "LaSOT_umbrella-9",
+      "file": "s159.mp4",
+      "bytes": 33229939,
+      "sha256": "54dd09e7577421b67fcfe9e450a0251db01c224b37eddd012832c5905e9d70ab",
+      "frames": 1615,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s159.mp4",
+      "public_path": "/videos-five-model/s159.mp4",
+      "sidecar_sha256": "da55f9e2226b7b966b5d475d51acaf0d0c1425ce5af2509175b221c17a7c2a46"
+    },
+    {
+      "key": "s160",
+      "sequence": "LaSOT_volleyball-1",
+      "file": "s160.mp4",
+      "bytes": 16725951,
+      "sha256": "5940c4d735a6fe54e2150e044f5aff65a5ddec142be5592695f73d85f4c32786",
+      "frames": 1309,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s160.mp4",
+      "public_path": "/videos-five-model/s160.mp4",
+      "sidecar_sha256": "857a0ba0f8cc97a4029cf60b4482d41552d2756cbd5a7d8d8a1b1965dadecd92"
+    },
+    {
+      "key": "s161",
+      "sequence": "LaSOT_volleyball-13",
+      "file": "s161.mp4",
+      "bytes": 68443141,
+      "sha256": "c0bf40212838d3587eb3eeb8853d25c1247b64151afa646151fcf9d5a623aa35",
+      "frames": 2042,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s161.mp4",
+      "public_path": "/videos-five-model/s161.mp4",
+      "sidecar_sha256": "18e0767c83dc80286c481a1cb3547afb549cf492c7db587aa6ae114b98d63996"
+    },
+    {
+      "key": "s162",
+      "sequence": "LaSOT_volleyball-18",
+      "file": "s162.mp4",
+      "bytes": 28540227,
+      "sha256": "ef10ef011c20d4fff91bf888065faa6efaae56ea7f2ef0090935c38cde60c254",
+      "frames": 2606,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s162.mp4",
+      "public_path": "/videos-five-model/s162.mp4",
+      "sidecar_sha256": "5954807f2da697c915341d016a62540918460db5b65a8f1763bc90a83923ddbf"
+    },
+    {
+      "key": "s163",
+      "sequence": "LaSOT_volleyball-19",
+      "file": "s163.mp4",
+      "bytes": 48696749,
+      "sha256": "c1685ab8348eebd8b8826b72d468e5557fad0a0622bac45e95cc43b54e3659d0",
+      "frames": 1467,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s163.mp4",
+      "public_path": "/videos-five-model/s163.mp4",
+      "sidecar_sha256": "77fce10d87443b5d24587cbeaffd26a8638a6a319d776cc4ce134a330d42667b"
+    },
+    {
+      "key": "s164",
+      "sequence": "LaSOT_zebra-10",
+      "file": "s164.mp4",
+      "bytes": 66803362,
+      "sha256": "baace99f0574e9e60b07bc73a83f7686fdbb8eb206d930837abfe85ce581ff68",
+      "frames": 2008,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s164.mp4",
+      "public_path": "/videos-five-model/s164.mp4",
+      "sidecar_sha256": "5398c95a476e98bc2e58e65992931b097f900036fddfb58665606667c7177b62"
+    },
+    {
+      "key": "s165",
+      "sequence": "LaSOT_zebra-16",
+      "file": "s165.mp4",
+      "bytes": 42409535,
+      "sha256": "6cb0868d72ba570bca4a467d748a80500beb2fc4b5bd323b093ef424f9ced8b9",
+      "frames": 1282,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s165.mp4",
+      "public_path": "/videos-five-model/s165.mp4",
+      "sidecar_sha256": "274675333e95b603b6b0175ab3198532989e21e2d12967a7d8bfe4da80444abb"
+    },
+    {
+      "key": "s166",
+      "sequence": "VOT2020-LT_car1",
+      "file": "s166.mp4",
+      "bytes": 58216697,
+      "sha256": "2473f2a8335b96582d8f2f783cb4dab66b06277293eeb44b74afe98150f28b46",
+      "frames": 2629,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s166.mp4",
+      "public_path": "/videos-five-model/s166.mp4",
+      "sidecar_sha256": "75c7eeef2738f020e847102d1432c3a8e044e7e437b78fe16197a7162b57c925"
+    },
+    {
+      "key": "s167",
+      "sequence": "VOT2020-LT_car3",
+      "file": "s167.mp4",
+      "bytes": 48292762,
+      "sha256": "d4242e4f3d0c03d4277e96267ab80775ce9139a2b1a14a53870fe927a0a97ab5",
+      "frames": 1717,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s167.mp4",
+      "public_path": "/videos-five-model/s167.mp4",
+      "sidecar_sha256": "c970ccd7b77a8bdd8499c4b5bd0b30f8b88e5abd9b5815f6f1c7bba973b83958"
+    },
+    {
+      "key": "s168",
+      "sequence": "VOT2020-LT_group1",
+      "file": "s168.mp4",
+      "bytes": 137238069,
+      "sha256": "147f46cfd71e5e0ffe4b7b3005d98750a1565a75abae2fcb792761de10f2f69e",
+      "frames": 4873,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s168.mp4",
+      "public_path": "/videos-five-model/s168.mp4",
+      "sidecar_sha256": "13f202f5b972f0db0bcc696563c3abd13a2d2b7d4f6c0f69ffbf80f18388f84b"
+    },
+    {
+      "key": "s169",
+      "sequence": "VOT2020-LT_group2",
+      "file": "s169.mp4",
+      "bytes": 83570676,
+      "sha256": "2f006fff8874e4e077553112ba5c196eba0588076b1cd04861aade02e3e2d44f",
+      "frames": 2683,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s169.mp4",
+      "public_path": "/videos-five-model/s169.mp4",
+      "sidecar_sha256": "fda5a64bef9b6bc5322b3950d0f7e7eabcca78482c30cbce9af79d1b4a86ceb1"
+    },
+    {
+      "key": "s170",
+      "sequence": "VOT2020-LT_group3",
+      "file": "s170.mp4",
+      "bytes": 181382541,
+      "sha256": "7a0d44369b6ee5033093f2c105135cac084889ec140f3ccaed12b52bb3e39a98",
+      "frames": 5527,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s170.mp4",
+      "public_path": "/videos-five-model/s170.mp4",
+      "sidecar_sha256": "a0a7433d179f76ea55c69c953152fc9abfd6c8c0358058c17cf2391c6e2fa76e"
+    },
+    {
+      "key": "s171",
+      "sequence": "VOT2020-LT_warmup",
+      "file": "s171.mp4",
+      "bytes": 132181997,
+      "sha256": "3bcb6b186d7c2e8dd39f1747403c4e936b794696513e0e0988c3b9cc33247ec4",
+      "frames": 3961,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s171.mp4",
+      "public_path": "/videos-five-model/s171.mp4",
+      "sidecar_sha256": "89cc6f222ae3d13fc6768087bfaf3a1113811f87d8669e36fbb071340e4ac92e"
+    },
+    {
+      "key": "s172",
+      "sequence": "VOT2020-ST_drone_flip",
+      "file": "s172.mp4",
+      "bytes": 2111670,
+      "sha256": "cce3bdcd70a3104b36bfab38de55f69ace6971cd39a15be9abe98372c0be18eb",
+      "frames": 113,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s172.mp4",
+      "public_path": "/videos-five-model/s172.mp4",
+      "sidecar_sha256": "ed65b16015124897477d327da21b8edc6ee273115271f435ccf832028c7fb619"
+    },
+    {
+      "key": "s173",
+      "sequence": "VOT2022-LT_dancingshoe",
+      "file": "s173.mp4",
+      "bytes": 132272673,
+      "sha256": "64b3c8e3f6e99b86bbf7e2abdef51baefa9a2656132585de70cf131d0b03d8b0",
+      "frames": 5451,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s173.mp4",
+      "public_path": "/videos-five-model/s173.mp4",
+      "sidecar_sha256": "8b3ca23b03195d21f699d2a8cefcd96f4817618e98905d2ffecfdb53605b97d5"
+    },
+    {
+      "key": "s174",
+      "sequence": "VOT2022-LT_diving",
+      "file": "s174.mp4",
+      "bytes": 37258408,
+      "sha256": "becfde510ff065c5e226b17ced4c2707188d94b153d6acd45f0c3b2e7d7bea11",
+      "frames": 1765,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s174.mp4",
+      "public_path": "/videos-five-model/s174.mp4",
+      "sidecar_sha256": "32c369c03a769c7474632845475116b811e6ea31607809b3aca2c3ec97bbbb1d"
+    },
+    {
+      "key": "s175",
+      "sequence": "VOT2022-LT_goldfish",
+      "file": "s175.mp4",
+      "bytes": 123245123,
+      "sha256": "face2354a6f0675b89877cd8e81467daed7cc89de3fb27cf29153a0667efb0fd",
+      "frames": 4520,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s175.mp4",
+      "public_path": "/videos-five-model/s175.mp4",
+      "sidecar_sha256": "aa7ecbb8f06afa8fb3e70d99e51b14dc73cbe119938d314932275e531ea6f5da"
+    },
+    {
+      "key": "s176",
+      "sequence": "VOT2022-LT_hand",
+      "file": "s176.mp4",
+      "bytes": 49283497,
+      "sha256": "3daf172adfe057ce17b800b3d10d85eb18e19479e0da7918968f47e6e047b8df",
+      "frames": 1830,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s176.mp4",
+      "public_path": "/videos-five-model/s176.mp4",
+      "sidecar_sha256": "d1d5ddaf991dd76b172e26b7ebf0dba9f2323a2a8427510ffabfce836067c2e0"
+    },
+    {
+      "key": "s177",
+      "sequence": "VOT2022-LT_run",
+      "file": "s177.mp4",
+      "bytes": 41074840,
+      "sha256": "492c969f83df8ee3ddf6be3ed82a336a8e2dcaa90426d802853c3ad6bb29ceaa",
+      "frames": 1712,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s177.mp4",
+      "public_path": "/videos-five-model/s177.mp4",
+      "sidecar_sha256": "1316ade274cfdf8f79c95576ae72f9f1c79d83f79d9b004c6f097437f02f4283"
+    },
+    {
+      "key": "s178",
+      "sequence": "VOT2022-LT_sailing",
+      "file": "s178.mp4",
+      "bytes": 30035268,
+      "sha256": "bcd963d30d6618471c354e3d8ec853287fbd63330a2b5a8243cf470474cff689",
+      "frames": 1812,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s178.mp4",
+      "public_path": "/videos-five-model/s178.mp4",
+      "sidecar_sha256": "ca74ee28eaf4caa0fd65cd511490e9dd9742c532abf8c45ef6b0b50797760411"
+    },
+    {
+      "key": "s179",
+      "sequence": "VOT2022-LT_skiing",
+      "file": "s179.mp4",
+      "bytes": 102300225,
+      "sha256": "469499a5b080a1dccb15efb2a72a4f01b5ef6ed76d616cfd0f80197b83ca59fc",
+      "frames": 3057,
+      "models": [
+        "SAM2.1",
+        "DAM4SAM",
+        "SAMURAI",
+        "HiM2SAM",
+        "SENTRY-D4S"
+      ],
+      "native_mask_visualization": true,
+      "url": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/s179.mp4",
+      "public_path": "/videos-five-model/s179.mp4",
+      "sidecar_sha256": "7bec7fcf165a13d23bebf1559bcaa0b6b60926119ef477d308953d7e5364a61a"
     }
   ]
 }

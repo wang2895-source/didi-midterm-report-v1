@@ -1,0 +1,28 @@
+{
+  "status": "verified",
+  "phase": "complete",
+  "started_utc": "2026-10-30T05:01:08.194018+00:00",
+  "no_model_inference": true,
+  "cuda_visible_devices": "",
+  "script_sha256": "e39fbe2efd0c89676e590030c628bd86f20c49c52ae405e43f7b098b69e93291",
+  "vot_toolkit": "0.7.1",
+  "new_trajectory_count": 540,
+  "reference_scores_present": true,
+  "manifest_sha256": "0fca2d563cbe8adf11a8f07480b052dad577c78d83b84f4c4a188d73057f6ddc",
+  "old_archive_sha256": "3f8336bb2c6774e4e0e361b8ea0cbe09a30f702a267558e9a0b46562eaab05e9",
+  "metadata_archive_sha256": "dea00e73e7cc8017235483adf9f017b60380b458df379a843f9a3bdb5c8b56ef",
+  "reference_scores_sha256": "22b1691930b737dc69ca31a05c77e6f745e21a814b6086dff17fd18126f37611",
+  "current_sequence": "VOT2022-LT_skiing",
+  "completed_sequences": 180,
+  "scored_new_trajectories": 540,
+  "scored_old_trajectories": 360,
+  "native_conversion_sample_count": 1620,
+  "active_gt_unchanged": true,
+  "original_old_scores_match_canonical": true,
+  "reference_protocols_checked": [
+    "original",
+    "symmetric_box"
+  ],
+  "finished_utc": "2026-10-30T05:10:25.022074+00:00",
+  "elapsed_seconds": 556.9383306037635
+}

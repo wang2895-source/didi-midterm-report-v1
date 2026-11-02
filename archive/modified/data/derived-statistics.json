@@ -1,0 +1,94 @@
+{
+  "original": {
+    "pairwise_vs_DAM4SAM": {
+      "SAM2.1": {
+        "delta": -0.035914042634576475,
+        "wins": 69,
+        "losses": 111,
+        "ties": 0
+      },
+      "DAM4SAM": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 180
+      },
+      "SAMURAI": {
+        "delta": -0.006645751602105289,
+        "wins": 78,
+        "losses": 102,
+        "ties": 0
+      },
+      "HiM2SAM": {
+        "delta": -0.014965054288738483,
+        "wins": 77,
+        "losses": 102,
+        "ties": 1
+      },
+      "SENTRY-D4S": {
+        "delta": 0.003674390346535317,
+        "wins": 107,
+        "losses": 72,
+        "ties": 1
+      }
+    },
+    "all_five_below": {
+      "0.5": 28,
+      "0.3": 6,
+      "0.2": 1
+    },
+    "winners": {
+      "DAM4SAM": 24,
+      "SENTRY-D4S": 60,
+      "SAM2.1": 25,
+      "SAMURAI": 27,
+      "HiM2SAM": 44
+    }
+  },
+  "symmetric_box": {
+    "pairwise_vs_DAM4SAM": {
+      "SAM2.1": {
+        "delta": -0.03796265703877443,
+        "wins": 73,
+        "losses": 107,
+        "ties": 0
+      },
+      "DAM4SAM": {
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 180
+      },
+      "SAMURAI": {
+        "delta": -0.006982039911891684,
+        "wins": 82,
+        "losses": 98,
+        "ties": 0
+      },
+      "HiM2SAM": {
+        "delta": -0.018388146377833325,
+        "wins": 78,
+        "losses": 101,
+        "ties": 1
+      },
+      "SENTRY-D4S": {
+        "delta": 0.0054968178462624605,
+        "wins": 106,
+        "losses": 73,
+        "ties": 1
+      }
+    },
+    "all_five_below": {
+      "0.5": 16,
+      "0.3": 3,
+      "0.2": 1
+    },
+    "winners": {
+      "DAM4SAM": 24,
+      "SENTRY-D4S": 58,
+      "SAM2.1": 23,
+      "SAMURAI": 30,
+      "HiM2SAM": 45
+    }
+  }
+}

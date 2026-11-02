@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s118",
+  "sequence": "LaSOT_licenseplate-12",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_licenseplate-12/groundtruth.txt",
+  "formal_gt_sha256": "c8908f3fe01ab807b1b17f5c349afecb314ed75b0e408fc1fb46af9a5b1c1a7a",
+  "frames": 2685,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_licenseplate-12/color/00000001.jpg",
+  "source_last_member": "LaSOT_licenseplate-12/color/00002685.jpg",
+  "written_frames": 2685,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_licenseplate-12"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s118-SAM2.1.7445470.0.tar.gz",
+      "member": "LaSOT_licenseplate-12/LaSOT_licenseplate-12.txt",
+      "sha256": "59fd775728bd14ac10b4d2a617a3ca10cc7bf4953410985a2399f498a9883f51",
+      "frames": 2685
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_licenseplate-12/LaSOT_licenseplate-12.txt",
+      "sha256": "ab54dca1dbb578dfb1011dc866b54e576c95cee3bed5cb97d88a10e9ee8185e3",
+      "frames": 2685
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_licenseplate-12/LaSOT_licenseplate-12.txt",
+      "sha256": "d717283587899b129cd215f54d47c9805b684d22c839dfec931062dec4353936",
+      "frames": 2685
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s118-HiM2SAM.7443991.0.tar.gz",
+      "member": "LaSOT_licenseplate-12/LaSOT_licenseplate-12.txt",
+      "sha256": "898203cfd4999e9e5c28bdac555a2ddea618779e8937a20a79967f2e70b68ef6",
+      "frames": 2685
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s118-SENTRY-D4S.7395644.0.tar.gz",
+      "member": "LaSOT_licenseplate-12/LaSOT_licenseplate-12.txt",
+      "sha256": "10e937d75931f6d66319daf51101025c9f8dda3fb8ea613992974a16935bc889",
+      "frames": 2685
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 132,
+    "DAM4SAM": 133,
+    "SAMURAI": 132,
+    "HiM2SAM": 132,
+    "SENTRY-D4S": 133
+  },
+  "font": "<_io.BytesIO object at 0x14d6f9fd7bf0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s118.part.mp4"
+  ],
+  "output_file": "s118.mp4",
+  "output_bytes": 82936627,
+  "output_sha256": "2f6dfd602b79ecc7baa9f83e25b2ae6a5b79aa8fd0e6ca0dd02520fa459971fe",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 2685,
+    "expected_frames": 2685,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 132.2296166587621,
+  "finished_utc": "2026-10-30T19:52:05.132056+00:00"
+}

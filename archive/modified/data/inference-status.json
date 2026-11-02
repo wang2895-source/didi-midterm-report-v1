@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-30T04:49:52.778399+00:00",
+  "models": {
+    "SAM2.1": {
+      "statuses": {
+        "verified": 180
+      },
+      "verified_frames": 274882,
+      "missing_keys": [],
+      "first_finished_utc": "2026-10-29T01:25:41.218925+00:00",
+      "last_finished_utc": "2026-10-29T23:42:49.559017+00:00"
+    },
+    "HiM2SAM": {
+      "statuses": {
+        "verified": 180
+      },
+      "verified_frames": 274882,
+      "missing_keys": [],
+      "first_finished_utc": "2026-10-29T01:28:53.942165+00:00",
+      "last_finished_utc": "2026-10-29T20:45:40.567407+00:00"
+    },
+    "SENTRY-D4S": {
+      "statuses": {
+        "verified": 180
+      },
+      "verified_frames": 274882,
+      "missing_keys": [],
+      "first_finished_utc": "2026-10-29T01:27:34.844287+00:00",
+      "last_finished_utc": "2026-10-29T19:01:33.964939+00:00",
+      "condition_counts": {
+        "insufficient_history_for_selection": 8485
+      }
+    }
+  },
+  "failed": [],
+  "result_archives": 540,
+  "result_archive_bytes": 371119598,
+  "inference_complete": true,
+  "dag_cluster": 7337486,
+  "dag_exit_code": 0,
+  "verified_trajectories": 540,
+  "full_scoring_cluster": 7484749,
+  "full_scoring_state": "verified",
+  "full_scoring_results": "/Users/wangyitong/Documents/ChatGPT/CV paper/work/additional-baselines-20261028/full-review-20261029-v2/results-7484749/full-evaluation",
+  "full_scoring_finished_utc": "2026-10-30T05:10:25.022074+00:00"
+}

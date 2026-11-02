@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s178",
+  "sequence": "VOT2022-LT_sailing",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-LT_sailing/groundtruth.txt",
+  "formal_gt_sha256": "c7174fcb87a28053f0b22a86256d8feb90d10b457a8349b14c3761ecd38a16f1",
+  "frames": 1812,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-LT_sailing/color/00000001.jpg",
+  "source_last_member": "VOT2022-LT_sailing/color/00001812.jpg",
+  "written_frames": 1812,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "sailing",
+    "uid": "46ec08d220229198ee321975dd4d1350b9261a72c09c9382c1fa2d911ed1ce9e11e383eb41744f2fdc9bd57da992679d8659387e3e7ab48af671a24067fd9bc4"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2128697/scratch/s178-SAM2.1.7445062.0.tar.gz",
+      "member": "VOT2022-LT_sailing/VOT2022-LT_sailing.txt",
+      "sha256": "4d316081cf5bd05a0f9a7d8bf4435b552ca30bf2b01baa9c9fc973a4ae318813",
+      "frames": 1812
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-LT_sailing/VOT2022-LT_sailing.txt",
+      "sha256": "69dbaef86d046448ae100a89057653e349a46a7d70371bd4b791296d2671c575",
+      "frames": 1812
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-LT_sailing/VOT2022-LT_sailing.txt",
+      "sha256": "c545fc7aea238f3899b7681b14d6ce98981c482533f28c87a144677d56737181",
+      "frames": 1812
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2128697/scratch/s178-HiM2SAM.7337791.0.tar.gz",
+      "member": "VOT2022-LT_sailing/VOT2022-LT_sailing.txt",
+      "sha256": "c25dd5ffd8cbc4f26939dab7bf1e7c645ba5bcc9909057ad9c61ec2d0b39ec8c",
+      "frames": 1812
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2128697/scratch/s178-SENTRY-D4S.7338267.0.tar.gz",
+      "member": "VOT2022-LT_sailing/VOT2022-LT_sailing.txt",
+      "sha256": "c88bb6a6d977c6526758d343e8f5d97405dbc79a215d5cdb739be8560bf1f764",
+      "frames": 1812
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x1530b45cfd30>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2128697/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s178.part.mp4"
+  ],
+  "output_file": "s178.mp4",
+  "output_bytes": 30035268,
+  "output_sha256": "bcd963d30d6618471c354e3d8ec853287fbd63330a2b5a8243cf470474cff689",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1812,
+    "expected_frames": 1812,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 92.22567523643374,
+  "finished_utc": "2026-10-30T19:57:18.658581+00:00"
+}

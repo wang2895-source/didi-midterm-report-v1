@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s096",
+  "sequence": "LaSOT_drone-15",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_drone-15/groundtruth.txt",
+  "formal_gt_sha256": "6d23195d77d6febc2dc59c953a166005acb6507d4e6858f27a7955eee747b9f9",
+  "frames": 1362,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_drone-15/color/00000001.jpg",
+  "source_last_member": "LaSOT_drone-15/color/00001362.jpg",
+  "written_frames": 1362,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_drone-15"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s096-SAM2.1.7446230.0.tar.gz",
+      "member": "LaSOT_drone-15/LaSOT_drone-15.txt",
+      "sha256": "7e09c628c047b8da37ca511ee1d84c7e6c798105c46648f1ea1d65ff922add67",
+      "frames": 1362
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_drone-15/LaSOT_drone-15.txt",
+      "sha256": "309046b6a7cdfe6907084c33525c4d6d2f5acb86c8b2026f68ccb7aa8c06d4b7",
+      "frames": 1362
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_drone-15/LaSOT_drone-15.txt",
+      "sha256": "c08f0fe22f010ad2a88ba078c59fd0e38e07528e4a3fa7f5cf9cce4fdc4cc55d",
+      "frames": 1362
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s096-HiM2SAM.7444544.0.tar.gz",
+      "member": "LaSOT_drone-15/LaSOT_drone-15.txt",
+      "sha256": "4c220d2b6a1ce1005f640a1d1c09a51afa5d2624508e81c3cd19373f9e26a91f",
+      "frames": 1362
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s096-SENTRY-D4S.7437440.0.tar.gz",
+      "member": "LaSOT_drone-15/LaSOT_drone-15.txt",
+      "sha256": "d08c1f0af5cd125d9f473ff20bdc30f764d22a1643e5b56212d5418eb9266de2",
+      "frames": 1362
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 782,
+    "DAM4SAM": 104,
+    "SAMURAI": 116,
+    "HiM2SAM": 723,
+    "SENTRY-D4S": 348
+  },
+  "font": "<_io.BytesIO object at 0x14af0f073b00>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2232857/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s096.part.mp4"
+  ],
+  "output_file": "s096.mp4",
+  "output_bytes": 44770718,
+  "output_sha256": "cca882c97ce0b8d816c4b21517dffc58da4741d82fe6a4bc7a0ef45ff42398f7",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1362,
+    "expected_frames": 1362,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 81.39594998955727,
+  "finished_utc": "2026-10-30T19:43:40.465346+00:00"
+}

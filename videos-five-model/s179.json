@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s179",
+  "sequence": "VOT2022-LT_skiing",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-LT_skiing/groundtruth.txt",
+  "formal_gt_sha256": "1a3a467664ce1423d01db3a9f8f6688a0e5e3503473989e63acff998c8e315aa",
+  "frames": 3057,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-LT_skiing/color/00000001.jpg",
+  "source_last_member": "VOT2022-LT_skiing/color/00003057.jpg",
+  "written_frames": 3057,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "skiing",
+    "uid": "d885d797f76f1bb15d533a7b041a0820f1809bc87c7ca166e1305a22243e4be65caab7406a2341434dc08fcd2f785bab6c9e15166cc7c86c08896cc02a8f488e"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1506932/scratch/s179-SAM2.1.7445050.0.tar.gz",
+      "member": "VOT2022-LT_skiing/VOT2022-LT_skiing.txt",
+      "sha256": "75b3e04e93422d14a8fb6f97b35599ab847c95325c0abfb40d0d4c5b3dcac0ce",
+      "frames": 3057
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-LT_skiing/VOT2022-LT_skiing.txt",
+      "sha256": "082b0f1a85bbaf0837e8edcc11661c406a2cb023f7e20efb515f5ab9dde0793e",
+      "frames": 3057
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-LT_skiing/VOT2022-LT_skiing.txt",
+      "sha256": "02a5e3f37ecea103f7b2983166bd2e9bbe0499d7ef1bc67d9e5ca9a27980f2f4",
+      "frames": 3057
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1506932/scratch/s179-HiM2SAM.7337784.0.tar.gz",
+      "member": "VOT2022-LT_skiing/VOT2022-LT_skiing.txt",
+      "sha256": "e22ae29ab71b7ce7404dad6104b5758a4bdbf6f850fa7fbb96ace2ef7e1b4728",
+      "frames": 3057
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1506932/scratch/s179-SENTRY-D4S.7338168.0.tar.gz",
+      "member": "VOT2022-LT_skiing/VOT2022-LT_skiing.txt",
+      "sha256": "5630a73a6417769aee1aef1198cf639fab67ee01234799c37407541b05822247",
+      "frames": 3057
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 217,
+    "DAM4SAM": 180,
+    "SAMURAI": 152,
+    "HiM2SAM": 117,
+    "SENTRY-D4S": 282
+  },
+  "font": "<_io.BytesIO object at 0x14a8853bcc20>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1506932/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s179.part.mp4"
+  ],
+  "output_file": "s179.mp4",
+  "output_bytes": 102300225,
+  "output_sha256": "469499a5b080a1dccb15efb2a72a4f01b5ef6ed76d616cfd0f80197b83ca59fc",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 3057,
+    "expected_frames": 3057,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 159.66259227506816,
+  "finished_utc": "2026-10-30T19:57:29.677027+00:00"
+}

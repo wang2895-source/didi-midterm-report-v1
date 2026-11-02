@@ -2,8 +2,13 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/videos/:file",
+      "source": "/videos/:file(.*[.]mp4)",
       "destination": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/:file",
+      "permanent": false
+    },
+    {
+      "source": "/videos-five-model/:file(.*[.]mp4)",
+      "destination": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-five-model-v2-20261101/:file",
       "permanent": false
     }
   ]

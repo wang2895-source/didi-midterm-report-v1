@@ -1,0 +1,96 @@
+﻿file,column,explanation_zh,explanation_en,unit
+all-sequences.csv,key,序列的固定内部编号,Stable sequence key,identifier
+all-sequences.csv,sequence,DiDi 中的完整序列名称,Full DiDi sequence name,identifier
+all-sequences.csv,source,由序列名称前缀推断的来源标签，不视为独立核实的来源,Source label inferred from the sequence name; provenance not independently verified,label
+all-sequences.csv,frames,序列图像总帧数，包含初始化帧和无目标标注帧,"Total sequence frames, including initialization and absent-target frames",frames
+all-sequences.csv,width,图像宽度,Image width,pixels
+all-sequences.csv,height,图像高度,Image height,pixels
+all-sequences.csv,mask_gt_frames,GT 类型为 MASK 的帧数，包含空 mask 标注,"Frames whose GT region type is MASK, including empty mask annotations",frames
+all-sequences.csv,gt_geometry,contains_mask 表示含 mask GT；no_mask 表示不含 mask GT,contains_mask: at least one mask GT; no_mask: none,label
+all-sequences.csv,protocol,symmetric_box：预测 mask 和 mask GT 均转框；original：只转预测，保留 GT 原始几何,symmetric_box converts prediction and mask GT to boxes; original converts predictions only,label
+all-sequences.csv,DAM_Q,DAM4SAM 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,DAM4SAM Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,DAM_A,DAM4SAM 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,DAM4SAM Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,DAM_R,DAM4SAM 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,DAM4SAM Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM_Q,SAMURAI 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SAMURAI Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM_A,SAMURAI 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SAMURAI Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM_R,SAMURAI 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SAMURAI Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM2_Q,SAM2.1 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SAM2.1 Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM2_A,SAM2.1 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SAM2.1 Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM2_R,SAM2.1 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SAM2.1 Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,HIM_Q,HiM2SAM 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,HiM2SAM Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,HIM_A,HiM2SAM 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,HiM2SAM Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,HIM_R,HiM2SAM 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,HiM2SAM Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SENTRY_Q,SENTRY-D4S 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SENTRY-D4S Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SENTRY_A,SENTRY-D4S 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SENTRY-D4S Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SENTRY_R,SENTRY-D4S 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SENTRY-D4S Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences.csv,SAM_minus_DAM_Q,SAMURAI 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SAMURAI sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences.csv,SAM2_minus_DAM_Q,SAM2.1 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SAM2.1 sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences.csv,HIM_minus_DAM_Q,HiM2SAM 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,HiM2SAM sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences.csv,SENTRY_minus_DAM_Q,SENTRY-D4S 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SENTRY-D4S sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences.csv,winner_Q,本序列 Q 最高的模型；绝对差不超过 1e-12 时并列，以分号分隔,Model(s) with maximum sequence Q; ties within 1e-12 separated by semicolons,label
+all-sequences.csv,best_Q,五个模型中本序列最高 Q,Maximum Q among all five models,0-1
+all-sequences.csv,worst_Q,五个模型中本序列最低 Q,Minimum Q among all five models,0-1
+all-sequences.csv,all_five_Q_below_0_5,五模型 Q 是否均严格小于 0.5，仅为本次筛选规则,Whether all five Q values are strictly below 0.5; exploratory screening rule,boolean
+all-sequences.csv,all_five_Q_below_0_3,五模型 Q 是否均严格小于 0.3，仅为本次筛选规则,Whether all five Q values are strictly below 0.3; exploratory screening rule,boolean
+all-sequences.csv,video_DAM4SAM_SAMURAI,已有 DAM4SAM/SAMURAI 双模型离线视频相对路径，画内分数为 original；不代表新增三模型视频,Relative path to existing DAM4SAM/SAMURAI offline video; embedded scores use original protocol; does not include the three new models,relative file path
+all-sequences-original-protocol.csv,key,序列的固定内部编号,Stable sequence key,identifier
+all-sequences-original-protocol.csv,sequence,DiDi 中的完整序列名称,Full DiDi sequence name,identifier
+all-sequences-original-protocol.csv,source,由序列名称前缀推断的来源标签，不视为独立核实的来源,Source label inferred from the sequence name; provenance not independently verified,label
+all-sequences-original-protocol.csv,frames,序列图像总帧数，包含初始化帧和无目标标注帧,"Total sequence frames, including initialization and absent-target frames",frames
+all-sequences-original-protocol.csv,width,图像宽度,Image width,pixels
+all-sequences-original-protocol.csv,height,图像高度,Image height,pixels
+all-sequences-original-protocol.csv,mask_gt_frames,GT 类型为 MASK 的帧数，包含空 mask 标注,"Frames whose GT region type is MASK, including empty mask annotations",frames
+all-sequences-original-protocol.csv,gt_geometry,contains_mask 表示含 mask GT；no_mask 表示不含 mask GT,contains_mask: at least one mask GT; no_mask: none,label
+all-sequences-original-protocol.csv,protocol,symmetric_box：预测 mask 和 mask GT 均转框；original：只转预测，保留 GT 原始几何,symmetric_box converts prediction and mask GT to boxes; original converts predictions only,label
+all-sequences-original-protocol.csv,DAM_Q,DAM4SAM 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,DAM4SAM Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,DAM_A,DAM4SAM 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,DAM4SAM Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,DAM_R,DAM4SAM 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,DAM4SAM Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM_Q,SAMURAI 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SAMURAI Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM_A,SAMURAI 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SAMURAI Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM_R,SAMURAI 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SAMURAI Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM2_Q,SAM2.1 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SAM2.1 Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM2_A,SAM2.1 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SAM2.1 Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM2_R,SAM2.1 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SAM2.1 Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,HIM_Q,HiM2SAM 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,HiM2SAM Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,HIM_A,HiM2SAM 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,HiM2SAM Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,HIM_R,HiM2SAM 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,HiM2SAM Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SENTRY_Q,SENTRY-D4S 的 Q 分数。Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,SENTRY-D4S Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SENTRY_A,SENTRY-D4S 的 A 分数。Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,SENTRY-D4S Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SENTRY_R,SENTRY-D4S 的 R 分数。Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,SENTRY-D4S Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+all-sequences-original-protocol.csv,SAM_minus_DAM_Q,SAMURAI 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SAMURAI sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences-original-protocol.csv,SAM2_minus_DAM_Q,SAM2.1 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SAM2.1 sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences-original-protocol.csv,HIM_minus_DAM_Q,HiM2SAM 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,HiM2SAM sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences-original-protocol.csv,SENTRY_minus_DAM_Q,SENTRY-D4S 的本序列 Q 减 DAM4SAM 的本序列 Q；乘 100 为百分点差,SENTRY-D4S sequence Q minus DAM4SAM sequence Q; multiply by 100 for percentage points,difference in 0-1 scale
+all-sequences-original-protocol.csv,winner_Q,本序列 Q 最高的模型；绝对差不超过 1e-12 时并列，以分号分隔,Model(s) with maximum sequence Q; ties within 1e-12 separated by semicolons,label
+all-sequences-original-protocol.csv,best_Q,五个模型中本序列最高 Q,Maximum Q among all five models,0-1
+all-sequences-original-protocol.csv,worst_Q,五个模型中本序列最低 Q,Minimum Q among all five models,0-1
+all-sequences-original-protocol.csv,all_five_Q_below_0_5,五模型 Q 是否均严格小于 0.5，仅为本次筛选规则,Whether all five Q values are strictly below 0.5; exploratory screening rule,boolean
+all-sequences-original-protocol.csv,all_five_Q_below_0_3,五模型 Q 是否均严格小于 0.3，仅为本次筛选规则,Whether all five Q values are strictly below 0.3; exploratory screening rule,boolean
+all-sequences-original-protocol.csv,video_DAM4SAM_SAMURAI,已有 DAM4SAM/SAMURAI 双模型离线视频相对路径，画内分数为 original；不代表新增三模型视频,Relative path to existing DAM4SAM/SAMURAI offline video; embedded scores use original protocol; does not include the three new models,relative file path
+summary.csv,protocol,symmetric_box：预测 mask 和 mask GT 均转框；original：只转预测，保留 GT 原始几何,symmetric_box converts prediction and mask GT to boxes; original converts predictions only,label
+summary.csv,model,跟踪模型名称；SENTRY-D4S 指本次采用的发布配置，不代表严格模块消融,"Tracker name; SENTRY-D4S denotes this run profile, not a controlled module ablation",label
+summary.csv,sequences,纳入汇总的序列数,Number of included sequences,sequences
+summary.csv,frames_per_model,每个模型覆盖的图像总帧数，不等于所有指标的有效评分帧数,Total frames per model; not the valid scoring-frame denominator for each metric,frames
+summary.csv,Q,Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+summary.csv,A,Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+summary.csv,R,Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+summary.csv,delta_Q_vs_DAM,本模型平均 Q 减 DAM4SAM 平均 Q；乘 100 为百分点差,Model mean Q minus DAM4SAM mean Q; multiply by 100 for percentage points,difference in 0-1 scale
+summary.csv,aggregation,逐序列计算后对 180 条等权平均；不是按帧数加权,"Unweighted mean over 180 sequence-level scores, not a frame-weighted mean",label
+scores-long.csv,protocol,symmetric_box：预测 mask 和 mask GT 均转框；original：只转预测，保留 GT 原始几何,symmetric_box converts prediction and mask GT to boxes; original converts predictions only,label
+scores-long.csv,key,序列的固定内部编号,Stable sequence key,identifier
+scores-long.csv,sequence,DiDi 中的完整序列名称,Full DiDi sequence name,identifier
+scores-long.csv,source,由序列名称前缀推断的来源标签，不视为独立核实的来源,Source label inferred from the sequence name; provenance not independently verified,label
+scores-long.csv,frames,序列图像总帧数，包含初始化帧和无目标标注帧,"Total sequence frames, including initialization and absent-target frames",frames
+scores-long.csv,model,跟踪模型名称；SENTRY-D4S 指本次采用的发布配置，不代表严格模块消融,"Tracker name; SENTRY-D4S denotes this run profile, not a controlled module ablation",label
+scores-long.csv,Q,Quality：沿用归档的 DiDi/VOT 0.7.1 Q 评分及特殊帧规则；详见报告,Quality from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+scores-long.csv,A,Accuracy：沿用归档的 DiDi/VOT 0.7.1 A 评分及特殊帧规则；详见报告,Accuracy from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+scores-long.csv,R,Robustness：沿用归档的 DiDi/VOT 0.7.1 R 评分及特殊帧规则；详见报告,Robustness from archived DiDi/VOT 0.7.1 scoring with special-frame rules; see report,0-1
+scores-long.csv,Q_scored_frames,本序列纳入 Q 分母的评分帧数,Number of scored frames in the sequence Q denominator,frames
+scores-long.csv,A_scored_frames,本序列纳入 A 分母的评分帧数,Number of scored frames in the sequence A denominator,frames
+scores-long.csv,count_T,VOT 评分分类 T 的帧数，类别定义见报告及评分代码,Number of frames in VOT scoring category T; see report and scoring code,frames
+scores-long.csv,count_F,VOT 评分分类 F 的帧数，类别定义见报告及评分代码,Number of frames in VOT scoring category F; see report and scoring code,frames
+scores-long.csv,count_M,VOT 评分分类 M 的帧数，类别定义见报告及评分代码,Number of frames in VOT scoring category M; see report and scoring code,frames
+scores-long.csv,count_H,VOT 评分分类 H 的帧数，类别定义见报告及评分代码,Number of frames in VOT scoring category H; see report and scoring code,frames
+scores-long.csv,count_N,VOT 评分分类 N 的帧数，类别定义见报告及评分代码,Number of frames in VOT scoring category N; see report and scoring code,frames
+scores-long.csv,mask_gt_frames,GT 类型为 MASK 的帧数，包含空 mask 标注,"Frames whose GT region type is MASK, including empty mask annotations",frames
+scores-long.csv,active_gt_sha256,本序列正式 GT 文件的 SHA256；用于追溯原始标注,SHA256 of the active GT file for traceability,SHA256

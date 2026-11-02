@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s077",
+  "sequence": "VOT2022-ST_soccer1",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-ST_soccer1/groundtruth.txt",
+  "formal_gt_sha256": "c612e8033a860050c967aec0337e256a197c35e87f918a91a5db203044ba5e0d",
+  "frames": 392,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    640,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-ST_soccer1/color/00000001.jpg",
+  "source_last_member": "VOT2022-ST_soccer1/color/00000392.jpg",
+  "written_frames": 392,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "soccer1",
+    "uid": "bc594e3a58e8317cd600c338acbf42a33da31a7b4bdf5e6c169e27bf1ca03d6aa0621393b3c327760ca4fc0c006211cb4c39c982ac75ee060cb08b8bbceaf377"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s077-SAM2.1.7446004.0.tar.gz",
+      "member": "VOT2022-ST_soccer1/VOT2022-ST_soccer1.txt",
+      "sha256": "07f2ca6afd30d32cf129a1214feb2b4c24d6ca4a93628481541d0af335b68392",
+      "frames": 392
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-ST_soccer1/VOT2022-ST_soccer1.txt",
+      "sha256": "1182d188bccb15a767042acf9be13226baece0f787a6454830e83c95b0981d7a",
+      "frames": 392
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-ST_soccer1/VOT2022-ST_soccer1.txt",
+      "sha256": "6a3620a07239af2a4c650b3f08a26e3763bdbaf7d63f0907db99124ce0b92127",
+      "frames": 392
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s077-HiM2SAM.7444484.0.tar.gz",
+      "member": "VOT2022-ST_soccer1/VOT2022-ST_soccer1.txt",
+      "sha256": "7937d586efe55113f8547a0770d421c3c0e2ff225e80ae44566c146b41b48620",
+      "frames": 392
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s077-SENTRY-D4S.7443872.0.tar.gz",
+      "member": "VOT2022-ST_soccer1/VOT2022-ST_soccer1.txt",
+      "sha256": "b5735435f740f323c6799a6fca66cdd7f4c180bef7a9d113da35c40d695756f6",
+      "frames": 392
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 8,
+    "DAM4SAM": 7,
+    "SAMURAI": 0,
+    "HiM2SAM": 2,
+    "SENTRY-D4S": 7
+  },
+  "font": "<_io.BytesIO object at 0x14d6f9fd4810>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s077.part.mp4"
+  ],
+  "output_file": "s077.mp4",
+  "output_bytes": 13449600,
+  "output_sha256": "611fb2b1df3a26adbf166939d187cf0ee26026ef733841ea4ca24bc39072f668",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 392,
+    "expected_frames": 392,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 20.16554721072316,
+  "finished_utc": "2026-10-30T19:43:38.820933+00:00"
+}

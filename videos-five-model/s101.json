@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s101",
+  "sequence": "LaSOT_elephant-12",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_elephant-12/groundtruth.txt",
+  "formal_gt_sha256": "93fd76bd648f8d738a60e6caf6124351994c1b85522af7e89055dc91c0c66fb1",
+  "frames": 1053,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_elephant-12/color/00000001.jpg",
+  "source_last_member": "LaSOT_elephant-12/color/00001053.jpg",
+  "written_frames": 1053,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_elephant-12"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s101-SAM2.1.7446015.0.tar.gz",
+      "member": "LaSOT_elephant-12/LaSOT_elephant-12.txt",
+      "sha256": "5115eca2b2798e1a8eaa5eba1154a18c5615354fde885eb940128bb12e44e42a",
+      "frames": 1053
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_elephant-12/LaSOT_elephant-12.txt",
+      "sha256": "000b0aa827ef26ffc67bd4864a175fd9e3a66b5886b20b6bdb5c4d4e8ed66ba3",
+      "frames": 1053
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_elephant-12/LaSOT_elephant-12.txt",
+      "sha256": "2e47e1c646910d8c8393bcf8e537cebfad402c757042554fde04b179c5a69f84",
+      "frames": 1053
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s101-HiM2SAM.7444523.0.tar.gz",
+      "member": "LaSOT_elephant-12/LaSOT_elephant-12.txt",
+      "sha256": "32ed0a405b818c0ea0a4cc211ec62191977f576d7aa476490f4549bf63a884f8",
+      "frames": 1053
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s101-SENTRY-D4S.7430124.0.tar.gz",
+      "member": "LaSOT_elephant-12/LaSOT_elephant-12.txt",
+      "sha256": "e8c57f3bc73c5eca4640b04e3936f506a55bb9100cfb61011f6f23599090ca1b",
+      "frames": 1053
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 54,
+    "DAM4SAM": 42,
+    "SAMURAI": 40,
+    "HiM2SAM": 151,
+    "SENTRY-D4S": 40
+  },
+  "font": "<_io.BytesIO object at 0x14af0f072d40>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2232857/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s101.part.mp4"
+  ],
+  "output_file": "s101.mp4",
+  "output_bytes": 25776522,
+  "output_sha256": "7e9bee2a858cd5e5e8d2369679f331c7d495fb58e7eb9d6043b357e35326075d",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1053,
+    "expected_frames": 1053,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 63.18134155496955,
+  "finished_utc": "2026-10-30T19:44:44.693749+00:00"
+}

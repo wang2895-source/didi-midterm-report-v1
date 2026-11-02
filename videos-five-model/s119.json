@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s119",
+  "sequence": "LaSOT_microphone-2",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_microphone-2/groundtruth.txt",
+  "formal_gt_sha256": "0ad62b77b614c12f1970868f7afdc8c06b9962e7960262363686458add565ab0",
+  "frames": 4017,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_microphone-2/color/00000001.jpg",
+  "source_last_member": "LaSOT_microphone-2/color/00004017.jpg",
+  "written_frames": 4017,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_microphone-2"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s119-SAM2.1.7445251.0.tar.gz",
+      "member": "LaSOT_microphone-2/LaSOT_microphone-2.txt",
+      "sha256": "027cb0803766c32feebcd1b57dc6e840e6985795e602b61026958600f3d7f742",
+      "frames": 4017
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_microphone-2/LaSOT_microphone-2.txt",
+      "sha256": "00a66c69a350b8d93630b17edc29c291cc7f01733f353d632f1580f50daa96ed",
+      "frames": 4017
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_microphone-2/LaSOT_microphone-2.txt",
+      "sha256": "eb68c39f8f0466166f19600c9aff1be54026e91688be51be7f2b5a7413a5cb96",
+      "frames": 4017
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s119-HiM2SAM.7443983.0.tar.gz",
+      "member": "LaSOT_microphone-2/LaSOT_microphone-2.txt",
+      "sha256": "b7733508393a9491ceb54e2697c1377b750f32d995e70a6f103a6cc1f986f546",
+      "frames": 4017
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s119-SENTRY-D4S.7395010.0.tar.gz",
+      "member": "LaSOT_microphone-2/LaSOT_microphone-2.txt",
+      "sha256": "9af2490bb17f57dd83ecf0649db32ed619f30f40ef2aed38a3d2b09fd1629668",
+      "frames": 4017
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 294,
+    "DAM4SAM": 311,
+    "SAMURAI": 731,
+    "HiM2SAM": 250,
+    "SENTRY-D4S": 313
+  },
+  "font": "<_io.BytesIO object at 0x1518ced78ae0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2235828/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s119.part.mp4"
+  ],
+  "output_file": "s119.mp4",
+  "output_bytes": 72557840,
+  "output_sha256": "82f1c15356f9dd59af0119c5ed7766d457a9f8f954c7942e7d03f5483154d91b",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 4017,
+    "expected_frames": 4017,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 194.39473786577582,
+  "finished_utc": "2026-10-30T19:50:10.482372+00:00"
+}

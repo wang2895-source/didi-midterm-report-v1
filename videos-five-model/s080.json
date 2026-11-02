@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s080",
+  "sequence": "LaSOT_basketball-1",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_basketball-1/groundtruth.txt",
+  "formal_gt_sha256": "6c33abece8167f0f87bf1edb3d46d181efb41842cb9ea87d5cebd12ad95f3258",
+  "frames": 1088,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    640,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_basketball-1/color/00000001.jpg",
+  "source_last_member": "LaSOT_basketball-1/color/00001088.jpg",
+  "written_frames": 1088,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_basketball-1"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3914417/scratch/s080-SAM2.1.7445981.0.tar.gz",
+      "member": "LaSOT_basketball-1/LaSOT_basketball-1.txt",
+      "sha256": "ba97152fb0e8d97d4e5d5b1559bf9e290d18d7fe5d65d226e8552b20c310c28f",
+      "frames": 1088
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_basketball-1/LaSOT_basketball-1.txt",
+      "sha256": "c203d913b9e29ebcaafa2d3b7fa49ef5ddb1db24fb740a365a7b155b029e6067",
+      "frames": 1088
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_basketball-1/LaSOT_basketball-1.txt",
+      "sha256": "a350c5450e3aadbbd00fce6bbf5de5071fc0e0ede6b8fb7160096ded239f080f",
+      "frames": 1088
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3914417/scratch/s080-HiM2SAM.7337776.0.tar.gz",
+      "member": "LaSOT_basketball-1/LaSOT_basketball-1.txt",
+      "sha256": "2c2757b5f5fdbb5856cdfa0223190cb1c33b311be0a91ed6d6ebdf545a0ee28e",
+      "frames": 1088
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3914417/scratch/s080-SENTRY-D4S.7443848.0.tar.gz",
+      "member": "LaSOT_basketball-1/LaSOT_basketball-1.txt",
+      "sha256": "895151bfe77af7cda1869134fedd64d24f1f5b1f08b6e85ef7d7fdd47b9561c7",
+      "frames": 1088
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 1,
+    "DAM4SAM": 7,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 5
+  },
+  "font": "<_io.BytesIO object at 0x15462634cbd0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_3914417/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s080.part.mp4"
+  ],
+  "output_file": "s080.mp4",
+  "output_bytes": 28553791,
+  "output_sha256": "410e50e368e40db26997c00b3689b0877786859580936d872a8874bbd5d4b9ed",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1088,
+    "expected_frames": 1088,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 63.7915669917129,
+  "finished_utc": "2026-10-30T19:48:53.662651+00:00"
+}

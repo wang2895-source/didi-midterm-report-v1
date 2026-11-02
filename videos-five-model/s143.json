@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s143",
+  "sequence": "LaSOT_skateboard-8",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_skateboard-8/groundtruth.txt",
+  "formal_gt_sha256": "7148987df915f7937f318ac6bc2f32b7a00d19567986c314d0e29288427c00d2",
+  "frames": 4112,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_skateboard-8/color/00000001.jpg",
+  "source_last_member": "LaSOT_skateboard-8/color/00004112.jpg",
+  "written_frames": 4112,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_skateboard-8"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s143-SAM2.1.7445162.0.tar.gz",
+      "member": "LaSOT_skateboard-8/LaSOT_skateboard-8.txt",
+      "sha256": "fb013da9a05957754f2d833e28b0212a77143162599ebba6896953adec5d5a63",
+      "frames": 4112
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_skateboard-8/LaSOT_skateboard-8.txt",
+      "sha256": "9fd307c6710e5d3641814c865b25ed619291ec903f3e0de4eee9c3dc869cd5f8",
+      "frames": 4112
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_skateboard-8/LaSOT_skateboard-8.txt",
+      "sha256": "121dc6a12f5fdc1de0a8f3bcdc8f7018445e67a753cbc27a476e360db9abaee4",
+      "frames": 4112
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s143-HiM2SAM.7337803.0.tar.gz",
+      "member": "LaSOT_skateboard-8/LaSOT_skateboard-8.txt",
+      "sha256": "c1ca2fd6ca79abb5985d39a58a270d6a02a352f09c22d445b5979289041a962d",
+      "frames": 4112
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s143-SENTRY-D4S.7389884.0.tar.gz",
+      "member": "LaSOT_skateboard-8/LaSOT_skateboard-8.txt",
+      "sha256": "a8bb101758bdd60589cea8e8094346f27f3df5c2f9addf3976637a3c728a3993",
+      "frames": 4112
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 643,
+    "DAM4SAM": 100,
+    "SAMURAI": 545,
+    "HiM2SAM": 305,
+    "SENTRY-D4S": 136
+  },
+  "font": "<_io.BytesIO object at 0x14af0f0f36a0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2232857/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s143.part.mp4"
+  ],
+  "output_file": "s143.mp4",
+  "output_bytes": 123700854,
+  "output_sha256": "c254dde926396c719245b92e4e3578eb8f95112c53b3b5df67c60df24ce2ee85",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 4112,
+    "expected_frames": 4112,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 209.43075097724795,
+  "finished_utc": "2026-10-30T19:52:22.842469+00:00"
+}

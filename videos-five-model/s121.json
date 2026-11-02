@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s121",
+  "sequence": "LaSOT_monkey-4",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_monkey-4/groundtruth.txt",
+  "formal_gt_sha256": "01c1e8c1f8f25e3767f144e0d7679388092306d1571838c81b1c7a2fb1bfda0e",
+  "frames": 1435,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    480,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_monkey-4/color/00000001.jpg",
+  "source_last_member": "LaSOT_monkey-4/color/00001435.jpg",
+  "written_frames": 1435,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_monkey-4"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s121-SAM2.1.7445244.0.tar.gz",
+      "member": "LaSOT_monkey-4/LaSOT_monkey-4.txt",
+      "sha256": "7e5d880dc879351848114de3b36d80771cb2c786cb149d9d1b845a9afbaa5900",
+      "frames": 1435
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_monkey-4/LaSOT_monkey-4.txt",
+      "sha256": "d952dd100f1b59ab27595ec085be4f41e76933c959d0f7cf88e2dcab67ea9551",
+      "frames": 1435
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_monkey-4/LaSOT_monkey-4.txt",
+      "sha256": "2b456b0b39a051244f375db4319a107636ac66364efecf5b09398d79372c51ea",
+      "frames": 1435
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s121-HiM2SAM.7338043.0.tar.gz",
+      "member": "LaSOT_monkey-4/LaSOT_monkey-4.txt",
+      "sha256": "99dc4513302b50278c58673c57be54f638d41f93a474399d809cb6f1e5d299ce",
+      "frames": 1435
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s121-SENTRY-D4S.7394413.0.tar.gz",
+      "member": "LaSOT_monkey-4/LaSOT_monkey-4.txt",
+      "sha256": "063415a4bcf29869585d6ae73d5e923d5547f2d8b8e97e93b4f53a20535128d7",
+      "frames": 1435
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 307,
+    "DAM4SAM": 130,
+    "SAMURAI": 284,
+    "HiM2SAM": 65,
+    "SENTRY-D4S": 129
+  },
+  "font": "<_io.BytesIO object at 0x14a260838680>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1748973/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s121.part.mp4"
+  ],
+  "output_file": "s121.mp4",
+  "output_bytes": 29035388,
+  "output_sha256": "10974aaff7faa8b9585ce4f437876feb5a8a4dbf5bcbc24e467ec253e6acd2d0",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1435,
+    "expected_frames": 1435,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 72.74237485602498,
+  "finished_utc": "2026-10-30T19:52:58.648913+00:00"
+}

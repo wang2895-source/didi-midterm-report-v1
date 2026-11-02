@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s047",
+  "sequence": "UTB180_Video_0133",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/UTB180_Video_0133/groundtruth.txt",
+  "formal_gt_sha256": "fd1c811332c594fb451fe77a8436adceb4d55f8ce1385cd99945c2196a2af733",
+  "frames": 363,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "UTB180_Video_0133/color/00000001.jpg",
+  "source_last_member": "UTB180_Video_0133/color/00000363.jpg",
+  "written_frames": 363,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "UTB180_Video_0133"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s047-SAM2.1.7446555.0.tar.gz",
+      "member": "UTB180_Video_0133/UTB180_Video_0133.txt",
+      "sha256": "7b0ca2f52411bd3ea293db4dde8789b07c9fa1fb470cfd5fe15be901d5124fc9",
+      "frames": 363
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/UTB180_Video_0133/UTB180_Video_0133.txt",
+      "sha256": "7df315bc5830852b60f17fe67c41e3c8c485ca6909ee989f357bfaa8d78583ee",
+      "frames": 363
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/UTB180_Video_0133/UTB180_Video_0133.txt",
+      "sha256": "215caef2cfcd460aaaa97e18982b7b02783c76f55029f2a9b9e8f71bb9616490",
+      "frames": 363
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s047-HiM2SAM.7444539.0.tar.gz",
+      "member": "UTB180_Video_0133/UTB180_Video_0133.txt",
+      "sha256": "38b11979a2ef35ae2b13900c608a8805caf6ef2d673c4c6f338c118a0f77fc2d",
+      "frames": 363
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s047-SENTRY-D4S.7441454.0.tar.gz",
+      "member": "UTB180_Video_0133/UTB180_Video_0133.txt",
+      "sha256": "95d2a7250c1ec44a42009da23e77dd0da09ce5c39a0d35a08433368e33e7c875",
+      "frames": 363
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x1533ff420cc0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2487090/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s047.part.mp4"
+  ],
+  "output_file": "s047.mp4",
+  "output_bytes": 12429027,
+  "output_sha256": "e3925512a55f24f4bc2093fa26ad5e5caeb8518100d1953f2df6121615fd5ee5",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 363,
+    "expected_frames": 363,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 26.98638565093279,
+  "finished_utc": "2026-10-30T19:44:24.896646+00:00"
+}

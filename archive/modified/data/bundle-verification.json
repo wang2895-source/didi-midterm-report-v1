@@ -1,0 +1,33 @@
+{
+  "status": "verified",
+  "date": "2026-10-30",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "sequences": 180,
+  "frames_per_model": 274882,
+  "trajectories": 900,
+  "csv_files": 5,
+  "pdf_editions": {
+    "Chinese": 12,
+    "English": 12
+  },
+  "static_html_logic_checks": "passed; protocols, search, filters, sorting, selected sequence, score table, relative links",
+  "pdf_visual_review": "all 24 pages reviewed in contact sheets; representative detailed pages inspected",
+  "browser_playback_retested_this_bundle": false,
+  "complete_local_videos": {
+    "models": [
+      "DAM4SAM",
+      "SAMURAI"
+    ],
+    "count": 180,
+    "bytes": 1919580332
+  },
+  "added_model_full_videos_rendered": false,
+  "new_inference_performed_for_bundle": false,
+  "public_site_changed": false
+}

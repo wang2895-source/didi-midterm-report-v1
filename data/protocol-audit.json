@@ -1,0 +1,38 @@
+{
+  "status": "verified",
+  "date": "2026-11-01",
+  "protocol": "original",
+  "toolkit": "0.7.1",
+  "sequence_count": 180,
+  "frames_per_model": 274882,
+  "mask_gt_sequences": 21,
+  "mask_gt_frames": 6211,
+  "official_stack_url": "https://github.com/jovanavidenovic/DAM4SAM/blob/master/didi-workspace/baseline_experiment.yaml",
+  "official_conversion_url": "https://github.com/jovanavidenovic/DAM4SAM/blob/master/move_didi_results.py",
+  "local_official_stack_sha256": "1fa65e66801a0bbdd9b1587e8334f44e3b2a53c25324542d426a9cf7e7f75071",
+  "official_toolkit_record_sha256": "18331bb9479e7544ce8575a7ab2c3771bcd27c69a7f4d0f9a0e17cb101d97126",
+  "official_toolkit_vs_existing_scores": {
+    "DAM4SAM/Q": 0.0,
+    "DAM4SAM/A": 3.3306690738754696e-16,
+    "DAM4SAM/R": 5.551115123125783e-16,
+    "SAMURAI/Q": 2.220446049250313e-16,
+    "SAMURAI/A": 3.3306690738754696e-16,
+    "SAMURAI/R": 3.3306690738754696e-16
+  },
+  "independent_framewise_Q_A_checks": 1800,
+  "max_frame_reconstruction_error": 2.220446049250313e-16,
+  "GT_mask_converted_to_box": false,
+  "prediction_masks_converted_to_boxes": true,
+  "initialization_marker": "Special(1)",
+  "burnin": 0,
+  "ignore_unknown_predictions": false,
+  "unweighted_sequence_mean": true,
+  "active_GT_hashes_verified": 180,
+  "all_five_existing_scores_computed_with_installed_official_functions": true,
+  "all_five_official_CLI_rerun_this_task": false,
+  "limitations": [
+    "Evaluation of existing configurations; this is not an assertion of exact replication of every published model setting.",
+    "Inference initialization, checkpoints and native masks are unchanged. No new GPU inference.",
+    "The additional local frame reconstruction validates diagnostics against original Q/A; saved VOT scores remain authoritative."
+  ]
+}

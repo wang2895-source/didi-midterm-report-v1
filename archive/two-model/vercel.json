@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/videos/:file",
+      "destination": "https://github.com/wang2895-source/didi-midterm-report-v1/releases/download/midterm-v1/:file",
+      "permanent": false
+    }
+  ]
+}

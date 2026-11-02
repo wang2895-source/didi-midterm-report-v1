@@ -1,0 +1,8 @@
+{
+  "archive_kind": "modified",
+  "scientific_scores_recomputed": false,
+  "model_inference_rerun": false,
+  "source_files_preserved": true,
+  "web_changes": "Root media routes normalized; current-report navigation and clear archive label added. Source checksums refer to original report files before web path changes.",
+  "deep_analysis": "Historical per-frame curves included; full deep analysis page not published"
+}

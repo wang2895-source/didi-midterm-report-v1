@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s160",
+  "sequence": "LaSOT_volleyball-1",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_volleyball-1/groundtruth.txt",
+  "formal_gt_sha256": "1f1895e34e5de376c247e139214a0f7dc0135c2abb0a4e62df817cc0421edd8c",
+  "frames": 1309,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    480,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_volleyball-1/color/00000001.jpg",
+  "source_last_member": "LaSOT_volleyball-1/color/00001309.jpg",
+  "written_frames": 1309,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_volleyball-1"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s160-SAM2.1.7445028.0.tar.gz",
+      "member": "LaSOT_volleyball-1/LaSOT_volleyball-1.txt",
+      "sha256": "65526b1c30bee45ea1f91cfd0fe2a8a2e4c650f9892bef56c00b5d3d6fba08b8",
+      "frames": 1309
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_volleyball-1/LaSOT_volleyball-1.txt",
+      "sha256": "0468e0ab8b2f3f2f56e68a5a96e514335b0fc4fdbe7df47d2b7a42860a1114de",
+      "frames": 1309
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_volleyball-1/LaSOT_volleyball-1.txt",
+      "sha256": "8c8b285a90dd8cecc082b1623e8e62359dbd9a72f7a5399fbdb334c6be609cbd",
+      "frames": 1309
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s160-HiM2SAM.7337912.0.tar.gz",
+      "member": "LaSOT_volleyball-1/LaSOT_volleyball-1.txt",
+      "sha256": "1c4d446f1a0e84ce7f86aac141c8a96af048bf7f044715de8c26a81c7b12607e",
+      "frames": 1309
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s160-SENTRY-D4S.7338166.0.tar.gz",
+      "member": "LaSOT_volleyball-1/LaSOT_volleyball-1.txt",
+      "sha256": "8a7159c15413875deedcf0b866ac1f4a8325b14cc848906148cad99094af6a0a",
+      "frames": 1309
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 8,
+    "DAM4SAM": 11,
+    "SAMURAI": 5,
+    "HiM2SAM": 11,
+    "SENTRY-D4S": 9
+  },
+  "font": "<_io.BytesIO object at 0x14cd70cbf240>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1457300/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s160.part.mp4"
+  ],
+  "output_file": "s160.mp4",
+  "output_bytes": 16725951,
+  "output_sha256": "5940c4d735a6fe54e2150e044f5aff65a5ddec142be5592695f73d85f4c32786",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1309,
+    "expected_frames": 1309,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 37.0648543369025,
+  "finished_utc": "2026-10-30T19:50:33.191488+00:00"
+}

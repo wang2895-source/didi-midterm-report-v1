@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s167",
+  "sequence": "VOT2020-LT_car3",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2020-LT_car3/groundtruth.txt",
+  "formal_gt_sha256": "0af83fdb3959575f32e2bec395b9c691016685f3a4322245257a6b302e63f97e",
+  "frames": 1717,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2020-LT_car3/color/00000001.jpg",
+  "source_last_member": "VOT2020-LT_car3/color/00001717.jpg",
+  "written_frames": 1717,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "car3",
+    "uid": "58ac87c95ec4c52971ed0fa879354da5dbd9572e6ff583ae87a71e7f48df5574f284c0dba391a48ca3ad3a8323a801d920625c612a8a63c041c3dadff5ed3390"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3929734/scratch/s167-SAM2.1.7444782.0.tar.gz",
+      "member": "VOT2020-LT_car3/VOT2020-LT_car3.txt",
+      "sha256": "9c09813dc8bc549d9e275c1e8734e68bcf882c189b41d4787f25ea1852bb2a40",
+      "frames": 1717
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2020-LT_car3/VOT2020-LT_car3.txt",
+      "sha256": "505ecbfbf84a8a58f64b2056949eee67710a982227caf65250f2e23876e818ea",
+      "frames": 1717
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2020-LT_car3/VOT2020-LT_car3.txt",
+      "sha256": "51a3c52c9fb479da38d6945e334d5434fc56f040f13c47364b10f3e6799af369",
+      "frames": 1717
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3929734/scratch/s167-HiM2SAM.7337872.0.tar.gz",
+      "member": "VOT2020-LT_car3/VOT2020-LT_car3.txt",
+      "sha256": "9b595583d85f6a622b9c4042e07f48b1263b853860a654bdbd4e4853571dea53",
+      "frames": 1717
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3929734/scratch/s167-SENTRY-D4S.7353364.0.tar.gz",
+      "member": "VOT2020-LT_car3/VOT2020-LT_car3.txt",
+      "sha256": "9efcf80d0b3467f4d7f6523213f7e342e76c8a9316dbef1b99663e6968b8e259",
+      "frames": 1717
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x14be70c00a40>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_3929734/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s167.part.mp4"
+  ],
+  "output_file": "s167.mp4",
+  "output_bytes": 48292762,
+  "output_sha256": "d4242e4f3d0c03d4277e96267ab80775ce9139a2b1a14a53870fe927a0a97ab5",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1717,
+    "expected_frames": 1717,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 84.77167325094342,
+  "finished_utc": "2026-10-30T19:54:48.661796+00:00"
+}

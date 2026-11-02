@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s107",
+  "sequence": "LaSOT_goldfish-8",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_goldfish-8/groundtruth.txt",
+  "formal_gt_sha256": "ea473779fc7fdfbbde4274b6db98bc1f10b4e1db18345e4ba4113829396c8254",
+  "frames": 2250,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_goldfish-8/color/00000001.jpg",
+  "source_last_member": "LaSOT_goldfish-8/color/00002250.jpg",
+  "written_frames": 2250,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_goldfish-8"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s107-SAM2.1.7445767.0.tar.gz",
+      "member": "LaSOT_goldfish-8/LaSOT_goldfish-8.txt",
+      "sha256": "af32b45ab009ecf135321ed108d01b6f81242bc4990748b96e5f41208615402a",
+      "frames": 2250
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_goldfish-8/LaSOT_goldfish-8.txt",
+      "sha256": "bf0e848c1f4a2bbe5e53cdfdc38786b585d80160355c13d8fd7756030870582f",
+      "frames": 2250
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_goldfish-8/LaSOT_goldfish-8.txt",
+      "sha256": "99aa5dd409241b6e395edb2a7fdeecdf2243c88760ff1219e91d7e788d1f9046",
+      "frames": 2250
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s107-HiM2SAM.7444498.0.tar.gz",
+      "member": "LaSOT_goldfish-8/LaSOT_goldfish-8.txt",
+      "sha256": "aab026cc691e25a07f22a265e8d7ef3ba56f1324d04bba3633f3ea79a1f191a8",
+      "frames": 2250
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s107-SENTRY-D4S.7425927.0.tar.gz",
+      "member": "LaSOT_goldfish-8/LaSOT_goldfish-8.txt",
+      "sha256": "a856e4b241f17f04b653be8da5fe5e5bf129df9ed0213cb6e5de7ef6ef3ecb4f",
+      "frames": 2250
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 1665,
+    "DAM4SAM": 718,
+    "SAMURAI": 37,
+    "HiM2SAM": 87,
+    "SENTRY-D4S": 626
+  },
+  "font": "<_io.BytesIO object at 0x14d707d607c0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s107.part.mp4"
+  ],
+  "output_file": "s107.mp4",
+  "output_bytes": 75331020,
+  "output_sha256": "69e6e067d5b686de7545a0c0fca21637c71c9eef6b9db8d61c7f325dd67bc12e",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 2250,
+    "expected_frames": 2250,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 114.95790858007967,
+  "finished_utc": "2026-10-30T19:47:02.362291+00:00"
+}

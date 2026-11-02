@@ -1,7 +1,7 @@
-# DiDi tracking midterm report — original evaluation
+# DiDi five-model report — original benchmark
 
-English translation of the first-version DAM4SAM/SAMURAI comparison report over 180 DiDi sequences. The original scores, evaluation protocol, figures, and research caveats are preserved. This is an archived first-version result, not the later revised box-to-box evaluation.
+English entry: index.html. Chinese entry: analysis-report.html.
 
-The static website includes the report, English PDF, video gallery, per-sequence metrics, per-frame diagnostics, and six representative clips. The 180 full side-by-side tracking videos are published as research-result attachments in the `midterm-v1` GitHub Release. Vercel redirects `/videos/<filename>` to the corresponding release asset.
+All 180 sequences and five models use the saved original DiDi benchmark scores. No model was rerun and no scientific scores were changed during publication. Five-model native-mask videos are verified release assets linked through /videos-five-model/.
 
-The original tracker outputs and video visualizations have not been rerun or altered for this website.
+The earlier two-model report remains at /archive/two-model/; the clearly labelled derived symmetric-box edition remains at /archive/modified/. Existing legacy /videos/ URLs are preserved.

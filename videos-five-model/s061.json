@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s061",
+  "sequence": "VOT2022-ST_basketball",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-ST_basketball/groundtruth.txt",
+  "formal_gt_sha256": "4f73292a55f465dd2c9b62bff8424b2f1a222d9bed9411495551fab3fd17f0b8",
+  "frames": 725,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    576,
+    432
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-ST_basketball/color/00000001.jpg",
+  "source_last_member": "VOT2022-ST_basketball/color/00000725.jpg",
+  "written_frames": 725,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "basketball",
+    "uid": "0dc4b2f2420c27c15da8c4d797f95345561cc3cba0dc32703536465741c3de1c3f3c77b5665fd12568ea90f0202b858f4d870cf500ede1054706a0b2a1ce412a"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s061-SAM2.1.7446466.0.tar.gz",
+      "member": "VOT2022-ST_basketball/VOT2022-ST_basketball.txt",
+      "sha256": "907f8bbcfa6994b2c15e66fb001fb654ab6e86b06632ad31e8cdc0c8468e8fff",
+      "frames": 725
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-ST_basketball/VOT2022-ST_basketball.txt",
+      "sha256": "076d2dc92e6fa1528f2a87f8b2db477ff9a4f4165afe04edeb4c02077080b3bd",
+      "frames": 725
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-ST_basketball/VOT2022-ST_basketball.txt",
+      "sha256": "fa1f6d445f1bcbf20c3889d5ca36dc013a6ec3a1f57419777b570fae0e49e758",
+      "frames": 725
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s061-HiM2SAM.7444734.0.tar.gz",
+      "member": "VOT2022-ST_basketball/VOT2022-ST_basketball.txt",
+      "sha256": "792cb3390ecd6ae755422d6024c32306012664518462dcc21971894242252ad7",
+      "frames": 725
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s061-SENTRY-D4S.7443924.0.tar.gz",
+      "member": "VOT2022-ST_basketball/VOT2022-ST_basketball.txt",
+      "sha256": "0d8f7fa28a295d48925b2f1048d3fb18a86b8db7ff20b7e666be6b337809209e",
+      "frames": 725
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x14d6f9fd4b80>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s061.part.mp4"
+  ],
+  "output_file": "s061.mp4",
+  "output_bytes": 24552331,
+  "output_sha256": "eb3cb0600ebb67314df97e4d7d1b750c6f90ec64c3142e30c22a1ad13a13d85e",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 725,
+    "expected_frames": 725,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 30.49876134470105,
+  "finished_utc": "2026-10-30T19:42:51.485739+00:00"
+}

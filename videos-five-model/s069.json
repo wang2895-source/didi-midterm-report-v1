@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s069",
+  "sequence": "VOT2022-ST_hand2",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-ST_hand2/groundtruth.txt",
+  "formal_gt_sha256": "bd370c51f856be40f7b97d7a4a6660e6ea12ae16c03a8ef0e336e395d7a83a42",
+  "frames": 145,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    960,
+    540
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-ST_hand2/color/00000001.jpg",
+  "source_last_member": "VOT2022-ST_hand2/color/00000145.jpg",
+  "written_frames": 145,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "hand2",
+    "uid": "280fa44e164dc26f6e761602f773888b2bef7d68648b4b96033d096077ecb9c40c4cb904297548fad42134cc4154fb786a206c575b7ca2d05ed22be93f361e19"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s069-SAM2.1.7446238.0.tar.gz",
+      "member": "VOT2022-ST_hand2/VOT2022-ST_hand2.txt",
+      "sha256": "53fbdf500409635aae9c6edb4945a5bd93fc27b945514808c77166319c34e1bf",
+      "frames": 145
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-ST_hand2/VOT2022-ST_hand2.txt",
+      "sha256": "995face0ff7b9114001847b4b1c9a6c18ff02463caf7240891f52b7a8a4b6544",
+      "frames": 145
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-ST_hand2/VOT2022-ST_hand2.txt",
+      "sha256": "a2329be40dbb95cbc72bb1502d58d1d40481d52eee5a4a913ececcd4f5688071",
+      "frames": 145
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s069-HiM2SAM.7444501.0.tar.gz",
+      "member": "VOT2022-ST_hand2/VOT2022-ST_hand2.txt",
+      "sha256": "da8504f934340fc0121fed67d269cbb490ac8a7031211935edfb854cba718389",
+      "frames": 145
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s069-SENTRY-D4S.7443909.0.tar.gz",
+      "member": "VOT2022-ST_hand2/VOT2022-ST_hand2.txt",
+      "sha256": "81e55d2eed90c2d7ac20fbc2853dfdea445983b2cd7890aa2e9267210da97df9",
+      "frames": 145
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x14d7092be930>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s069.part.mp4"
+  ],
+  "output_file": "s069.mp4",
+  "output_bytes": 3687841,
+  "output_sha256": "e467dcb58793ee5f0f0985eae55aaebe7ef1fe30b6c6245906189b9eb46b390b",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 145,
+    "expected_frames": 145,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 7.5548883602023125,
+  "finished_utc": "2026-10-30T19:43:17.823856+00:00"
+}

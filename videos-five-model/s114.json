@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s114",
+  "sequence": "LaSOT_kangaroo-5",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_kangaroo-5/groundtruth.txt",
+  "formal_gt_sha256": "b5abf3f9500d9ff02bb81c0d61bc7cffb608522d71daa09c56ae55737f99d7e3",
+  "frames": 3119,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    480,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_kangaroo-5/color/00000001.jpg",
+  "source_last_member": "LaSOT_kangaroo-5/color/00003119.jpg",
+  "written_frames": 3119,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_kangaroo-5"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s114-SAM2.1.7445563.0.tar.gz",
+      "member": "LaSOT_kangaroo-5/LaSOT_kangaroo-5.txt",
+      "sha256": "3efb17a309527d9a06ab2855a89c1d9f5a47a9daf63df9534e77f0e098d09f81",
+      "frames": 3119
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_kangaroo-5/LaSOT_kangaroo-5.txt",
+      "sha256": "1a2cc91f0ca802f1105da7b4d87cb3f714e86168c3b85f608335177c768e1475",
+      "frames": 3119
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_kangaroo-5/LaSOT_kangaroo-5.txt",
+      "sha256": "80fc7797e0ab7357d738c51d36371d0f4ce781c6ca40eb429a26a35963790032",
+      "frames": 3119
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s114-HiM2SAM.7444427.0.tar.gz",
+      "member": "LaSOT_kangaroo-5/LaSOT_kangaroo-5.txt",
+      "sha256": "1a61cca42127d216ea6a3550ed77ea3d885336f2a0011b35cfb99eff51e0ff09",
+      "frames": 3119
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2232857/scratch/s114-SENTRY-D4S.7400534.0.tar.gz",
+      "member": "LaSOT_kangaroo-5/LaSOT_kangaroo-5.txt",
+      "sha256": "b9a94c89d7164d78f3e271c02c536a5f0471479cfb687c9c4ac8d0d78defeb94",
+      "frames": 3119
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 297,
+    "DAM4SAM": 4,
+    "SAMURAI": 0,
+    "HiM2SAM": 1,
+    "SENTRY-D4S": 4
+  },
+  "font": "<_io.BytesIO object at 0x14af0f072250>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2232857/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s114.part.mp4"
+  ],
+  "output_file": "s114.mp4",
+  "output_bytes": 104322992,
+  "output_sha256": "3b83e0117e243d24ea4b6b08338828588f05e5ab34da21a26e25ba1b518bec22",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 3119,
+    "expected_frames": 3119,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 128.29760593175888,
+  "finished_utc": "2026-10-30T19:46:54.193391+00:00"
+}

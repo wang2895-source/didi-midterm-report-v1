@@ -1,0 +1,142 @@
+{
+  "status": "verified",
+  "key": "s173",
+  "sequence": "VOT2022-LT_dancingshoe",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/VOT2022-LT_dancingshoe/groundtruth.txt",
+  "formal_gt_sha256": "a225ff9a34d65bcd6d5b7288c3a7f7dd95701505a06d324190c200eb4ebd2beb",
+  "frames": 5451,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "VOT2022-LT_dancingshoe/color/00000001.jpg",
+  "source_last_member": "VOT2022-LT_dancingshoe/color/00005451.jpg",
+  "written_frames": 5451,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "dancingshoe",
+    "uid": "781f7c83af74c47f97165d648849c4356e6c03a158539e9dda887a42bfb54f0d01f4634250bb6191210a4a6b45d00d68c13ae493a36090f3bcc31258f0b29d10"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3344974/scratch/s173-SAM2.1.7444761.0.tar.gz",
+      "member": "VOT2022-LT_dancingshoe/VOT2022-LT_dancingshoe.txt",
+      "sha256": "abb1726b57bc3e314af3ede0670f0db572f1ca082738ef1ed3d34ff372561378",
+      "frames": 5451
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/VOT2022-LT_dancingshoe/VOT2022-LT_dancingshoe.txt",
+      "sha256": "7a955c4b9a8e58af871bc4573081772dc427b28988ba75f28fa74d651f4d7a18",
+      "frames": 5451
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/VOT2022-LT_dancingshoe/VOT2022-LT_dancingshoe.txt",
+      "sha256": "c7ef41a31689e3b1556a9bff47079f15886708d3dac189c168d179cd13060774",
+      "frames": 5451
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3344974/scratch/s173-HiM2SAM.7337830.0.tar.gz",
+      "member": "VOT2022-LT_dancingshoe/VOT2022-LT_dancingshoe.txt",
+      "sha256": "774fc2135d7905fd6b22a504faa9af1711c69774581683c9fa6033b5e8490bb9",
+      "frames": 5451
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_3344974/scratch/s173-SENTRY-D4S.7342672.0.tar.gz",
+      "member": "VOT2022-LT_dancingshoe/VOT2022-LT_dancingshoe.txt",
+      "sha256": "9013f577118432860c81d9b20e0de082bf2adb10790d20f6cf4a9cf3114269c5",
+      "frames": 5451
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 2,
+    "DAM4SAM": 5,
+    "SAMURAI": 1,
+    "HiM2SAM": 1,
+    "SENTRY-D4S": 2
+  },
+  "font": "<_io.BytesIO object at 0x1475c960a0c0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_3344974/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s173.part.mp4"
+  ],
+  "output_file": "s173.mp4",
+  "output_bytes": 132272673,
+  "output_sha256": "64b3c8e3f6e99b86bbf7e2abdef51baefa9a2656132585de70cf131d0b03d8b0",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 5451,
+    "expected_frames": 5451,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 279.3944156356156,
+  "finished_utc": "2026-10-30T19:55:36.714654+00:00"
+}

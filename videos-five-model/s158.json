@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s158",
+  "sequence": "LaSOT_umbrella-19",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_umbrella-19/groundtruth.txt",
+  "formal_gt_sha256": "9ddeb18952e31edc0f196a8acf226d391b2a16865718c90c21b0a82068988fd5",
+  "frames": 2868,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_umbrella-19/color/00000001.jpg",
+  "source_last_member": "LaSOT_umbrella-19/color/00002868.jpg",
+  "written_frames": 2868,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_umbrella-19"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s158-SAM2.1.7445041.0.tar.gz",
+      "member": "LaSOT_umbrella-19/LaSOT_umbrella-19.txt",
+      "sha256": "4d4a0a3fb5958fd0d8b671317f527dbddf1d5410a629031a09e65f4e7fb72ab6",
+      "frames": 2868
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_umbrella-19/LaSOT_umbrella-19.txt",
+      "sha256": "c85745813b6a2ed9b2f7fbcda4cef9a367c201ed1e6eaf1a065e2cc2cf83f5b5",
+      "frames": 2868
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_umbrella-19/LaSOT_umbrella-19.txt",
+      "sha256": "7fc8e098b78282009a9b82eaa4d6d5e392113683df4c8c2404721acc63d41321",
+      "frames": 2868
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s158-HiM2SAM.7337927.0.tar.gz",
+      "member": "LaSOT_umbrella-19/LaSOT_umbrella-19.txt",
+      "sha256": "bbf0637faab160a4835e38882de8f4486e2898a07e9bc0f60c6b4067550f68f6",
+      "frames": 2868
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2487090/scratch/s158-SENTRY-D4S.7339540.0.tar.gz",
+      "member": "LaSOT_umbrella-19/LaSOT_umbrella-19.txt",
+      "sha256": "3f8a4df3a8854ea40435722bb307c0298c13fc5e37a7b7b85ed90dd759fa401f",
+      "frames": 2868
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 0,
+    "DAM4SAM": 0,
+    "SAMURAI": 0,
+    "HiM2SAM": 0,
+    "SENTRY-D4S": 0
+  },
+  "font": "<_io.BytesIO object at 0x1533ff3f6ca0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2487090/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s158.part.mp4"
+  ],
+  "output_file": "s158.mp4",
+  "output_bytes": 58486675,
+  "output_sha256": "413e5f1a9c9e6ea64d12854be9d570952dc20f48f5a8226ee37d720c18b71b1e",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 2868,
+    "expected_frames": 2868,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 137.8215102571994,
+  "finished_utc": "2026-10-30T19:52:22.279680+00:00"
+}

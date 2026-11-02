@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s145",
+  "sequence": "LaSOT_surfboard-12",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_surfboard-12/groundtruth.txt",
+  "formal_gt_sha256": "4b8081ccd527e0c7611d2125a38a723fc7c39b71f11f193477710801308d2253",
+  "frames": 3259,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_surfboard-12/color/00000001.jpg",
+  "source_last_member": "LaSOT_surfboard-12/color/00003259.jpg",
+  "written_frames": 3259,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_surfboard-12"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s145-SAM2.1.7445148.0.tar.gz",
+      "member": "LaSOT_surfboard-12/LaSOT_surfboard-12.txt",
+      "sha256": "b512f33a66f57f32aefb098f87b7b02f411c073c5c6e51b68d37fc41416b5030",
+      "frames": 3259
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_surfboard-12/LaSOT_surfboard-12.txt",
+      "sha256": "8ef5714d893eb972c95a23ee3093a47df3b546f8d8cfd7e33ea51161e99a6b2a",
+      "frames": 3259
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_surfboard-12/LaSOT_surfboard-12.txt",
+      "sha256": "cb0c4159e57df5200f6b9cfd4a6cf0e65c86bca6d30e3cc8f0b1df568008a9c7",
+      "frames": 3259
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s145-HiM2SAM.7337799.0.tar.gz",
+      "member": "LaSOT_surfboard-12/LaSOT_surfboard-12.txt",
+      "sha256": "6f31b841ec56fd6815ad7df3c3910a1f46af896293409f2ea41f4ef3c4a0cc2b",
+      "frames": 3259
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2235828/scratch/s145-SENTRY-D4S.7384003.0.tar.gz",
+      "member": "LaSOT_surfboard-12/LaSOT_surfboard-12.txt",
+      "sha256": "0a8d388ff237ea818b990daa6e3426daf7ca767d8c4ab103204bf89b1642c5e9",
+      "frames": 3259
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 38,
+    "DAM4SAM": 87,
+    "SAMURAI": 24,
+    "HiM2SAM": 23,
+    "SENTRY-D4S": 77
+  },
+  "font": "<_io.BytesIO object at 0x1518c0f17830>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2235828/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s145.part.mp4"
+  ],
+  "output_file": "s145.mp4",
+  "output_bytes": 93820866,
+  "output_sha256": "241998fd33c6a408e1c1e45b53b180539c3ac53c3b30787f69b73212a7d91a37",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 3259,
+    "expected_frames": 3259,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 154.6270720232278,
+  "finished_utc": "2026-10-30T19:54:51.109132+00:00"
+}

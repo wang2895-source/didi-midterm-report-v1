@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s106",
+  "sequence": "LaSOT_goldfish-3",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_goldfish-3/groundtruth.txt",
+  "formal_gt_sha256": "38c93f84453c3d78ea133bfeb38a565bfe8ea5152454ea36e4ec72a7a21e9f05",
+  "frames": 2375,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    640,
+    360
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_goldfish-3/color/00000001.jpg",
+  "source_last_member": "LaSOT_goldfish-3/color/00002375.jpg",
+  "written_frames": 2375,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_goldfish-3"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s106-SAM2.1.7445795.0.tar.gz",
+      "member": "LaSOT_goldfish-3/LaSOT_goldfish-3.txt",
+      "sha256": "24380df620d28b278f6ef16c4adb9b178fa6413be540cb265d2884c3865691c3",
+      "frames": 2375
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_goldfish-3/LaSOT_goldfish-3.txt",
+      "sha256": "d8c52d01737fe8b5594a282d92edf53ef3be20aab1c68f5d538dbddd101f94ad",
+      "frames": 2375
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_goldfish-3/LaSOT_goldfish-3.txt",
+      "sha256": "857ed6cdb284d36e10c918edfc90eadf0fdb83552b10c0f59f966f6f80c7e5f8",
+      "frames": 2375
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s106-HiM2SAM.7444500.0.tar.gz",
+      "member": "LaSOT_goldfish-3/LaSOT_goldfish-3.txt",
+      "sha256": "9833febc10c050661085a89de2a5ea06dd74763e7842e842c5b771b1d120c8fe",
+      "frames": 2375
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1748973/scratch/s106-SENTRY-D4S.7428449.0.tar.gz",
+      "member": "LaSOT_goldfish-3/LaSOT_goldfish-3.txt",
+      "sha256": "89636485664f9a6f1368b0a8292c9369927352171702d08b49dd77a7868f06de",
+      "frames": 2375
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 705,
+    "DAM4SAM": 284,
+    "SAMURAI": 200,
+    "HiM2SAM": 145,
+    "SENTRY-D4S": 278
+  },
+  "font": "<_io.BytesIO object at 0x14a26083a520>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1748973/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s106.part.mp4"
+  ],
+  "output_file": "s106.mp4",
+  "output_bytes": 77335919,
+  "output_sha256": "0b7ec5a99bc870ebc0e70425aa0f4a4aa28c46e7992c47df137586dfb96a4648",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 2375,
+    "expected_frames": 2375,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 172.4505313206464,
+  "finished_utc": "2026-10-30T19:51:44.216684+00:00"
+}

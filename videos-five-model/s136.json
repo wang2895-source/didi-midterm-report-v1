@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s136",
+  "sequence": "LaSOT_rubicCube-1",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_rubicCube-1/groundtruth.txt",
+  "formal_gt_sha256": "434e89e71d46623176b66e8b25a4a276ca74a45bf2ee85ba8a261906398d11eb",
+  "frames": 1800,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_rubicCube-1/color/00000001.jpg",
+  "source_last_member": "LaSOT_rubicCube-1/color/00001800.jpg",
+  "written_frames": 1800,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_rubicCube-1"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s136-SAM2.1.7445061.0.tar.gz",
+      "member": "LaSOT_rubicCube-1/LaSOT_rubicCube-1.txt",
+      "sha256": "4767172ead6695fee97349bb47f325075d376207c7ae2f6a47ecd75d5e198850",
+      "frames": 1800
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_rubicCube-1/LaSOT_rubicCube-1.txt",
+      "sha256": "b9507fa381536d6c9f891c6d399c9bc15e8f172e37ddab8784488b78fec1925a",
+      "frames": 1800
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_rubicCube-1/LaSOT_rubicCube-1.txt",
+      "sha256": "06aaa903a5a2f739d7c19b58576f27d59c3651d0bd1d8a590c03ec12d3eb8686",
+      "frames": 1800
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s136-HiM2SAM.7337874.0.tar.gz",
+      "member": "LaSOT_rubicCube-1/LaSOT_rubicCube-1.txt",
+      "sha256": "e855b0f8671825c93c4dfc775b11dd9309ce9aabd2b1a1cd018b689767afaac3",
+      "frames": 1800
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1457300/scratch/s136-SENTRY-D4S.7397960.0.tar.gz",
+      "member": "LaSOT_rubicCube-1/LaSOT_rubicCube-1.txt",
+      "sha256": "707e7096b6cb4a0fba2b36ff635974b9379acfb7f577917b590b04317b7dde47",
+      "frames": 1800
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 2,
+    "DAM4SAM": 2,
+    "SAMURAI": 2,
+    "HiM2SAM": 1,
+    "SENTRY-D4S": 2
+  },
+  "font": "<_io.BytesIO object at 0x14cd70cbdf30>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1457300/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s136.part.mp4"
+  ],
+  "output_file": "s136.mp4",
+  "output_bytes": 21528273,
+  "output_sha256": "3c1f8391fe44b64ed758d842614bdcbdefcce322d71740e809154c1d693fd451",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1800,
+    "expected_frames": 1800,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 88.80064769368619,
+  "finished_utc": "2026-10-30T19:48:07.741003+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "date": "2026-11-01",
+  "protocol": "original",
+  "models": 5,
+  "sequences": 180,
+  "CSV_scalar_checks": 2700,
+  "summary_rows": 5,
+  "long_rows": 900,
+  "original_edition_unchanged": true,
+  "original_metadata_files_hash_checked": 582,
+  "videos_copied": false,
+  "shared_media_sibling": "DiDi五模型实验汇总-20261030",
+  "source_video_manifest_sha256": "d2e515e260a8218568991a570f6e2dd83e427fd3fe29b1d955affe95f044e6ce",
+  "new_folder": "/Users/wangyitong/Desktop/CV/DiDi五模型实验汇总-原始benchmark-20261101",
+  "inference_rerun": false,
+  "HTML_QA": "1080 selection checks and 3606 dynamic file checks; 65 static links; no browser playback claim",
+  "PDF_QA": "Two 12-page bilingual PDFs rendered; all pages reviewed, changed pages re-rendered"
+}

@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s100",
+  "sequence": "LaSOT_elephant-1",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_elephant-1/groundtruth.txt",
+  "formal_gt_sha256": "4f8cde1b469f7901bcbff620ae5e54f4d4f5ed52d1796c2faa08627f04e41842",
+  "frames": 1889,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_elephant-1/color/00000001.jpg",
+  "source_last_member": "LaSOT_elephant-1/color/00001889.jpg",
+  "written_frames": 1889,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_elephant-1"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2804357/scratch/s100-SAM2.1.7446017.0.tar.gz",
+      "member": "LaSOT_elephant-1/LaSOT_elephant-1.txt",
+      "sha256": "7c3f7bbc8801234002972e4021947879ee020a334949653803b98166172cd4fd",
+      "frames": 1889
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_elephant-1/LaSOT_elephant-1.txt",
+      "sha256": "8a075b810191ca23419a0e391bce6728f55fbdee6d3923854aef794ab2843ade",
+      "frames": 1889
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_elephant-1/LaSOT_elephant-1.txt",
+      "sha256": "257335f1ee987ed4b0ad31541b1a577668fbd1da87eb07b1149579ff6351eed3",
+      "frames": 1889
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2804357/scratch/s100-HiM2SAM.7444527.0.tar.gz",
+      "member": "LaSOT_elephant-1/LaSOT_elephant-1.txt",
+      "sha256": "49acf1f0f5e20de3c2377f2ce84f35d102f068851ea22b965e53be5f2bbe0595",
+      "frames": 1889
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_2804357/scratch/s100-SENTRY-D4S.7430264.0.tar.gz",
+      "member": "LaSOT_elephant-1/LaSOT_elephant-1.txt",
+      "sha256": "3bce6b760d2121d1355772e2913c07e508df064ad92c467f447e29f6db2fdbc5",
+      "frames": 1889
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 14,
+    "DAM4SAM": 52,
+    "SAMURAI": 105,
+    "HiM2SAM": 8,
+    "SENTRY-D4S": 47
+  },
+  "font": "<_io.BytesIO object at 0x148a378e4b80>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_2804357/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s100.part.mp4"
+  ],
+  "output_file": "s100.mp4",
+  "output_bytes": 60888765,
+  "output_sha256": "e357e9a08c57b501cf78d80a0316924a8d725f8e86919713b50750ddca64f860",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1889,
+    "expected_frames": 1889,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 111.22514049708843,
+  "finished_utc": "2026-10-30T19:49:34.370787+00:00"
+}

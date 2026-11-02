@@ -1,0 +1,141 @@
+{
+  "status": "verified",
+  "key": "s163",
+  "sequence": "LaSOT_volleyball-19",
+  "models": [
+    "SAM2.1",
+    "DAM4SAM",
+    "SAMURAI",
+    "HiM2SAM",
+    "SENTRY-D4S"
+  ],
+  "native_mask_visualization": true,
+  "predicted_boxes_drawn": false,
+  "gt_drawn_on_all_panels": true,
+  "formal_gt_member": "view/LaSOT_volleyball-19/groundtruth.txt",
+  "formal_gt_sha256": "719678145dde8f7e61b49b2ec958b22880c96da314017cc721b00f600ba74124",
+  "frames": 1467,
+  "first_frame": "supplied initialization; not a newly predicted tracking output",
+  "source_dimensions": [
+    1280,
+    720
+  ],
+  "layout": "2 rows x 3 columns: Original+GT, SAM2.1, DAM4SAM / SAMURAI, HiM2SAM, SENTRY-D4S",
+  "canvas_dimensions": [
+    1920,
+    864
+  ],
+  "tile_viewport": [
+    640,
+    360
+  ],
+  "aspect_ratio_preserved": true,
+  "playback_fps": 15.0,
+  "playback_fps_is_inference_speed": false,
+  "all_source_frames_in_order": true,
+  "source_first_member": "LaSOT_volleyball-19/color/00000001.jpg",
+  "source_last_member": "LaSOT_volleyball-19/color/00001467.jpg",
+  "written_frames": 1467,
+  "source_image_metadata": {
+    "channels.color": "color/%08d.jpg",
+    "format": "default",
+    "fps": "30",
+    "name": "LaSOT_volleyball-19"
+  },
+  "trajectory_provenance": {
+    "SAM2.1": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s163-SAM2.1.7445019.0.tar.gz",
+      "member": "LaSOT_volleyball-19/LaSOT_volleyball-19.txt",
+      "sha256": "79ffed36e4aef08fdaa3a4b35ef9c12e5dc75a43144e182467d4fe77ed07bc76",
+      "frames": 1467
+    },
+    "DAM4SAM": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/DAM4SAM/LaSOT_volleyball-19/LaSOT_volleyball-19.txt",
+      "sha256": "b2d9f56b26361fe48fed91c1cb0c674219a98e9dd683c3c4dca11202a81b089f",
+      "frames": 1467
+    },
+    "SAMURAI": {
+      "archive": "evaluation-inputs.tar.gz",
+      "member": "raw/SAMURAI/LaSOT_volleyball-19/LaSOT_volleyball-19.txt",
+      "sha256": "7e3f85df7a2919753489e9d67bca27f27134d7f7d13b5885395fa43e33fcad1e",
+      "frames": 1467
+    },
+    "HiM2SAM": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s163-HiM2SAM.7337898.0.tar.gz",
+      "member": "LaSOT_volleyball-19/LaSOT_volleyball-19.txt",
+      "sha256": "9509ad28a716a27fcea2afeb719c86442263436990728e9215f87d1a2f519d79",
+      "frames": 1467
+    },
+    "SENTRY-D4S": {
+      "archive": "/var/lib/condor/execute/slot1/dir_1964462/scratch/s163-SENTRY-D4S.7362922.0.tar.gz",
+      "member": "LaSOT_volleyball-19/LaSOT_volleyball-19.txt",
+      "sha256": "f65491b54712030426ae34611c9ab34528ee6108e6dbcae8f42f7827bff1a18b",
+      "frames": 1467
+    }
+  },
+  "visible_empty_frame_counts_including_init": {
+    "SAM2.1": 281,
+    "DAM4SAM": 326,
+    "SAMURAI": 43,
+    "HiM2SAM": 98,
+    "SENTRY-D4S": 306
+  },
+  "font": "<_io.BytesIO object at 0x14d707d61cb0>",
+  "alpha": 0.45,
+  "crf": 23,
+  "preset": "fast",
+  "codec": "h264/libx264",
+  "pixel_format": "yuv420p",
+  "faststart": true,
+  "maxrate": "4M",
+  "bufsize": "8M",
+  "ffmpeg_command": [
+    "/var/lib/condor/execute/slot1/dir_1964462/scratch/ffmpeg-linux-x86_64",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "1920x864",
+    "-framerate",
+    "15.0",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "fast",
+    "-crf",
+    "23",
+    "-maxrate",
+    "4M",
+    "-bufsize",
+    "8M",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "rendered/s163.part.mp4"
+  ],
+  "output_file": "s163.mp4",
+  "output_bytes": 48696749,
+  "output_sha256": "c1685ab8348eebd8b8826b72d468e5557fad0a0622bac45e95cc43b54e3659d0",
+  "verification": {
+    "full_decode_returncode": 0,
+    "decoded_frames": 1467,
+    "expected_frames": 1467,
+    "complete": true
+  },
+  "no_model_inference": true,
+  "no_gpu": true,
+  "elapsed_seconds": 72.89169456809759,
+  "finished_utc": "2026-10-30T19:56:23.151471+00:00"
+}
